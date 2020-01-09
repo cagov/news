@@ -88,11 +88,11 @@
       {%- for post in collections.news -%}
       <div class="col-sm-4">
         <div class="card card-set " style="width: 18rem;">
-          <img src="{{ post.data.previewimage }}" class="card-img-top" alt="preview image">
+          <img src="{% if post.data.previewimage %}{{ post.data.previewimage }}{% else %}../img/design-principles.png{% endif %}" class="card-img-top" alt="preview image">
           <div class="card-body">
             <h5 class="card-title">{{ post.data.title }}</h5>
             <p class="card-text">{{ post.data.meta }}</p>
-            <a href="#" class="btn btn-primary">View</a>
+            <a href="{{post.url}}" class="btn btn-primary">View</a>
           </div>
         </div>
       </div>

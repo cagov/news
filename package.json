@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve --formats=html,njk"
+    "serve": "npx @11ty/eleventy --serve --formats=html,njk --input ./posts"
   },
   "keywords": [],
   "author": "",

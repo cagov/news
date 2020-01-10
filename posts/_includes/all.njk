@@ -66,7 +66,7 @@
   <div class="container">
     <div class="row align-items-start">
 
-      {%- for post in collections.news -%}
+      {%- for post in collections.mySort -%}
       <div class="col-sm-4">
         <div class="card card-set " style="width: 18rem;">
           <a href="{{post.url}}"><img src="{% if post.data.previewimage %}{{ post.data.previewimage }}{% else %} img/design-principles.png{% endif %}" class="card-img-top" alt="{{ post.data.title }}"></a>

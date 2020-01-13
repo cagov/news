@@ -25,25 +25,13 @@
     .card {
       margin-bottom: 20px;
     }
+    .card-set .card {
+      min-width: 200px;
+      float: left;
+    }
     .card-set {
-      display: grid;
-      grid-template-columns: 33% 33% 33%; 
       grid-gap: 20px;
     }
-    .card-set .card {
-      margin-right: 20px;
-    }
-    @media (max-width: 1080px) {
-      .card-set {
-        grid-template-columns: 50% 50%; 
-      } 
-    }
-    @media (max-width: 720px) {
-      .card-set {
-        grid-template-columns: 100%; 
-      }
-    }
-
   </style>
 
 </head>

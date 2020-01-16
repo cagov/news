@@ -1,3 +1,5 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("mySort", function(collection) {
     let posts = [];
@@ -10,4 +12,5 @@ module.exports = function(eleventyConfig) {
       return new Date(a.data.publishdate) - new Date(b.data.publishdate);
     }).reverse();
   });
+  eleventyConfig.addPlugin(pluginRss);
 };

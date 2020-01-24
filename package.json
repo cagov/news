@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run serve",
     "serve": "npx @11ty/eleventy --serve --formats=html,njk --input ./posts"
   },
   "keywords": [],

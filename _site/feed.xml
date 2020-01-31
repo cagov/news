@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Alpha.CA.gov</title>
-  <subtitle>Alpha.CA.gov project</subtitle>
+  <subtitle>Official news from Alpha.CA.gov.</subtitle>
   <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
   <link href="http://news.alpha.ca.gov"/>
   <updated>2020-01-21T10:20:34.632-08:00</updated>
   <id>https://news.alpha.ca.gov</id>
   <author>
-    <name>JP Petrucione</name>
+    <name>State of California</name>
   </author>
   
   <entry>
@@ -34,7 +34,7 @@
 &lt;li&gt;Published the web components we use in our design system to npm. Check out our accordion component &lt;a href=&quot;https://www.npmjs.com/package/@cagov/accordion&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Improved our road conditions prototype that lets you enter a destination and returns all known issues on your route. Check out the &lt;a href=&quot;https://github.com/cagov/UX/issues/37&quot;&gt;GitHub issue.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fixed some build issues with our &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action-plus-rss&quot;&gt;GitHub action&lt;/a&gt; that allows us to automatically build and publish this blog to our github pages powered site when content is updated.xt&lt;/li&gt;
-&lt;li&gt;JP is now a hardcore hacker controlling operations smoothly from the command line.&lt;/li&gt;
+&lt;li&gt;JP is now a hardcore coder controlling operations smoothly from the command line.&lt;/li&gt;
 &lt;li&gt;Added google sheets translation formula to provide initial machine translations of our content (thanks &lt;a href=&quot;https://twitter.com/nsylianteng/status/1221124367163318275/&quot;&gt;Twitter user @nsylianteng!&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Streamlined the core ceremonies (stand-ups, retrospectives, and sprint planning) to improve overall communications within the Team, particularly for our remote colleagues.&lt;/li&gt;
 &lt;/ul&gt;

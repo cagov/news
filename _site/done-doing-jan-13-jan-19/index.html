@@ -5,10 +5,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="This is a recap of what we’ve done for the week of January 13-19.">
+  <meta name="description" content="This is a recap of what we’ve done for the week of January 13 to January 19.">
   <meta name="author" content="Bootstrap, Luke Fretwell, Artem Khomishen">
   <meta name="generator" content="Hugo 0.61.0">
-  <title>Done/doing (Week of January 13)</title>
+  <title>Done/doing (Week of Jan. 13)</title>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -30,8 +30,15 @@
     }
   </script>
 
+  <!-- combined social media meta -->
+  <meta property="og:title" content="Done/doing (Week of Jan. 13)">
+  <meta property="og:description" content="This is a recap of what we’ve done for the week of January 13 to January 19.">
+  <meta property="og:image" content="https://news.alpha.ca.gov/img/thumb/prev-done-doing.jpg">
+  <meta property="og:url" content="https://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/">
+  <meta name="twitter:card" content="summary_large_image">
+
   <style>
-    .lead {
+    .news-post .lead {
       color: #666;
       font-size: 24px;
     }
@@ -39,6 +46,9 @@
       border-bottom: 1px solid #ccc;
       margin-bottom: 10px;
       padding-bottom: 10px;
+    }
+    .news-post p, .news-post li {
+      font-size: 18px;
     }
     figure {
       margin-bottom: 10px;
@@ -48,6 +58,9 @@
       margin-bottom: 15px;
       padding-bottom: 10px;
       padding-top: 10px;
+    }
+    h2 {
+      padding-top: 15px;
     }
   </style>
 
@@ -66,44 +79,48 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container news-post">
     <div class="row">
       <div class="col-md-2">
       </div>
       <div class="col-md-8 pt-5">
-        <h1>Done/doing (Week of January 13)</h1>
+        <h1>Done/doing (Week of Jan. 13)</h1>
         <p class="lead">
           
         </p>
-        <p class="text-muted byline">By JP Petrucione &middot; 01/17/2019</p>
+        <p class="text-muted byline">By JP Petrucione &middot; 01/21/2020</p>
         <p>
           
 <figure class="figure">
-  <img src="../img/728/done-doing.jpeg" class="" alt="Done/doing">
-  <figcaption class="figure-caption"></figcaption>
+  <img src="../img/full/done-doing.jpeg" class="" alt="Done/doing">
+  <figcaption class="figure-caption">Done/doing</figcaption>
 </figure>
 
-<p>Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 13–19.</p>
+<p>Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 13-January 19.</p>
 
 <h2>Done</h2>
 
 <ul>
-	<li>Released first round of prototypes <a href="https://alpa.ca.gov">design system</a> and page templates</li>
-	<li>Collected 50+ responses on the <a href="https://www.surveymonkey.com/r/AlphaCAgov">general Alpha survey</a></li>
-	<li>Guest team members (shout to CHHS Office of Innovation!) tested the <a href="https://github.com/cagov/UX/issues">State Holiday prototype</a> to learn how to handle 4th of July and validated that we want to keep Next Holiday feature</li>
-	<li>Conducted a <a href="https://twitter.com/CAdotGov/status/1207440359782928384">field research visit</a> to Vital Records office in South Sacramento to test “Request a birth certificate” with guest team members from CHHS Innovation team</li>
-	<li>Built new Function As A Service (<a href="https://github.com/cagov/FunctionApps">FAAS</a>, also called “serverless”) prototype and Github integrated deployment pipeline</li>
-	<li>Setup <a href="https://github.com/cagov/cwds/issues/3">initial docs</a> for our bootstrap based design system, rewrote first bootstrap interactive UI widget as a web component, allowing us to provide the same functionality with much smaller code footprint</li>
-	<li>Prototyped additional <a href="https://github.com/cagov/UX/issues">user stories</a>, augmented our minimum wage user prototype so it autocompletes all cities and zip codes in CA</li>
+	<li>Delivered our first release! Including 5 user stories in English and Spanish</li>
+	<li>Interviewed 6 Californians from across the state to find out more about their needs and existing relationship with their government. Inspiring to talk to folks who care so deeply about the work they do, and how they love California</li>
+	<li>Began work on content prototypes for the next round of user needs</li>
+	<li>Created content prototypes for checking road conditions, applying for discounted phone benefits as well as disability insurance benefits</li>
+	<li>Developed news.alpha.ca.gov, migrating all our Medium posts to our own static site generator, which has way better performance and accessibility scores than the Medium hosted versions of the same content</li>
+<li>Created initial automated end-to-end test suite</li>
+<li>HTML Linter implemented to detect things like valid header tag hierarchy</li>
+<li>Refined web design system and content type templates</li>
+<li>Met with Aspen Institute Fellows about our Alpha work, sharing with them the new ways of work we’re testing</li>
 </ul>
 
 <h2>Doing</h2>
 
 <ul>
-	<li>Iterate on new content type templates so we can prototype user stories faster and cleaner</li>
-	<li>Integrate accessibility testing tools into our code editors as automated linters, and into the CI pipeline as automated tests and into our browsers for manual testing</li>
-	<li>Design discussion guide for deep, qualitative research on victims of trauma and wildfire</li>
-	<li>Begin development on the site functionality required for Alpha site to support user story content</li>
+	<li>Planning a design research team field trip to get inspired by real people and their stories</li>
+	<li>Talking to 12 more Californians about want they want more and/or less of from their State Government</li>
+	<li>User testing our road conditions prototype</li>
+	<li>Collaborating with the team on a prototype for estimating quarterly taxes as a freelancer</li>
+	<li>Integrating lighthouse performance and accessibility audits into CI pipeline</li>
+	<li>Revisiting our work flow and ways of working with team kick-off 2.0 to continue iterating and improving</li>
 </ul>
 
         </p>
@@ -114,6 +131,7 @@
       </div>
       <div class="col-md-8">
         <hr>
+        <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
         <p><a href="/">Back to news home</a></p>
       </div>
       <div class="col-md-2">
@@ -121,15 +139,9 @@
     </div>
   </div>
 
-    <div class="container">
-    </div>
-  
   <div class="container"><div class="row pt-5"><div class="col-md-12"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="https://alpha.ca.gov/feedback/"><button type="button" class="btn btn-dark btn-sm">Share your feedback</button></a></div></div></div></div></div>
   
-  
-  <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">© State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div><script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
-  
-  
+  <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div><script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
   
   <script src="https://www.googletagmanager.com/gtag/js?id=UA-154336791-1" defer="defer">
   </script><script>window.dataLayer = window.dataLayer || [];

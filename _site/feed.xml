@@ -1,14 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Alpha.CA.gov</title>
-  <subtitle>Alpha.CA.gov project</subtitle>
+  <subtitle>Official news from Alpha.CA.gov.</subtitle>
   <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
   <link href="http://news.alpha.ca.gov"/>
   <updated>2020-01-14T14:19:33.865-08:00</updated>
   <id>https://news.alpha.ca.gov</id>
   <author>
-    <name>JP Petrucione</name>
+    <name>State of California</name>
   </author>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 27)</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/"/>
+    <updated>2020-01-31T16:02:54.332-08:00</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/done-doing-jan-31.jpg&quot; class=&quot;&quot; alt=&quot;A phiti of a sticky note with details on the Alpha Team&#39;s current sprint.&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 27-February 2.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Took a field research trip to a fire-impacted town where we brainstormed with a group of highschoolers to inspire future designs around disaster preparedness and recovery. We also met with a local elected and business owner.&lt;/li&gt;
+&lt;li&gt;Researched drinking water safety and the application process for unemployment insurance.&lt;/li&gt;
+&lt;li&gt;Met with the good folks at the Franchise Tax Board to learn about quarterly taxes and their UX practice.&lt;/li&gt;
+&lt;li&gt;Documented and shipped new API endpoints to retrieve food banks, CHP Incidents, Full Road closures by location. These are viewable &lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;here.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prototyped a transaction landing page to apply online for a discounted phone service. Check out the &lt;a href=&quot;https://github.com/cagov/UX/issues/64&quot;&gt;GitHub issue.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Published the web components we use in our design system to npm. Check out our accordion component &lt;a href=&quot;https://www.npmjs.com/package/@cagov/accordion&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Improved our road conditions prototype that lets you enter a destination and returns all known issues on your route. Check out the &lt;a href=&quot;https://github.com/cagov/UX/issues/37&quot;&gt;GitHub issue.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed some build issues with our &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action-plus-rss&quot;&gt;GitHub action&lt;/a&gt; that allows us to automatically build and publish this blog to our github pages powered site when content is updated.&lt;/li&gt;
+&lt;li&gt;Added google sheets translation formula to provide initial machine translations of our content (thanks &lt;a href=&quot;https://twitter.com/nsylianteng/status/1221124367163318275/&quot;&gt;Twitter user @nsylianteng!&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Streamlined the core ceremonies (stand-ups, retrospectives, and sprint planning) to improve overall communications within the Team, particularly for our remote colleagues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Synthesizing stories and insights from our field research&lt;/li&gt;	&lt;li&gt;Scraping additional data sources to augment our food bank data&lt;/li&gt;
+&lt;li&gt;Continue user testing the road conditions prototype and the application process for disability insurance&lt;/li&gt;	
+&lt;li&gt;Researching emergency preparedness, debris removal, emergency alerts, burned car removal, and the emergency recovery process&lt;/li&gt;
+&lt;li&gt;User stories on disability insurance and Cal Grants are being promoted from user testing prototypes to the live site&lt;/li&gt;
+&lt;li&gt;Working with water system boundary areas and water testing data to create APIs and prototype user stories&lt;/li&gt;
+&lt;li&gt;Continuing research to find contact information for new user story to help people connect with state agencies and departments. Check out our &lt;a href=&quot;https://github.com/cagov/UX/issues/65&quot;&gt;GitHub issue&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Lessons learned translating Alpha.CA.gov release 1</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/"/>
+    <updated>2020-01-31T16:02:54.333-08:00</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/En-espanol.jpg&quot; class=&quot;&quot; alt=&quot;Photo of a sticky note that says &amp;quot;En espanol.&amp;quot;&quot; &#39;=&quot;&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We hope you noticed that the first release of &lt;a href=&quot;https://www.alpha.ca.gov.com/&quot;&gt;Alpha.CA.gov&lt;/a&gt; prototypes included Spanish language versions.&lt;/p&gt;
+
+&lt;p&gt;This is something we’re particularly proud of. Given our timeline and resources, these translations were initially out of scope for the first release. But they were always front of mind for &lt;a href=&quot;https://twitter.com/abquirarte&quot;&gt;Angie&lt;/a&gt;, our product owner.&lt;/p&gt;
+
+&lt;p&gt;Angie is a Mexican immigrant and Spanish is her first language. Growing up, Angie and her family spoke Spanish at home. Speaking a language other than English at home is something that over 40% of Californians also do. And, it&#39;s worth noting, &lt;a href=&quot;https://blog.languageline.com/report-california-limited-english-proficient&quot;&gt;“18.6% of California residents are considered limited English proficient (LEP), meaning they speak English less than ‘very well.’”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We saw this in practice when we user tested the &lt;a href=&quot;https://alpha.ca.gov/services/request-birth-certificate/&quot;&gt;Find a birth certificate&lt;/a&gt; prototype in the field: 3 out of 5 people were at the county office with translators because Spanish is their primary language.&lt;/p&gt;
+
+&lt;p&gt;This IRL reminder of California’s incredible cultural diversity inspired us to expand our scope and push to make Spanish translation part of release 1.&lt;/p&gt;
+
+&lt;h2&gt;During the translations process, we tested for:&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Quality/Accuracy of translation API tools&lt;/li&gt;
+    &lt;li&gt;Level of effort to validate translations (by asking at least 3 native-Spanish speakers)&lt;/li&gt;
+    &lt;li&gt;Level of effort from the team, overall&lt;/li&gt;
+    &lt;li&gt;Content design from English to Spanish considerations&lt;/li&gt;
+    &lt;li&gt;Domain considerations&lt;/li&gt;
+    &lt;li&gt;Level of interest from real users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;We learned a lot:&lt;/h2&gt; 
+
+&lt;h3&gt;Doing the translations forced us to revisit the English version to make it clearer, more accurate.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;The English titles and section descriptions are spare, concise. In Spanish, those same titles and section headers are far more conversational.&lt;/li&gt;
+    &lt;li&gt;As we translated the &lt;a href=&quot;https://alpha.ca.gov/services/hire-licensed-contractor-home-improvements/&quot;&gt;Hire a Licensed Contractor&lt;/a&gt; page, we realized that the English version was not as clear as we thought it was. Doing the Spanish translation actually helped us iterate and improve the English version.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Verbatim translations don’t work.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;When thinking about service design, translation is not as simple as verbatim translation. You have to do the work to provide context and create translations that convey accurate, literal and cultural meaning in both English and Spanish.&lt;/li&gt;
+    &lt;li&gt;The &lt;a href=&quot;https://alpha.ca.gov/about/&quot;&gt;About&lt;/a&gt; page, in English, reads: “We&#39;re a small but mighty team of public servants and outside experts in user research and design.” In Spanish, it says: “Somos un pequeño equipo de servidores públicos y expertos en el diseño centrado en el usuario y tecnología.” “Small but mighty” has a different connotation in Spanish because the word “mighty” translates to “powerful,” connoting a stronger tone that does not feel as welcoming.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Finding materials in Spanish proved challenging - and so did translations of more technical content.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;There was no baseline Spanish translation available for the “More details about holidays” section on the &lt;a href=&quot;https://alpha.ca.gov/services/state-california-employee-holidays/&quot;&gt;State holidays&lt;/a&gt; page. Without the help of a subject matter expert in that language, it was hard to know if we were using the correct terminology.&lt;/li&gt;
+    &lt;li&gt;Even when available, the baseline content in Spanish was not always reliable because it had been translated using auto translate apps, which offer essentially verbatim translation. This meant additional vetting and reworking on our end to provide the appropriate context, tone, and wording we want to convey
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s worth noting that the work we did to translate the first several prototypes was a heavy lift for our small but mighty team, and likely not scalable for the Alpha given our timeline and capacity.&lt;/p&gt;
+
+&lt;p&gt;That said, it’s important to emphasize that looking to the future, CA.gov will be multi-lingual in ways that reflect our learnings. That is, with an emphasis on and prioritization of cultural competency over verbatim translation. It&#39;s up to us (on the government side) to always keep in mind that context matters and some technologies are not 100% reliable when it comes to designing for our users.&lt;/p&gt;
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 20)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/"/>
+    <updated>2020-01-24T15:16:27.793-08:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 20-January 26.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Continuing to do follow up calls with Californians around how they interact with State gov&lt;/li&gt;
+	&lt;li&gt;Tested our CalGrants prototype with high school students and a guidance counselor&lt;/li&gt;
+	&lt;li&gt;Talked to several Californians about their recovery process after a natural disaster&lt;/li&gt;
+	&lt;li&gt;Researched our independent worker user story, including making a rough flow chart to try and figure out who needs to pay quarterly taxes&lt;/li&gt;
+	&lt;li&gt;User tested and iterated on CalGrants prototype&lt;/li&gt;
+&lt;li&gt;Iterated on disability insurance benefits prototype&lt;/li&gt;
+&lt;li&gt;Conducted initial user research on a new “smart answer” content type&lt;/li&gt;
+&lt;li&gt;Upgraded the way we handle translation strings so we can support more languages&lt;/li&gt;
+&lt;li&gt;Deployed a lane closure API that remixes Caltrans data to make it geo-queryable&lt;/li&gt;
+&lt;li&gt;Got some good advice from &lt;a href=&quot;http://apievangelist.com/2020/01/22/the-state-of-california-doing-apis-the-right-way-by-starting-simple/&quot;&gt;Kin Lane&lt;/a&gt; to start each new API with public readme&lt;/li&gt;
+&lt;li&gt;Held Kick-off 2.0, reflected on the first ½ of Alpha, outlined goals for the next 6 weeks and got re-inspired for the second ½ of Alpha&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Designing and planning for a field research trip to a wildfire-impacted area&lt;/li&gt;
+	&lt;li&gt;Doing follow-up calls with Californians around how they interact with State government and synthesizing the findings to turn into user needs&lt;/li&gt;
+	&lt;li&gt;Prototyping quarterly taxes and phone service discounts&lt;/li&gt;
+	&lt;li&gt;Augmenting lane closure data with seasonal road closures and chain controls for in-progress user story on road conditions&lt;/li&gt;
+	&lt;li&gt;Augmenting food bank prototype with new data sources thanks to &lt;a href=&quot;https://twitter.com/tomdooner&quot;&gt;@tomdooner&lt;/a&gt;, to spin up food bank API&lt;/li&gt;
+	&lt;li&gt;Working with the great water quality advice we got from the Waterboard team, we’re going to spin up water quality APIs using available data&lt;/li&gt;
+  &lt;li&gt;Whiteboarding with the team around content design for water quality and road conditions user stories&lt;/li&gt;
+  &lt;li&gt;Documenting product feature ideas that we want to test and iterate on in the Alpha&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 13)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/"/>
+    <updated>2020-01-24T15:16:27.793-08:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 13-January 19.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Delivered our first release! Including 5 user stories in English and Spanish&lt;/li&gt;
+	&lt;li&gt;Interviewed 6 Californians from across the state to find out more about their needs and existing relationship with their government. Inspiring to talk to folks who care so deeply about the work they do, and how they love California&lt;/li&gt;
+	&lt;li&gt;Began work on content prototypes for the next round of user needs&lt;/li&gt;
+	&lt;li&gt;Created content prototypes for checking road conditions, applying for discounted phone benefits as well as disability insurance benefits&lt;/li&gt;
+	&lt;li&gt;Developed news.alpha.ca.gov, migrating all our Medium posts to our own static site generator, which has way better performance and accessibility scores than the Medium hosted versions of the same content&lt;/li&gt;
+&lt;li&gt;Created initial automated end-to-end test suite&lt;/li&gt;
+&lt;li&gt;HTML Linter implemented to detect things like valid header tag hierarchy&lt;/li&gt;
+&lt;li&gt;Refined web design system and content type templates&lt;/li&gt;
+&lt;li&gt;Met with Aspen Institute Fellows about our Alpha work, sharing with them the new ways of work we’re testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Planning a design research team field trip to get inspired by real people and their stories&lt;/li&gt;
+	&lt;li&gt;Talking to 12 more Californians about want they want more and/or less of from their State Government&lt;/li&gt;
+	&lt;li&gt;User testing our road conditions prototype&lt;/li&gt;
+	&lt;li&gt;Collaborating with the team on a prototype for estimating quarterly taxes as a freelancer&lt;/li&gt;
+	&lt;li&gt;Integrating lighthouse performance and accessibility audits into CI pipeline&lt;/li&gt;
+	&lt;li&gt;Revisiting our work flow and ways of working with team kick-off 2.0 to continue iterating and improving&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Alpha.CA.gov product release 1</title>

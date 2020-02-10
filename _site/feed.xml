@@ -463,7 +463,7 @@
   </entry>
   
   <entry>
-    <title>Alpha.CA.gov product framing</title>
+    <title>Alpha.CA.gov product framing (Updated 02/10/20)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-framing/"/>
     <updated>2020-01-21T10:20:34.628-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-framing/</id>
@@ -481,7 +481,13 @@
 
 &lt;p&gt;The people of California need information and services offered by the State of California. Currently, California state government digital information and services are disparate, spread across multiple domains and websites. Each state organization manages its content and experience differently, causing a lack of cohesiveness, findability, accessibility, security, and performance across all California government websites. This lack of organization leads to a lack of trust and low satisfaction from the people we intend to serve.&lt;/p&gt;
 
+&lt;p&gt;Users often rely on third-party resources to find official state services and information because they can’t find what they are looking for on current government websites. These resources deliver non-official services, which can further distrust among users when it comes to the authenticity of the information or service they’re seeking.&lt;/p&gt;
+    
+&lt;p&gt;It’s essential that there be a single, verifiable source of official state information optimized for delivery, focused on delivering services and information for the people of California.&lt;/p&gt;
+    
 &lt;h2&gt;Product vision&lt;/h2&gt;
+
+&lt;p&gt;Our goal is to create a better digital experience for users. Our vision for doing that is to create a unified, trusted, online presence for State government. This vision is built on incremental iterations starting with improving search of online government services and information, making user research and product design core functions, and, most importantly, soliciting and taking action on feedback from Californians.&lt;/p&gt;
 
 &lt;p&gt;CA.gov will show the people of California that their government is unwaveringly committed to meeting the needs of the people of California. The experience will be simpler, clearer, faster, and more accessible for all Californians searching for state government information and services. They will recognize CA.gov as the official California state government website. It will give them the comprehensive state government information and services that they seek. The public will be able to find their services without knowing the names or acronyms of the related State organizations.&lt;/p&gt;
 

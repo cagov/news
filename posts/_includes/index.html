@@ -37,52 +37,64 @@ title: Alpha.CA.gov article
 </head>
 
 <body class="news">
-  <link href="https://california.azureedge.net/cdt/statetemplate/6.0.0/css/cagov.font-only.min.css" rel="stylesheet" />
 
-  <div class="official"><div class="container"><div class="row"><div class="col-md-12"><p>State of California</p></div></div></div></div>
-
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+  <header>
+    <div class="official">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>State of California</p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container news-post">
-    <div class="row">
-      <div class="col-md-2">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+        </div>
       </div>
-      <div class="col-md-8">
-        <h1>{{title}}</h1>
-        <p class="lead">
-          {% if lead %}{{ lead }}{% endif %}
-        </p>
-        <p class="text-muted byline">By {{author}} &middot; {{publishdate}}</p>
-        <p>
-          {{ content | safe }}
-        </p>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container news-post">
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <h1>{{title}}</h1>
+          <p class="lead">
+            {% if lead %}{{ lead }}{% endif %}
+          </p>
+          <p class="text-muted byline">By {{author}} &middot; {{publishdate}}</p>
+          <p>
+            {{ content | safe }}
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <hr>
+          <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
+          <p><a href="/">Back to news home</a></p>
+        </div>
+        <div class="col-md-2">
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
-        <hr>
-        <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
-        <p><a href="/">Back to news home</a></p>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-  </div>
+  </main>
 
-  <div class="container"><div class="row pt-5"><div class="col-lg-8"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="/feedback/">Share your feedback</a></div></div></div></div>
-  
-  <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div>
+  <footer>
+    <div class="container"><div class="row pt-5"><div class="col-lg-8"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="/feedback/">Share your feedback</a></div></div></div></div>
+    
+    <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div>
 
-  <script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
-  
+    <script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
+  </footer>
+
   <script src="https://www.googletagmanager.com/gtag/js?id=UA-154336791-1" defer="defer">
   </script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

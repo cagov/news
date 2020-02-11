@@ -34,55 +34,60 @@
 
 <body>
 
-  <div class="official">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p>State of California</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container-fluid jumbotron">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>News</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="card-deck card-set row">
-      {%- for post in collections.mySort -%}
-        <div class="card col-sm">
-          <a class="clipper" href="{{post.url}}"><img src="/{% if post.data.previewimage %}{{ post.data.previewimage }}{% else %}img/design-principles.jpg{% endif %}" class="card-img-top" alt="{{ post.data.title }}"></a>
-          <div class="card-body">
-            <h5 class="card-title "><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
-            <p class="card-text text-muted">{{ post.data.publishdate }}</p>
-            <p class="card-text">{{ post.data.meta }}</p>
+  <header>
+    <div class="official">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>State of California</p>
           </div>
         </div>
-      {%- endfor -%}
+      </div>
     </div>
-  </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-  <div class="container"><div class="row pt-5"><div class="col-lg-8"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="/feedback/">Share your feedback</a></div></div></div></div>
+  <main>
+    <div class="container-fluid jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>News</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div>
+    <div class="container">
+      <div class="card-deck card-set row">
+        {%- for post in collections.mySort -%}
+          <div class="card col-sm">
+            <a class="clipper" href="{{post.url}}"><img src="/{% if post.data.previewimage %}{{ post.data.previewimage }}{% else %}img/design-principles.jpg{% endif %}" class="card-img-top" alt="{{ post.data.title }}"></a>
+            <div class="card-body">
+              <h5 class="card-title "><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
+              <p class="card-text text-muted">{{ post.data.publishdate }}</p>
+              <p class="card-text">{{ post.data.meta }}</p>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
 
-  <script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
-    
+    <div class="container"><div class="row pt-5"><div class="col-lg-8"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="/feedback/">Share your feedback</a></div></div></div></div>
+  </main>
+
+  <footer>    
+    <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div>
+
+    <script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
+  </footer>
+
   <script src="https://www.googletagmanager.com/gtag/js?id=UA-154336791-1" defer="defer">
   </script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

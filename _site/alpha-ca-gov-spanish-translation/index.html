@@ -6,9 +6,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Providing multi-lingual access to information is essential.">
-  <meta name="author" content="Bootstrap, Luke Fretwell, Artem Khomishen">
+  <meta name="author" content="California Web Design System">
   <meta name="generator" content="Hugo 0.61.0">
   <title>Lessons learned translating Alpha.CA.gov release 1</title>
+
+  <!-- Styles -->
+  <link href="https://california.azureedge.net/cdt/statetemplate/6.0.0/css/cagov.font-only.min.css" rel="stylesheet" />
+  <link href="https://alpha.ca.gov/css/d6910a709d4da177f22f.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -19,17 +24,6 @@
   <link rel="icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/favicon.ico">
   <meta name="msapplication-config" content="/docs/4.3/assets/img/favicons/browserconfig.xml">
 
-  <link href="/css/4.css" rel="stylesheet">
-
-  <script>// temporary Edge pre chromium special polyfill load
-    if (window.fetch && !('registerElement' in document)) {
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.src = "https://cdnjs.cloudflare.com/ajax/libs/document-register-element/1.14.3/document-register-element.js";
-      document.head.appendChild(s);
-    }
-  </script>
-
   <!-- combined social media meta -->
   <meta property="og:title" content="Lessons learned translating Alpha.CA.gov release 1">
   <meta property="og:description" content="Providing multi-lingual access to information is essential.">
@@ -37,77 +31,45 @@
   <meta property="og:url" content="https://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/">
   <meta name="twitter:card" content="summary_large_image">
 
-  <style>
-    .news-post .lead {
-      color: #666;
-      font-size: 24px;
-    }
-    .byline {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-    }
-    .news-post p, .news-post li {
-      font-size: 18px;
-    }
-    figure {
-      margin-bottom: 10px;
-    }
-    figcaption {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 15px;
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }
-    h2 {
-      padding-top: 15px;
-    }
-
-    .navbar-inverse {
-    background: #0f1e6b;
-    background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
-}
-
-.jumbotron {
-    margin-bottom: 30px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background: #0f1e6b;
-    background: linear-gradient(80deg, #0f1e6b 0%, #170f6b 100%);
-}
-
-a, a:visited, a:hover {
-    color: #004abc;
-}
-  </style>
-
 </head>
 
-<body class="news">
-  <link href="https://california.azureedge.net/cdt/statetemplate/6.0.0/css/cagov.font-only.min.css" rel="stylesheet" />
+<body class="news-post">
 
-  <div class="official"><div class="container"><div class="row"><div class="col-md-12"><p>State of California</p></div></div></div></div>
-
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+  <header>
+    <div class="official">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>State of California</p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
-
-  <div class="container news-post">
-    <div class="row">
-      <div class="col-md-2">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+        </div>
       </div>
-      <div class="col-md-8 pt-5">
-        <h1>Lessons learned translating Alpha.CA.gov release 1</h1>
-        <p class="lead">
-          
-        </p>
-        <p class="text-muted byline">By JP Petrucione &middot; 01/28/2020</p>
-        <p>
-          
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Lessons learned translating Alpha.CA.gov release 1</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="lead">
+            
+          </p>
+            
 <figure class="figure">
   <img src="../img/thumb/En-espanol.jpg" class="" alt='Photo of a sticky note that says "En espanol."''>
 </figure>
@@ -161,26 +123,41 @@ a, a:visited, a:hover {
 
 
 
-        </p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted byline">By JP Petrucione<br>01/28/2020</p>
+        </div>
       </div>
     </div>
-    <div class="row pt-3">
-      <div class="col-md-2">
-      </div>
-      <div class="col-md-8">
-        <hr>
-        <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
-        <p><a href="/">Back to news home</a></p>
-      </div>
-      <div class="col-md-2">
-      </div>
-    </div>
-  </div>
 
-  <div class="container"><div class="row pt-5"><div class="col-md-12"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="https://alpha.ca.gov/feedback/"><button type="button" class="btn btn-dark btn-sm">Share your feedback</button></a></div></div></div></div></div>
-  
-  <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div><script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
-  
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="col-md-8">
+          <hr>
+          <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
+          <p><a href="/">Back to news home</a></p>
+        </div>
+
+        <div class="col-md-3">
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container"><div class="row pt-5"><div class="col-lg-8"><div class="pt-3 mt-5 alert alert-secondary"><p>Did you find what you were looking for? Please share your feedback to help us improve this page.</p><a href="/feedback/">Share your feedback</a></div></div></div></div>
+    
+    <div class="footer alpha-footer"><div class="container"><div class="row"><div class="col-md-12 ml-0 pl-0"><ul class="list-group list list-group-horizontal-lg flex-fill list-group-flush"><li class="list-group-item alpha-footer border-0">State of California</li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/about/">About</a></li><li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li><li class="list-group-item alpha-footer"><a href="https://alpha.ca.gov/feedback/">Feedback</a></li></ul></div></div></div></div>
+
+    <script nomodule src="https://alpha.ca.gov/js/es5Food.js?cache=false"></script><div class="alphabar"><div class="container"><p>This website is a <a href="https://news.alpha.ca.gov">work in progress</a>.</p></div></div>
+  </footer>
+
   <script src="https://www.googletagmanager.com/gtag/js?id=UA-154336791-1" defer="defer">
   </script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

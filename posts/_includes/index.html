@@ -36,7 +36,7 @@ title: Alpha.CA.gov article
 
 </head>
 
-<body class="news">
+<body class="news-post">
 
   <header>
     <div class="official">
@@ -58,33 +58,46 @@ title: Alpha.CA.gov article
   </header>
 
   <main>
-    <div class="container news-post">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-12">
           <h1>{{title}}</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
           <p class="lead">
             {% if lead %}{{ lead }}{% endif %}
           </p>
-          <p class="text-muted byline">By {{author}} &middot; {{publishdate}}</p>
-          <p>
             {{ content | safe }}
-          </p>
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted byline">By {{author}}<br>{{publishdate}}</p>
         </div>
       </div>
+    </div>
+
+    <div class="container">
       <div class="row">
-        <div class="col-md-2">
+
+        <div class="col-md-1">
         </div>
+
         <div class="col-md-8">
           <hr>
           <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
           <p><a href="/">Back to news home</a></p>
         </div>
-        <div class="col-md-2">
+
+        <div class="col-md-3">
         </div>
+
       </div>
     </div>
+
   </main>
 
   <footer>

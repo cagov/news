@@ -11,6 +11,48 @@
   </author>
   
   <entry>
+    <title>Done/doing (Week of Feb. 10)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
+    <updated>2020-02-17T18:31:56.548-08:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-10-feb-17/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Black and white graphic that says &quot;done/doing&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 10-February 17.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Shipped Release 2 with several new stories, translated into 3 languages&lt;/li&gt;
+	&lt;li&gt;User tested water and lifeline prototypes&lt;/li&gt;
+	&lt;li&gt;Drafted initial set of human centered behavior archetypes to inform our design&lt;/li&gt;
+	&lt;li&gt;Prototyped a guide to apply for unemployment insurance&lt;/li&gt;
+	&lt;li&gt;Iterated with the team on a tool to check your tap water quality&lt;/li&gt;
+&lt;li&gt;Iterated on a comprehensive guide to apply for California LifeLine, a discounted phone service&lt;/li&gt;
+&lt;li&gt;Thanks to Chad, we now have a great end-to-end testing suite that covers every page on our site&lt;/li&gt;
+&lt;li&gt;Built a working prototype of “Check if my water is safe” tool and took it out for an initial round of user testing. This identifies the water system associated with an address and returns the violation history. We also built a couple of APIs to support this. (More coming on this in Release 3.)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;User testing lifeline prototype at a local market with our friends from CHHS Office of Innovation&lt;/li&gt;&lt;li&gt;
+	&lt;/li&gt;&lt;li&gt;Taking in and iterating on user feedback on the California LifeLine prototype&lt;/li&gt;
+	&lt;li&gt;Researching wildfire preparedness, recovery, and cleanup; and prototyping related user stories&lt;/li&gt;
+    &lt;li&gt;Retrieving homeless shelter data for a new API&lt;/li&gt;
+    &lt;li&gt;Prototyping a new content type for unemployment insurance&lt;/li&gt;
+	&lt;li&gt;Building out the ‘Contact us’ directory&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://cwds.dev/&quot;&gt;CWDS&lt;/a&gt; clean-up&lt;/li&gt;
+    &lt;li&gt;Release 3 planning&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Alpha.CA.gov product release 2</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/"/>
     <updated>2020-02-10T12:47:17.841-08:00</updated>

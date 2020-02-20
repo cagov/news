@@ -35,12 +35,11 @@
     url("/css/fonts/publicsans-regular-webfont.woff2") format("woff2"), 
     url("/css/fonts/publicsans-regular-webfont.woff") format("woff");
 }
+
   .news-post h1 {
-    font-family: "Public Sans Extra Bold";
     font-size: 3rem;
     padding-bottom: 1rem;
     padding-top: 2rem;
-    letter-spacing: -.02em;
   }
   .news-post .lead {
     color: #666;
@@ -81,7 +80,4 @@
     max-height: 288px;
     overflow: hidden;
   }
-  hr {
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+  

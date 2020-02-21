@@ -11,6 +11,47 @@
   </author>
   
   <entry>
+    <title>Why Alpha.CA.gov is prioritizing APIs</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
+    <updated>2020-02-21T09:14:23.101-08:00</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-APIs/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/APIs-Blog-Postman-Screenshot-1.jpg&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov API Postman repository&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;A screenshot of the Alpha.CA.gov API Postman repository&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When we kicked off Alpha, we did not expect to develop a suite of APIs. But as we started tackling user stories, we realized that many of them required the same data. So we iterated - and adopted an API first approach.&lt;/p&gt;
+
+&lt;p&gt;An &lt;a href=&quot;https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces&quot;&gt;API&lt;/a&gt;, or application programming interface, is a tool that allows different products and services to talk to each other without having to know how they’re built or implemented.&lt;/p&gt;
+
+&lt;p&gt;Without APIs, government data can be challenging to work with for users outside of academia or government. APIs help make sense of what are often massive amounts of data.&lt;/p&gt;
+
+&lt;p&gt;APIs are a critical component of the open data value proposition.&lt;/p&gt;
+
+&lt;p&gt;In practice, APIs are the “yes, and...” of open data. Yes - open data is incredibly valuable... and APIs are what make it possible for any developer to access and build on that data.&lt;/p&gt;
+
+&lt;p&gt;APIs provide a level of accessibility that makes government more accountable and, ultimately, more effective and efficient.&lt;/p&gt;
+
+&lt;p&gt;Creating open APIs is a normal part of the development process in both the private and public sectors. And our team’s “API first” approach incorporates a couple of iterations on the public sector version of this norm.&lt;/p&gt;
+
+&lt;p&gt;Our APIs are built for public use. Much like our code and development process is open to the public.&lt;/p&gt;
+
+&lt;p&gt;We’re the first user of our APIs. We’ve tested, iterated and improved every API we’re building. We’re making sure they’re user friendly and ready for even more rigorous testing and improvement by the community.&lt;/p&gt;
+
+&lt;p&gt;Finally, underlying all of this is the belief championed by our dev team, &lt;a href=&quot;https://www.linkedin.com/in/carter-medlin-b1839b15//&quot;&gt;Carter Medlin&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/chadbratton/&quot;&gt;Aaron Hans&lt;/a&gt;, and &lt;a href=&quot;https://www.linkedin.com/in/chadbratton/&quot;&gt;Chad Bratton&lt;/a&gt;, and our Product Designer, &lt;a href=&quot;https://www.linkedin.com/in/lukefretwell/&quot;&gt;Luke Fretwell&lt;/a&gt; that: California’s data belongs to the people of California.&lt;/p&gt;
+
+&lt;p&gt;We believe deeply that APIs are essential to make data both available and accessible to the people of California. Building APIs is a logical step in our team’s work to make information and services simpler and more easily accessed.&lt;/p&gt;
+
+&lt;p&gt;Check out our &lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;APIs&lt;/a&gt;, take them for a test drive and help us iterate and improve on them.&lt;/p&gt;
+
+
+
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of Feb. 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
     <updated>2020-02-17T18:31:56.548-08:00</updated>

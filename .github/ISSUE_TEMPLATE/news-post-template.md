@@ -7,6 +7,16 @@ assignees: ''
 
 ---
 
+### Overarching themes to consider
+
+- Importance (why)
+- what we did 
+- how we did it 
+- lessons learned 
+- get involved 
+
+### Checklist
+
 - [ ] Create doc ([link](#))
 - [ ] Develop relevant images (thumbnail + main post) and optimize ([tool](https://imagecompressor.com/))
 - [ ] Have relevant team members review

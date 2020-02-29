@@ -11,6 +11,47 @@
   </author>
   
   <entry>
+    <title>Done/doing (Week of February 23)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
+    <updated>2020-02-28T17:07:49.890-08:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Feb-23-March%201/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Window-Sign-What-Were-Doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Sign in the window of Alpha.CA.gov HQ that explains the team’s work.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As with last week, we’re focused on Release 3. You can get up to date on what’s been done and is still doing in &lt;a href=&quot;https://github.com/cagov/Alpha/issues/387&quot;&gt;Github Issue #387&lt;/a&gt;. A few toplines below.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Shipped latest prototypes to production (water quality, find shelters, agency contact search, emergency alerts, discount phone service info)&lt;/li&gt;
+	&lt;li&gt;Created and refined a new content type (guide) used for the unemployment insurance user need&lt;/li&gt;
+	&lt;li&gt;Resolved additional accessibility issues with accordion and step list content modules&lt;/li&gt;
+	&lt;li&gt;Completed user acceptance testing testing the latest pages&lt;/li&gt;
+    &lt;li&gt;Finished automated end-to-end testing for Water Safety, Local Emergency Alerts prototypes&lt;/li&gt;
+&lt;li&gt;Noticed and fixed inconsistencies in headings, subheadings, and other labels across the website&lt;/li&gt;
+&lt;li&gt;Refined translations, including several fixes to translate dynamic content&lt;/li&gt;
+&lt;li&gt;Deployed a lane closure API that remixes Caltrans data to make it geo-queryable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Tightening up final deliverable by fixing cross browser bugs, adding 3 more user stories, design fixes&lt;/li&gt;
+	&lt;li&gt;Synthesizing and summarizing the surveys&lt;/li&gt;
+	&lt;li&gt;Taking a deeper dive into testing for accessibility using operating system features as well as third party tools&lt;/li&gt;
+	&lt;li&gt;Adding three more user stories to our staging environment in preparation for the final release of Alpha&lt;/li&gt;
+	&lt;li&gt;Fixing IE11 and Edge accessibility and functionality bugs&lt;/li&gt;
+	&lt;li&gt;Using Azure REST API to Purge CDN content paths automatically. We previously had to purge pages manually, one by one using the Azure Portal&lt;/li&gt;
+  &lt;li&gt;Updating our content style guide to reflect what we’ve learned&lt;/li&gt;
+  &lt;li&gt;Putting final touches on our prototypes&lt;/li&gt;
+  &lt;li&gt;Reflecting on lessons learned throughout the Alpha&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of Feb. 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
     <updated>2020-02-21T09:15:54.193-08:00</updated>

@@ -11,6 +11,226 @@
   </author>
   
   <entry>
+    <title>Alpha.CA.gov product release 3</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/"/>
+    <updated>2020-03-11T08:50:34.571-07:00</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-Release-3.jpg&quot; class=&quot;&quot; alt=&quot;A complete list of all Alpha.CA.gov user stories.&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;A complete list of all Alpha.CA.gov user stories.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first phase of the Alpha.CA.gov initiative wrapped up this past Friday with the release of eight new prototypes:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Apply for a discounted phone service&lt;/li&gt; 
+	&lt;li&gt;Check your tap water quality&lt;/li&gt;
+	&lt;li&gt;Find shelters near you&lt;/li&gt;
+	&lt;li&gt;Contact a state agency&lt;/li&gt;
+    &lt;li&gt;Prepare for a wildfire&lt;/li&gt;
+    &lt;li&gt;Considerations after a wildfire&lt;/li&gt;
+    &lt;li&gt;Sign up for local emergency alerts&lt;/li&gt;
+    &lt;li&gt;Apply for unemployment insurance&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;As with our prior releases, this third and final release is the product of research, experimentation and iteration. In this release, we shipped the most stories in the shortest period of time. We wanted to show the value of at least creating initial prototypes, emphasizing the fact that we should always be iterating.&lt;/p&gt;
+
+&lt;p&gt;On the research and experimentation front, we tried a few new methods for getting user feedback, including a new online tool and expanded in-person testing.&lt;/p&gt;
+
+&lt;p&gt;The online tool allowed us to connect with Californians across the state from a mix of socio-economic backgrounds, varying levels of tech savvy (and non-savvy) as well as other criteria like “previously evacuated due to a wildfire or other natural disaster” to get feedback on our disaster prototypes.&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;We also prioritized in-person research and feedback including soliciting friends and family feedback on water quality. One of the most surprising outcomes from this testing was that every person we talked to had, at one time, checked their water quality. Whether it was because they were using it to mix baby formula or because they grew up in a place where tap water was unsafe, it was a surprising number of people.&lt;/p&gt;
+
+&lt;p&gt;We recognize that the n (the number of people talked to) in research like this is small but the chance to have the opportunity to ask “why” or “can you tell us more” in 30-minute, in-person interviews is invaluable.&lt;/p&gt; 
+
+&lt;p&gt;These interviews allowed us to get at a deeper understanding of the questions people have around water, the work-arounds they use to try and figure out their water quality, and why this is such an important user need to focus on.&lt;/p&gt; 
+
+&lt;p&gt;Our in-person research also taught us that when working with disaster preparedness, response, or recovery, each person’s experience is SO unique to their situation that it’s hard to get feedback that can be universalized and turned into a standard experience for users. But we embraced every piece of feedback and the prototypes that we offer in this release are intended to be iterated on and improved to become more relevant to people’s lives.&lt;/p&gt;
+
+&lt;p&gt;Going through this process helped clarify for us the role government plays in providing information. It also gave us insights into the challenges and possible approaches to sharing information relevant to each person’s individual situation.&lt;/p&gt;
+
+&lt;p&gt;As the last prong in our expanding user research efforts, we’re circling back with everyone who submitted their email in the initial survey (about 85 people). We will send the alpha.ca.gov site to them to ask for feedback.&lt;/p&gt;
+
+&lt;p&gt;Our dev/tech team also really expanded on some best practices and brought some deep learnings to their work in this sprint. &lt;/p&gt;
+
+&lt;p&gt;The team used a Cricket Wireless’ Icon phone to test everything on low-end hardware. Making this part of our process exposed interesting new bugs and highlighted how important our existing focus on performance is. Being able to see render issues and interaction lag on a real device made it possible for each team member to actually see and feel the sub-par experience users on these devices have when surfing the web.&lt;/p&gt;
+
+&lt;p&gt;This is critical given the fact that our team all use the most recent or prior release Apple or Android phones. And that when we make performance improvements the impact on high-end devices is minimal but is dramatic on low-end phones like the Cricket.&lt;/p&gt;
+
+&lt;p&gt;The other thing our dev team was really excited about this sprint was beginning to publish our own web components to power customized widgets, which really improved quality. We were able to hammer out interaction and accessibility improvements and install updates easily across multiple sites.&lt;/p&gt; 
+
+&lt;p&gt;We’re working on a separate blog that wraps up the Alpha phase and provides several, really interesting takeaways and learnings. Stay tuned for that later this week.&lt;/p&gt;
+
+&lt;p&gt;As with all of our work, these newest prototypes are presented to you as works in progress. We welcome your feedback to make them better.&lt;/p&gt; 
+
+&lt;h2&gt;Homepage&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We asked users for their feedback on how best to group prototypes. The final groupings reflect the feedback from these users.&lt;/li&gt;
+&lt;li&gt;Check out the &lt;a href=&quot;https://alpha.ca.gov/&quot;&gt;iterated homepage&lt;/a&gt;  
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Check if you can get a discounted phone service&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User story: As a low income person, I need LIFELINE SERVICES, so that I can stay connected and communicate.&lt;/li&gt;
+&lt;li&gt;Our assumption: It’s imperative that we build services for all people and all devices. Californians that use Lifeline Services are often eligible for other social services. We assume that prioritizing this need will reveal other services to tackle. We want to test if this is the case and if this content and format makes sense to folks that depend on these services.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/64&quot;&gt;GitHub issue #64&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.cpuc.ca.gov/lifeline/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-baseline-transaction-landing-S-page.jpg&quot; alt=&quot;Screenshot of current Lifeline Services baseline.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of current Lifeline Services baseline.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated multiple prototypes, including:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-1.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-question-2-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-question-3-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-apply-online-before-testing-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Oh next, what’s next. Oh it didn’t do anything because I was supposed to click on something. That’s good.”&lt;/li&gt; 
+    &lt;li&gt;“Until you explained it a little bit more it wasn’t clear that I should go through it step by step. I would recommend hiding the other steps. Start with ‘if you can go to a discount.’” (This comment helped reinforce that “check elgibility” was its own need.)&lt;/li&gt;
+    &lt;li&gt;“I like that it explains what a household is.”&lt;/li&gt;
+	&lt;li&gt;“It is all easy to read but not intuitive to go to step #2.”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/check-if-you-can-get-discounted-phone-service/&quot;&gt;Check if you can get a discounted phone service&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Check your tap water quality&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a Californian, I need to know my WATER QUALITY, so I can know if it&#39;s safe to drink.&lt;/li&gt;
+    &lt;lil&gt;Our assumption: Water safety and accessibility is one of California&#39;s most significant issues. We assume that informing Californians of the quality of the water they drink is a need and one that is not currently being met. We sought to answer two questions: where does my water come from and what is my water quality? We then wanted to point people to a place where they could learn more. We hope to test if addressing these questions gets us closer to meeting the need.&lt;/lil&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/90&quot;&gt;GitHub issue #90&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.waterboards.ca.gov/water_issues/programs/hr2w/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Check your tap water quality” page.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Check your tap water quality”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated three prototypes:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Safe-to-drink-v2-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Check your tap water quality” page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Safe-to-drink-v3-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Unsafe-to-drink-v2-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Call out is confusing”&lt;/li&gt; 
+	&lt;li&gt;“What is that unit?”&lt;/li&gt;
+    &lt;li&gt;“Who is the authority on water?”&lt;/li&gt;
+    &lt;li&gt;“Would have preferred zip look-up because I&#39;m lazy, glad it auto populated”&lt;/li&gt;
+    &lt;li&gt;“Who is responsible if my water tastes funny?”&lt;/li&gt;
+    &lt;li&gt;“How is it determined how it&#39;s tested?”&lt;/li&gt;
+    &lt;li&gt;“How do I know to trust California?”&lt;/li&gt;
+	&lt;li&gt;“Going to state of CA, feels like asking Monsanto if corn is safe”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/check-your-tap-water-quality/&quot;&gt;Check your tap water quality&lt;/a&gt;” page&lt;/li&gt;
+&lt;/ul&gt;
+	
+&lt;h2&gt;Find shelters near you&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a person looking for temporary housing, I need to know where I can find my nearest SHELTER, so that I have a roof over my head.&lt;/li&gt;
+    &lt;li&gt;Our assumption: With access to housing at a crisis point here in California, making it easier to find shelters would be helpful, a value add and worth testing. There are many situations that could force a person to have to find a shelter - and as far as we could tell there is not a robust state data source for this information.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/102&quot;&gt;GitHub issue #102&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Baseline: there isn&#39;t anything comparable (that we could find)&lt;/li&gt;
+	&lt;li&gt;We ran out of time to test before shipping, but our product owner chose to launch recognizing that this prototype is not done, and we know there’s a need to test and iterate.&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/find-shelters-near-you/&quot;&gt;Find shelters near you&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Contact a state agency&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As someone who wants to know information about government organizations, I want to be able to find details and CONTACT INFORMATION for the organization I want to connect with.&lt;/li&gt;
+    &lt;li&gt;Our assumption: We assume that people are looking for state entity contacts. This will test the best way to share the state directory with Californians. And it will test any other content types we should consider when bucketing state entity information.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/65&quot;&gt;GitHub issue #65&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://cold.govops.ca.gov/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+	
+	&lt;figure class=&quot;figure&quot;&gt;
+		&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Contact%20Agency_Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Contact a state agency” page.&quot;&gt;
+		&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Prepare for a wildfire&quot; page.&quot;&lt;/figcaption&gt;
+	&lt;/figure&gt;
+
+    &lt;li&gt;Limited bandwidth meant that we ended up testing this prototype internally with Alpha team staff members.&lt;/li&gt;
+    &lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/contact-us/&quot;&gt;Contact a state agency&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prepare for a wildfire and Sign up for local emergency alerts&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a person who knows an emergency could happen, I need to know what TOP TEN emergency prep things I need, so that I can feel more prepared.&lt;/li&gt;
+    &lt;li&gt;Our assumption: We want to test if the public will trust the guidance/considerations in this content type. This is particularly focused on preparing for a wildfire. We want to learn what resonates with people.&lt;/li&gt;
+    &lt;li&gt;Additionally: One of the first things that became clear as we worked on the user story is that signing up for local emergency alerts should be a stand alone step prototype.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/98&quot;&gt;GitHub issue #98&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.caloes.ca.gov/individuals-families&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Wildfire-Preparedness-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Prepare for a wildfire” page.&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Prepare for a wildfire&quot; page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated one prototype:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Prepare%20Wildfire-Prototype-1.jpg&quot; alt=&quot;Prepare for a wildfire&quot; prototype.&quot;=&quot;&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;&quot;Prepare for a wildfire&quot; prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Wishes for graphics to be more clear”&lt;/li&gt; 
+	&lt;li&gt;“Know alert is by county”&lt;/li&gt;
+    &lt;li&gt;“Some you have to do in order, like you need a plan before you practice it”&lt;/li&gt;
+    &lt;li&gt;“All are important steps; leave in this order but make sure it makes sense in the order”&lt;/li&gt;
+    &lt;li&gt;“Doesn’t really understand how the content/steps are ordered”&lt;/li&gt;
+    &lt;li&gt;“How do I know this has accurate info”&lt;/li&gt;
+    &lt;li&gt;“Design is off-putting almost looks like an ad, feels too sophomorish”&lt;/li&gt;
+	&lt;li&gt;“Choose a family communication - really liked this step”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/prepare-for-wildfire/&quot;&gt;Prepare for a wildfire&lt;/a&gt;” and “&lt;a href=&quot;https://www.alpha.ca.gov/sign-up-for-local-emergency-alerts/&quot;&gt;”Sign up for local emergency alerts&lt;/a&gt;” pages&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of February 23)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
     <updated>2020-02-28T17:07:49.890-08:00</updated>
@@ -52,6 +272,22 @@
   </entry>
   
   <entry>
+    <title>Done/doing (Week of Feb. 17)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
+    <updated>2020-02-21T09:15:54.193-08:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Done-Doing-0221.jpg&quot; class=&quot;&quot; alt=&quot;Summary of Github issue #387 on the Alpha whiteboard&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Photo of a whiteboard with a summary of Github issue #387 for Alpha’s Release 3.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 17-February 23.&lt;/p&gt;
+
+&lt;p&gt;We are in the middle of the final sprint of the Alpha. We’ve got seven new user story prototypes on deck that we’re user testing, iterating and improving on, and auditing ahead of release. Track our progress on Github issue #387.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
     <title>Why Alpha.CA.gov is prioritizing APIs</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
     <updated>2020-02-21T09:14:23.101-08:00</updated>
@@ -90,22 +326,6 @@
 
 
 </content>
-  </entry>
-  
-  <entry>
-    <title>Done/doing (Week of Feb. 17)</title>
-    <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
-    <updated>2020-02-21T09:15:54.193-08:00</updated>
-    <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
-    <content type="html">
-&lt;figure class=&quot;figure&quot;&gt;
-  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Done-Doing-0221.jpg&quot; class=&quot;&quot; alt=&quot;Summary of Github issue #387 on the Alpha whiteboard&quot;&gt;
-  &lt;figcaption class=&quot;figure-caption&quot;&gt;Photo of a whiteboard with a summary of Github issue #387 for Alpha’s Release 3.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 17-February 23.&lt;/p&gt;
-
-&lt;p&gt;We are in the middle of the final sprint of the Alpha. We’ve got seven new user story prototypes on deck that we’re user testing, iterating and improving on, and auditing ahead of release. Track our progress on Github issue #387.&lt;/p&gt;</content>
   </entry>
   
   <entry>

@@ -4,16 +4,242 @@
   <subtitle>Official news from Alpha.CA.gov.</subtitle>
   <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
   <link href="http://news.alpha.ca.gov"/>
-  <updated>2020-01-21T10:20:34.632-08:00</updated>
+  <updated>2020-01-14T14:19:33.865-08:00</updated>
   <id>https://news.alpha.ca.gov</id>
   <author>
     <name>State of California</name>
   </author>
   
   <entry>
+    <title>Prioritizing users in a crisis: Building the California COVID-19 response site</title>
+    <link href="http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/"/>
+    <updated>2020-04-29T15:43:31.672-07:00</updated>
+    <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
+    <content type="html">  
+		
+  &lt;p&gt;The CA.gov Alpha team was tasked with developing the California state COVID-19 emergency response website.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our challenge: Create a scalable, accessible, stable website that is easy to update in a fast changing public health crisis. And do it in four days.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;This challenge is one that will be familiar to our digital colleagues working in other states, cities and countries right now. We’ve been super impressed by and appreciative of the work being done in places like &lt;a href=&quot;https://sf.gov/topics/coronavirus-covid-19&quot;&gt;San Francisco&lt;/a&gt;, &lt;a href=&quot;https://covid19.nj.gov/&quot;&gt;New Jersey&lt;/a&gt; and the &lt;a href=&quot;https://www.gov.uk/coronavirus&quot;&gt;United Kingdom&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Just like those teams, we’ve been focused on prioritizing user needs in this time of crisis. And we thought it could be useful to share out how we’ve been using technology/development decisions to do this.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;For our team, we started by returning to one of our core principles: “Always accessible.”&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We recognize, of course, that “Always accessible” is not a novel approach. Here in California accessibility is a guiding principle in the state’s digital strategy. And our work is just one part of the state’s larger commitment to ensuring that information and services are accessible.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;What is novel is how our team is broadening the definition of accessibility for state government to include performance as a core component. Performance as accessibility.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our goal is to make COVID19.CA.gov fast and easy to use on any kind of hardware or with any level of bandwidth.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We’re not yet 100% accessible – but accessibility is 100% our north star and what we are working toward every day.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;&lt;strong&gt;Accessible&lt;/strong&gt;&lt;strong&gt;, always&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We take multiple steps to make sure our products work for everyone.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We run automated audits which give us performance and accessibility scores on every build. Getting a high score on these automated tools is a good initial indicator, but not the whole story. We also manually test sites, ensuring we remain accessible via alternative navigation modes. We test with screen readers, which gives us a sense of how our site is experienced by site-impaired users. This helps find and eliminate interactions that might trap or slow people down.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We’re grateful for support from the &lt;a href=&quot;https://www.dor.ca.gov/&quot;&gt;California Department of Rehabilitation&lt;/a&gt;. The DOR team trained us to use those screen readers and has been instrumental helping us understand and avoid many common issues often created accidentally.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;And we’re grateful to the CHHS Office of Innovation whose team members are the frontline in our work to make our content accessible and clear.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;&lt;strong&gt;Performance as a critical component of accessibility&lt;/strong&gt;&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;&lt;a href=&quot;https://wpostats.com/&quot;&gt;Fast sites are more successful &lt;/a&gt;than slow ones. And some tools make it easier than others to produce fast sites.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our team uses Bootstrap, which by default, is quite large. So we make sure to run CSS pruning processes to trim out all unused code before deploying to production. We also avoid the Bootstrap javascript widgets because we prefer using small, low dependency Web Components.&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;&lt;strong&gt;Web Components&lt;/strong&gt;&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;Delivering the desired layout and interactivity with a small code footprint allows us to hit our performance goals more easily. We create light frontend interactivity by publishing Web Components. When we have to build our own we use some of the &lt;a href=&quot;https://open-wc.org/&quot;&gt;open-wc&lt;/a&gt; build tools that help by providing models for running components in isolation and integrated testing patterns.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are mostly depending on the custom element part of the web component standard. This lets us easily use components on different properties with an npm install and using the tag on a page, allowing us to provide the maximum amount of flexibility and reuse. Building new frontend properties using Web Components is a user-first choice for many reasons:&lt;/p&gt;
+  
+  
+  
+  &lt;ul&gt;&lt;li&gt;Web Components work well with any tech stack&amp;nbsp;&lt;/li&gt;&lt;li&gt;Component code can travel with its own integrated unit tests&lt;/li&gt;&lt;li&gt;Integration can be done via npm&lt;/li&gt;&lt;li&gt;Web Components can be modified in isolation and versioned so consumers can choose which versions to install&lt;/li&gt;&lt;/ul&gt;
+  
+  
+  
+  &lt;p&gt;These advantages give new code a better chance for longevity and higher probability that our current efforts are providing future benefit instead of technical debt.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are aware that building our own &lt;a href=&quot;https://www.npmjs.com/org/cagov&quot;&gt;components&lt;/a&gt; when necessary is a big decision. We only undertake this when we can’t find existing options that use dependencies sparingly and provide the required UI. When creating new components we run tests&amp;nbsp; in browsers, down to IE11, as well as ensuring they adhere to all of our other standards for accessibility and performance.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;&lt;strong&gt;A site with bad performance is exponentially worse on a low end device&lt;/strong&gt;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We’re proud to have achieved a high score on our &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Lighthouse&lt;/a&gt; performance audit but that isn’t enough for government tools, especially in this time of crisis.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We need to go above and beyond to ensure that all users are able to get a performant experience, no matter their device. This is especially true since users aren’t able to shop around for a different, better government experience.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;So we picked up the cheapest phone they had at Cricket Wireless. A $20 device running Android 9, with no contract commitment has been one of the most useful and effective tools in our effort to be accessible.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;The experience on this device is pretty different from what we see on the newest iPhones or Google Pixel devices. Pages delivering a lot of javascript are slow to render and respond to interaction, any scroll triggered effects look terrible and not actually cool (like they look on a new iPhone). Even swiping quickly through long, complex pages can be frustrating and slow as the device struggles to render lots of content.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Leaner, faster sites benefit &lt;em&gt;everybody&lt;/em&gt;, but making sure your applications run smoothly on low-end hardware makes a massive difference for those users.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;&lt;strong&gt;Preserving performance&lt;/strong&gt;&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;As we add new features, it can be difficult to keep tabs on how our performance is changing. As well as using Lighthouse, we’ve introduced Calibre to our reporting, as this enabled us to keep our builds fast. We’re able to trigger performance and accessibility reports on each build with a process running outside of the build itself.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;This is how Calibre reports our changes to Slack:&lt;/p&gt;
+  
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/perf-monitor.jpg&quot; class=&quot;&quot; alt=&quot;Monitoring performance in slack&quot;&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Calibre reporting performance metrics to slack&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  
+  &lt;p&gt;We can use this same data to report to our dashboards. This helps us with visibility to the whole team, not just the engineers.&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/dashboard.jpg&quot; class=&quot;&quot; alt=&quot;Monitoring performance in slack&quot;&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Performance and Accessibility widgets in data studio dashboards&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;h3&gt;&lt;strong&gt;Getting expert advice&lt;/strong&gt;&lt;/h3&gt;
+  
+  &lt;p&gt;Alex Russell, Senior Staff Software Engineer for Chrome at Google, kindly &lt;a href=&quot;https://docs.google.com/document/d/1S4jG8YKZrL_RpaDf5uk_vuEO7osdNNloDnXTAfjuDdo/edit&quot;&gt;analyzed&lt;/a&gt; the covid19.ca.gov site. He identified some areas for improvement with our fonts and integration with Google Analytics.&lt;/p&gt;
+  
+  &lt;p&gt;We were stoked to have&amp;nbsp; Alex’s deep expertise benefit COVID19.CA.gov. And we’re deeply appreciative of his advocacy to pay attention to performance.&amp;nbsp;&lt;/p&gt;
+  
+  &lt;p&gt;Overall, Alex found that the covid19.ca.gov site was fast, rendered quickly and finished all operations faster than similar sites, which helps users get the information they need quickly and easily.&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;a href=&quot;https://s3.amazonaws.com/www.whatupwebdev.com/assets/ca_covid_19_comparison_video.mp4&quot;&gt;&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/webpagetest.jpg&quot; class=&quot;&quot; alt=&quot;WebPageTest Comparison timeline&quot;&gt;&lt;/a&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Web Page Test timeline comparison&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  
+  &lt;h2&gt;&lt;strong&gt;Interactivity with APIs&lt;/strong&gt;&lt;/h2&gt;
+  
+  &lt;h3&gt;&lt;strong&gt;Functions as a Service (FAAS)&lt;/strong&gt;&lt;/h3&gt;
+  
+  &lt;p&gt;API endpoints running on FAAS allow us to keep our backend code in isolated, cheap, scalable components. The &lt;a href=&quot;https://twitter.com/cadotgov&quot;&gt;@CAdotGov&lt;/a&gt; team is running infrastructure mostly on Azure. &lt;a href=&quot;https://twitter.com/CarterMedlin&quot;&gt;Carter Medlin&lt;/a&gt; set up the first APIs on Azure’s FAAS services.&amp;nbsp;&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/api-alpha.jpg&quot; class=&quot;&quot; alt=&quot;api.alpha.ca.gov screenshot&quot;&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;&lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;https://api.alpha.ca.gov&lt;/a&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  &lt;h2&gt;&lt;strong&gt;Stability via pregeneration&lt;/strong&gt;&lt;/h2&gt;
+  
+  
+  
+  &lt;p&gt;Covid19.ca.gov received millions of visitors in the hours after Governor Newsom announced the statewide Stay at Home Order.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;The site was able to handle this level of traffic easily because we removed every unnecessary piece from the production service pipeline. This provided us with peace of mind ahead of launch, lowers costs and improves stability. While our content is constantly updated and deployed automatically, we create a pregenerated version of the final build each time so that production systems serve the body of pages as static content.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We chose &lt;a href=&quot;https://11ty.io/&quot;&gt;11ty&lt;/a&gt; as our static content generator because we like their philosophy and emphasis on performance and accessibility. Making the production build a set of static files removes a lot of common bottlenecks. Scaling concerns are radically simplified because the initial content is delivered without database connections or even any server side code execution.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Removing complexity and risk from the production pipeline doesn’t require us to forego any interactivity or force us to abandon mature open source tools.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are making the choice to run all computation possible before deployment. We are still using APIs for data driven interactions, such as the &lt;a href=&quot;https://covid19.ca.gov/telehealth&quot;&gt;Telehealth provider lookups&lt;/a&gt; page. Content is authored in our private WordPress repository and the output is integrated with 11ty, so we don’t run PHP on public servers.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;&lt;strong&gt;Authoring with WP, FAAS, github actions&lt;/strong&gt;&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;We chose WordPress for their premier authoring environment but decided not to use it as a content delivery tool. This allowed us to take advantage of the mature writing tools WordPress provides without needing to support any of its dependencies in our production environment.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We were able to decouple WordPress authoring from reading by using its built in API. We set its publish trigger to notify our Function as a Service (FAAS) service when content was updated. Our &lt;a href=&quot;https://github.com/cagov/wordpress-integration-api&quot;&gt;FAAS tool&lt;/a&gt; moved the post content from WordPress to Github.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We then used &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action-plus-rss&quot;&gt;a Github Action&lt;/a&gt; to trigger 11ty builds and deploy to a browseable github pages branch which then triggers the deploy to our Azure production environment&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/webAppReferenceArchitecture.jpg&quot; class=&quot;&quot; alt=&quot;Web App Reference Architecture&quot;&gt;
+  &lt;/figure&gt;
+
+  
+  &lt;h1&gt;It’s not over&lt;/h1&gt;
+  
+  
+  
+  &lt;p&gt;We know that the COVID-19 pandemic is a marathon, not a sprint. We’re mindful there’s more work to do in the coming weeks and months. And our team is looking forward to continuing to meet the challenge of this moment by ensuring that the people of California get the information they need quickly and easily.&lt;/p&gt;
+  
+</content>
+  </entry>
+  
+  <entry>
     <title>Alpha.CA.gov product release 3</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/"/>
-    <updated>2020-03-11T08:50:34.571-07:00</updated>
+    <updated>2020-04-29T15:40:40.502-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -233,7 +459,7 @@
   <entry>
     <title>Done/doing (Week of February 23)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
-    <updated>2020-02-28T17:07:49.890-08:00</updated>
+    <updated>2020-04-29T15:40:40.503-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Feb-23-March%201/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -274,7 +500,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
-    <updated>2020-02-21T09:15:54.193-08:00</updated>
+    <updated>2020-04-29T15:40:40.504-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -290,7 +516,7 @@
   <entry>
     <title>Why Alpha.CA.gov is prioritizing APIs</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
-    <updated>2020-02-21T09:14:23.101-08:00</updated>
+    <updated>2020-04-29T15:40:40.500-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-APIs/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -331,7 +557,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
-    <updated>2020-02-17T18:31:56.548-08:00</updated>
+    <updated>2020-04-29T15:40:40.503-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-10-feb-17/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -373,7 +599,7 @@
   <entry>
     <title>Alpha.CA.gov product release 2</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/"/>
-    <updated>2020-02-10T12:47:17.841-08:00</updated>
+    <updated>2020-02-11T08:35:56.564-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -564,7 +790,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 3)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-3-feb-9/"/>
-    <updated>2020-02-08T16:00:00.141-08:00</updated>
+    <updated>2020-02-11T08:35:56.565-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-3-feb-9/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -581,7 +807,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 27)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/"/>
-    <updated>2020-02-08T15:57:22.788-08:00</updated>
+    <updated>2020-01-31T16:02:54.332-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -621,7 +847,7 @@
   <entry>
     <title>Lessons learned translating Alpha.CA.gov release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/"/>
-    <updated>2020-01-28T13:22:44.906-08:00</updated>
+    <updated>2020-01-31T16:02:54.333-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -682,7 +908,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 20)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/"/>
-    <updated>2020-01-24T15:15:04.892-08:00</updated>
+    <updated>2020-01-24T15:16:27.793-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -726,7 +952,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 13)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/"/>
-    <updated>2020-01-21T10:20:34.629-08:00</updated>
+    <updated>2020-01-24T15:16:27.793-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -766,7 +992,7 @@
   <entry>
     <title>Alpha.CA.gov product release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/"/>
-    <updated>2020-01-21T10:20:34.628-08:00</updated>
+    <updated>2020-01-15T17:20:28.185-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1000,7 +1226,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 6)</title>
     <link href="http://news.alpha.ca.gov/done-doing-jan-6-jan-12/"/>
-    <updated>2020-01-21T10:20:34.630-08:00</updated>
+    <updated>2020-01-14T17:10:28.292-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-jan-6-jan-12/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1016,7 +1242,7 @@
   <entry>
     <title>Alpha.CA.gov product framing (Updated 02/10/20)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-framing/"/>
-    <updated>2020-01-21T10:20:34.628-08:00</updated>
+    <updated>2020-04-29T15:40:40.502-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-framing/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1116,7 +1342,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 30)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-30-jan-5/"/>
-    <updated>2020-01-21T10:20:34.630-08:00</updated>
+    <updated>2020-01-14T14:19:33.863-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-30-jan-5/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1154,7 +1380,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 16)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-16-dec-22/"/>
-    <updated>2020-01-21T10:20:34.629-08:00</updated>
+    <updated>2020-01-14T14:19:33.863-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-16-dec-22/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1189,7 +1415,7 @@
   <entry>
     <title>Our design principles</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-design-principles/"/>
-    <updated>2020-02-12T09:59:45.874-08:00</updated>
+    <updated>2020-04-29T15:40:40.501-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-design-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1234,7 +1460,7 @@
   <entry>
     <title>This is how we work</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/"/>
-    <updated>2020-01-21T10:20:34.628-08:00</updated>
+    <updated>2020-01-14T14:19:33.862-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1282,7 +1508,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 9)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-9-dec-13/"/>
-    <updated>2020-01-21T10:20:34.630-08:00</updated>
+    <updated>2020-01-14T14:19:33.864-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-9-dec-13/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1319,7 +1545,7 @@
   <entry>
     <title>And ... we’re in progress</title>
     <link href="http://news.alpha.ca.gov/and-were-in-progress/"/>
-    <updated>2020-01-21T10:20:34.629-08:00</updated>
+    <updated>2020-01-14T14:19:33.862-08:00</updated>
     <id>http://news.alpha.ca.gov/and-were-in-progress/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1351,7 +1577,7 @@
   <entry>
     <title>Introducing the CA.gov Alpha Team</title>
     <link href="http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/"/>
-    <updated>2020-01-21T10:20:34.632-08:00</updated>
+    <updated>2020-01-14T14:19:33.865-08:00</updated>
     <id>http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1454,7 +1680,7 @@
   <entry>
     <title>Re-imagining CA.gov How Can California Government Better Serve its People?</title>
     <link href="http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/"/>
-    <updated>2020-01-21T10:20:34.632-08:00</updated>
+    <updated>2020-01-14T14:19:33.865-08:00</updated>
     <id>http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;

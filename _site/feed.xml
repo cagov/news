@@ -17,7 +17,7 @@
     <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
     <content type="html">  
 		
-  &lt;p&gt;The CA.gov Alpha team was tasked with developing the California state COVID-19 emergency response website.&lt;/p&gt;
+  &lt;p&gt;The CA.gov Alpha team was tasked with developing the California state COVID-19 emergency response website in collaboration with the CHHS Office of Innovation and the California Department of Technology.&lt;/p&gt;
   
   
   
@@ -53,7 +53,7 @@
   
   
   
-  &lt;p&gt;&lt;strong&gt;Accessible&lt;/strong&gt;&lt;strong&gt;, always&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+  &lt;h2&gt;Accessible, always&lt;/h2&gt;
   
   
   
@@ -73,7 +73,7 @@
   
   
   
-  &lt;h3&gt;&lt;strong&gt;Performance as a critical component of accessibility&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h2&gt;Performance as a critical component of accessibility&lt;/h2&gt;
   
   
   
@@ -85,7 +85,7 @@
   
   
   
-  &lt;h3&gt;&lt;strong&gt;Web Components&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h3&gt;Web Components&lt;/h3&gt;
   
   
   
@@ -109,7 +109,7 @@
   
   
   
-  &lt;p&gt;&lt;strong&gt;A site with bad performance is exponentially worse on a low end device&lt;/strong&gt;&lt;/p&gt;
+  &lt;h3&gt;A site with bad performance is exponentially worse on a low end device&lt;/h3&gt;
   
   
   
@@ -133,7 +133,7 @@
   
   
   
-  &lt;h3&gt;&lt;strong&gt;Preserving performance&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h3&gt;Preserving performance&lt;/h3&gt;
   
   
   
@@ -157,7 +157,7 @@
     &lt;figcaption class=&quot;figure-caption&quot;&gt;Performance and Accessibility widgets in data studio dashboards&lt;/figcaption&gt;
   &lt;/figure&gt;
 
-  &lt;h3&gt;&lt;strong&gt;Getting expert advice&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h3&gt;Getting expert advice&lt;/h3&gt;
   
   &lt;p&gt;Alex Russell, Senior Staff Software Engineer for Chrome at Google, kindly &lt;a href=&quot;https://docs.google.com/document/d/1S4jG8YKZrL_RpaDf5uk_vuEO7osdNNloDnXTAfjuDdo/edit&quot;&gt;analyzed&lt;/a&gt; the covid19.ca.gov site. He identified some areas for improvement with our fonts and integration with Google Analytics.&lt;/p&gt;
   
@@ -171,9 +171,9 @@
   &lt;/figure&gt;
   
   
-  &lt;h2&gt;&lt;strong&gt;Interactivity with APIs&lt;/strong&gt;&lt;/h2&gt;
+  &lt;h2&gt;Interactivity with APIs&lt;/h2&gt;
   
-  &lt;h3&gt;&lt;strong&gt;Functions as a Service (FAAS)&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h3&gt;Functions as a Service (FAAS)&lt;/h3&gt;
   
   &lt;p&gt;API endpoints running on FAAS allow us to keep our backend code in isolated, cheap, scalable components. The &lt;a href=&quot;https://twitter.com/cadotgov&quot;&gt;@CAdotGov&lt;/a&gt; team is running infrastructure mostly on Azure. &lt;a href=&quot;https://twitter.com/CarterMedlin&quot;&gt;Carter Medlin&lt;/a&gt; set up the first APIs on Azure’s FAAS services.&amp;nbsp;&lt;/p&gt;
   
@@ -182,7 +182,7 @@
     &lt;figcaption class=&quot;figure-caption&quot;&gt;&lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;https://api.alpha.ca.gov&lt;/a&gt;&lt;/figcaption&gt;
   &lt;/figure&gt;
   
-  &lt;h2&gt;&lt;strong&gt;Stability via pregeneration&lt;/strong&gt;&lt;/h2&gt;
+  &lt;h2&gt;Stability via pregeneration&lt;/h2&gt;
   
   
   
@@ -206,7 +206,7 @@
   
   
   
-  &lt;h3&gt;&lt;strong&gt;Authoring with WP, FAAS, github actions&lt;/strong&gt;&lt;/h3&gt;
+  &lt;h3&gt;Authoring with WP, FAAS, github actions&lt;/h3&gt;
   
   
   
@@ -227,7 +227,7 @@
   &lt;/figure&gt;
 
   
-  &lt;h1&gt;It’s not over&lt;/h1&gt;
+  &lt;h2&gt;It’s not over&lt;/h2&gt;
   
   
   

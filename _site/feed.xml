@@ -498,22 +498,6 @@
   </entry>
   
   <entry>
-    <title>Done/doing (Week of Feb. 17)</title>
-    <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
-    <updated>2020-04-29T15:40:40.504-07:00</updated>
-    <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
-    <content type="html">
-&lt;figure class=&quot;figure&quot;&gt;
-  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Done-Doing-0221.jpg&quot; class=&quot;&quot; alt=&quot;Summary of Github issue #387 on the Alpha whiteboard&quot;&gt;
-  &lt;figcaption class=&quot;figure-caption&quot;&gt;Photo of a whiteboard with a summary of Github issue #387 for Alpha’s Release 3.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 17-February 23.&lt;/p&gt;
-
-&lt;p&gt;We are in the middle of the final sprint of the Alpha. We’ve got seven new user story prototypes on deck that we’re user testing, iterating and improving on, and auditing ahead of release. Track our progress on Github issue #387.&lt;/p&gt;</content>
-  </entry>
-  
-  <entry>
     <title>Why Alpha.CA.gov is prioritizing APIs</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
     <updated>2020-04-29T15:40:40.500-07:00</updated>
@@ -552,6 +536,22 @@
 
 
 </content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Feb. 17)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
+    <updated>2020-04-29T15:40:40.504-07:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Done-Doing-0221.jpg&quot; class=&quot;&quot; alt=&quot;Summary of Github issue #387 on the Alpha whiteboard&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Photo of a whiteboard with a summary of Github issue #387 for Alpha’s Release 3.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 17-February 23.&lt;/p&gt;
+
+&lt;p&gt;We are in the middle of the final sprint of the Alpha. We’ve got seven new user story prototypes on deck that we’re user testing, iterating and improving on, and auditing ahead of release. Track our progress on Github issue #387.&lt;/p&gt;</content>
   </entry>
   
   <entry>

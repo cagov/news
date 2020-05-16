@@ -4,16 +4,66 @@
   <subtitle>Official news from Alpha.CA.gov.</subtitle>
   <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
   <link href="http://news.alpha.ca.gov"/>
-  <updated>2020-01-14T14:19:33.865-08:00</updated>
+  <updated>2020-01-21T10:20:34.632-08:00</updated>
   <id>https://news.alpha.ca.gov</id>
   <author>
     <name>State of California</name>
   </author>
   
   <entry>
+    <title>Done/doing (Week of May 11-May 17)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-may-15/"/>
+    <updated>2020-05-15T17:58:06.075-07:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-may-15/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing_0515.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And herewith, please find this week’s list of things we’ve done and what we’re doing for the week ahead. This post covers the week of May 11-May 17.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Synthesized over 7600 responses via the website survey, responses have been from across all counties in CA, including all age groups (much more distributed than typical survey/website visits)&lt;/li&gt;
+	&lt;li&gt;Collected approximately 300 responses via the Feedback button/Survey directly on the site, surfacing specific insights, on-going themes and edge-cases to various agencies and the core team&lt;/li&gt;
+	&lt;li&gt;Integrated data dashboard and map into website&lt;/li&gt;
+	&lt;li&gt;Our Q&amp;A prototype that displays questions and answers relevant to internal searches graduated to user testing phase&lt;/li&gt;
+	&lt;li&gt;Added more user behavior tracking in google analytics to identify most used sections of pages built with our web components&lt;/li&gt;
+&lt;li&gt;Editing and adding new content related to testing, contact tracing, Stage 2 of our roadmap, and guidance for counties and industries&lt;/li&gt;
+&lt;li&gt;Established initial set of changes for the homepage redesign&lt;/li&gt;
+&lt;li&gt;Created and published design principles and style guide for COVID19&lt;/li&gt;
+&lt;li&gt;Announced hiring for an &lt;a href=&quot;https://news.alpha.ca.gov/roles/&quot;&gt;Agile Delivery Manager and Performance Analyst&lt;/a&gt;  
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Launching usertesting.com to get feedback on quick answers and new IA design&lt;/li&gt;
+	&lt;li&gt;Continue to support and monitor NPI information and edit/change accordingly&lt;/li&gt;
+	&lt;li&gt;Receiving and integrating human translated versions of all new site pages in 7 languages, continuing to refine this process&lt;/li&gt;
+	&lt;li&gt;Improving readability on already-published content&lt;/li&gt;
+    &lt;li&gt;Prioritizing content based on site searches and user feedback&lt;/li&gt;
+    &lt;li&gt;Publishing homepage redesign changes for user testing&lt;/li&gt;
+	&lt;li&gt;Planning second set of changes and information architecture implementation&lt;/li&gt;
+	&lt;li&gt;Continuing to work on building a recruitment pipeline of talented, committed people&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+ 
+ 
+</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of May 4-May 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-May-10/"/>
-    <updated>2020-05-12T10:58:43.817-07:00</updated>
+    <updated>2020-05-11T10:01:10.685-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-May-10/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -54,7 +104,7 @@
   <entry>
     <title>Prioritizing users in a crisis: Building the California COVID-19 response site</title>
     <link href="http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/"/>
-    <updated>2020-04-29T15:43:31.672-07:00</updated>
+    <updated>2020-05-11T13:48:07.583-07:00</updated>
     <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
     <content type="html">  
 		
@@ -280,7 +330,7 @@
   <entry>
     <title>Alpha.CA.gov product release 3</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/"/>
-    <updated>2020-04-29T15:40:40.502-07:00</updated>
+    <updated>2020-03-11T08:50:34.571-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -500,7 +550,7 @@
   <entry>
     <title>Done/doing (Week of February 23)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
-    <updated>2020-04-29T15:40:40.503-07:00</updated>
+    <updated>2020-02-28T17:07:49.890-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Feb-23-March%201/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -541,7 +591,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
-    <updated>2020-04-29T15:40:40.504-07:00</updated>
+    <updated>2020-02-21T09:15:54.193-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -557,7 +607,7 @@
   <entry>
     <title>Why Alpha.CA.gov is prioritizing APIs</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
-    <updated>2020-04-29T15:40:40.500-07:00</updated>
+    <updated>2020-02-21T09:14:23.101-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-APIs/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -598,7 +648,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
-    <updated>2020-04-29T15:40:40.503-07:00</updated>
+    <updated>2020-02-17T18:31:56.548-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-10-feb-17/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -640,7 +690,7 @@
   <entry>
     <title>Alpha.CA.gov product release 2</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/"/>
-    <updated>2020-02-11T08:35:56.564-08:00</updated>
+    <updated>2020-02-10T12:47:17.841-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -831,7 +881,7 @@
   <entry>
     <title>Done/doing (Week of Feb. 3)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-3-feb-9/"/>
-    <updated>2020-02-11T08:35:56.565-08:00</updated>
+    <updated>2020-02-08T16:00:00.141-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-3-feb-9/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -848,7 +898,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 27)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/"/>
-    <updated>2020-01-31T16:02:54.332-08:00</updated>
+    <updated>2020-02-08T15:57:22.788-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -888,7 +938,7 @@
   <entry>
     <title>Lessons learned translating Alpha.CA.gov release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/"/>
-    <updated>2020-01-31T16:02:54.333-08:00</updated>
+    <updated>2020-01-28T13:22:44.906-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -949,7 +999,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 20)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/"/>
-    <updated>2020-01-24T15:16:27.793-08:00</updated>
+    <updated>2020-01-24T15:15:04.892-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -993,7 +1043,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 13)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/"/>
-    <updated>2020-01-24T15:16:27.793-08:00</updated>
+    <updated>2020-01-21T10:20:34.629-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1033,7 +1083,7 @@
   <entry>
     <title>Alpha.CA.gov product release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/"/>
-    <updated>2020-01-15T17:20:28.185-08:00</updated>
+    <updated>2020-01-21T10:20:34.628-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1267,7 +1317,7 @@
   <entry>
     <title>Done/doing (Week of Jan. 6)</title>
     <link href="http://news.alpha.ca.gov/done-doing-jan-6-jan-12/"/>
-    <updated>2020-01-14T17:10:28.292-08:00</updated>
+    <updated>2020-01-21T10:20:34.630-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-jan-6-jan-12/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1283,7 +1333,7 @@
   <entry>
     <title>Alpha.CA.gov product framing (Updated 02/10/20)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-framing/"/>
-    <updated>2020-04-29T15:40:40.502-07:00</updated>
+    <updated>2020-01-21T10:20:34.628-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-framing/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1383,7 +1433,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 30)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-30-jan-5/"/>
-    <updated>2020-01-14T14:19:33.863-08:00</updated>
+    <updated>2020-01-21T10:20:34.630-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-30-jan-5/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1421,7 +1471,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 16)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-16-dec-22/"/>
-    <updated>2020-01-14T14:19:33.863-08:00</updated>
+    <updated>2020-01-21T10:20:34.629-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-16-dec-22/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1456,7 +1506,7 @@
   <entry>
     <title>Our design principles</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-design-principles/"/>
-    <updated>2020-04-29T15:40:40.501-07:00</updated>
+    <updated>2020-02-12T09:59:45.874-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-design-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1501,7 +1551,7 @@
   <entry>
     <title>This is how we work</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/"/>
-    <updated>2020-01-14T14:19:33.862-08:00</updated>
+    <updated>2020-01-21T10:20:34.628-08:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1549,7 +1599,7 @@
   <entry>
     <title>Done/doing (Week of Dec. 9)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-9-dec-13/"/>
-    <updated>2020-01-14T14:19:33.864-08:00</updated>
+    <updated>2020-01-21T10:20:34.630-08:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-9-dec-13/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1586,7 +1636,7 @@
   <entry>
     <title>And ... we’re in progress</title>
     <link href="http://news.alpha.ca.gov/and-were-in-progress/"/>
-    <updated>2020-01-14T14:19:33.862-08:00</updated>
+    <updated>2020-01-21T10:20:34.629-08:00</updated>
     <id>http://news.alpha.ca.gov/and-were-in-progress/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1618,7 +1668,7 @@
   <entry>
     <title>Introducing the CA.gov Alpha Team</title>
     <link href="http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/"/>
-    <updated>2020-01-14T14:19:33.865-08:00</updated>
+    <updated>2020-01-21T10:20:34.632-08:00</updated>
     <id>http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1721,7 +1771,7 @@
   <entry>
     <title>Re-imagining CA.gov How Can California Government Better Serve its People?</title>
     <link href="http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/"/>
-    <updated>2020-01-14T14:19:33.865-08:00</updated>
+    <updated>2020-01-21T10:20:34.632-08:00</updated>
     <id>http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;

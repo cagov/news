@@ -11,6 +11,51 @@
   </author>
   
   <entry>
+    <title>Done/doing (Week of May 18-May 24)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-may-27/"/>
+    <updated>2020-05-27T10:54:50.814-07:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-may-27/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A little late is better than never. Last week’s done and this week’s doing for your perusal.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Ran 14 usertesting.com interviews to provide feedback on a new site information architecture and design. Found some great, actionable insights regarding people’s preferences on the homepage. And identified important needs regarding search functionalities on the site&lt;/li&gt;
+	&lt;li&gt;Rolled out plasma donation search powered by our public web components and APIs&lt;/li&gt;
+	&lt;li&gt;Cut 75% off our 11ty build times by selectively running our jsdom powered post transformations based on hash comparisons and caching processed assets&lt;/li&gt;
+	&lt;li&gt;Automated stats updates with API cronjob writing to github&lt;/li&gt;
+	&lt;li&gt;Integrated automated image optimization into pipeline, upgraded all environments to server webp successfully&lt;/li&gt;
+&lt;li&gt;Designed new pages for contact tracing and plasma donation based on SME input&lt;/li&gt;
+&lt;li&gt;Renamed high-use buttons to have more intuitive names&lt;/li&gt;
+&lt;li&gt;Did readability editing on several web pages&lt;/li&gt;
+&lt;li&gt;Launched the first set of changes related to the redesign into production&lt;/li&gt;
+&lt;li&gt;Made several accessibility improvements&lt;/li&gt;
+&lt;li&gt;Staged second set of changes to enable user testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Reviewing our quick answer dataset generated from site crawl against the call center Q&amp;A docs. If we can publish regular change lists automatically might be helpful&lt;/li&gt;
+	&lt;li&gt;Continue to monitor and revamp the broad survey&lt;/li&gt;
+	&lt;li&gt;Prototyping reorganized content based on user feedback and known audiences&lt;/li&gt;
+	&lt;li&gt;Working on developing a global navigation for the website&lt;/li&gt;
+    &lt;li&gt;Synthesizing and incorporating user research into redesign&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of May 11-May 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-may-15/"/>
     <updated>2020-05-15T17:58:06.075-07:00</updated>
@@ -104,7 +149,7 @@
   <entry>
     <title>Prioritizing users in a crisis: Building the California COVID-19 response site</title>
     <link href="http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/"/>
-    <updated>2020-05-11T13:48:07.583-07:00</updated>
+    <updated>2020-05-27T10:53:25.938-07:00</updated>
     <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
     <content type="html">  
 		
@@ -152,7 +197,7 @@
   
   
   
-  &lt;p&gt;We run automated audits which give us performance and accessibility scores on every build. Getting a high score on these automated tools is a good initial indicator, but not the whole story. We also manually test sites, ensuring we remain accessible via alternative navigation modes. We test with screen readers, which gives us a sense of how our site is experienced by site-impaired users. This helps find and eliminate interactions that might trap or slow people down.&lt;/p&gt;
+  &lt;p&gt;We run automated audits which give us performance and accessibility scores on every build. Getting a high score on these automated tools is a good initial indicator, but not the whole story. We also manually test sites, ensuring we remain accessible via alternative navigation modes. We test with screen readers, which gives us a sense of how our site is experienced by sight-impaired users. This helps find and eliminate interactions that might trap or slow people down.&lt;/p&gt;
   
   
   

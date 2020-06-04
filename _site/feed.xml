@@ -11,6 +11,51 @@
   </author>
   
   <entry>
+    <title>Done/doing (Week of May 25-May 31)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-june-6/"/>
+    <updated>2020-06-04T11:17:41.971-07:00</updated>
+    <id>http://news.alpha.ca.gov/done-doing-june-6/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re super excited about the work we’re doing. In particular, we continue to hear from Californians about their experience with the impact of COVID-19. And our dev team is doing amazing work making site content even more accessible by making it even easier to find.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We’ve heard directly from over 38,880 Californians from across the state. We have used comments and insights to help inform policy makers and agency partners hear direct feedback about how Californians are doing.&lt;/li&gt;
+	&lt;li&gt;Shipped our quick answers product to production: We scrape our site, identify specific Question and Answer pairs we can extract, keep these in an azure cognitive search database, query it via serverless API when users search, and display any relevant Q&amp;A pairs. The hope is that this will help users find a specific piece of information quickly and they won’t have to hunt through all of the content on any related urls returned by the main search engine. We are collecting user activity with these quick answers and using that data to refine and augment our site content which will be re-scraped and improve the quick answers dataset in a positive feedback loop.&lt;/li&gt;
+	&lt;li&gt;Made performance improvements on the mobile version of our site based on deficiencies exposed by Lighthouse v6&lt;/li&gt;
+	&lt;li&gt;Have now refined the human translation pipeline so that content flows smoothly from our authoring process through the translation vendor system and back to our publishing pipeline.&lt;/li&gt;
+	&lt;li&gt;Drafted new data-driven way to let people look up what’s open in their county&lt;/li&gt;
+&lt;li&gt;Published answers about most frequently searched topics (hair salons, travel, churches)&lt;/li&gt;
+&lt;li&gt;Wrote logical button names for new nav structure&lt;/li&gt;
+&lt;li&gt;Edited 6 major webpages for better readability&lt;/li&gt;
+&lt;li&gt;Consolidated the navigation into one global section&lt;/li&gt;
+&lt;li&gt;Organized all the pages under top 4 categories&lt;/li&gt;
+&lt;li&gt;Improved consistency of the search results page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;About to launch a new survey that will help capture how people are handling new guidelines as we continue down the recovery roadmap.&lt;/li&gt;
+	&lt;li&gt;Creating new pages as required&lt;/li&gt;
+	&lt;li&gt;Purging outdated content&lt;/li&gt;
+	&lt;li&gt;Making the rest of the webpages more readable&lt;/li&gt;
+    &lt;li&gt;Synthesizing user feedback into actionable improvements&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</content>
+  </entry>
+  
+  <entry>
     <title>Done/doing (Week of May 18-May 24)</title>
     <link href="http://news.alpha.ca.gov/done-doing-may-27/"/>
     <updated>2020-05-27T10:54:50.814-07:00</updated>

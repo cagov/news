@@ -18,7 +18,7 @@
     <content type="html">
 &lt;figure class=&quot;“figure”&quot;&gt;
   &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-image.jpg&quot; alt=&quot;Blueprint&quot;&gt;
-  &lt;figcaption class=&quot;figure-caption&quot;&gt;Blueprint to Safer Economy&lt;/figcaption&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the new county-specific open/closed tool.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Government information and services can be difficult for the average user to make sense of, even in the best of times. As we face COVID-19 and wildfires, the need to make sure Californians have the information and access to services that they need is more critical than ever - and more challenging. &lt;/p&gt;
 
@@ -71,7 +71,6 @@ What you see is a work in progress. And, as always, we need and value your feedb
 
 
 &lt;h3&gt;Applying analytics and research to simplify the complicated&lt;/h3&gt;
-&lt;br&gt;
 &lt;p&gt;
 We started work on the new, status-lookup tool by listening to what our users were saying and doing. 
 &lt;/p&gt;
@@ -85,7 +84,7 @@ Our site analytics clearly showed that most users were navigating to just two pa
 &lt;/p&gt;
 &lt;figure class=&quot;“figure”&quot;&gt;
 	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/County-variance.png&quot; class=&quot;img-fluid&quot; alt=&quot;variance&quot;&gt;
-	&lt;figcaption class=&quot;figure-caption&quot;&gt;County variance info webpage&lt;/figcaption&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the prior county variance page.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;br&gt;
@@ -119,7 +118,7 @@ Our team built an initial prototype, that we dubbed “project alameda haircut,�
 
 &lt;figure class=&quot;“figure”&quot;&gt;
 	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/Project-Alameda-Haircut.png&quot; class=&quot;“img-fluid&quot; alt=&quot;Haircut&quot;&gt;
-	&lt;figcaption class=&quot;figure-caption&quot;&gt;project alameda haircut webpage&lt;/figcaption&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the “project alameda haircut” prototype.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br&gt;
 &lt;p class=&quot;mt-4&quot;&gt;

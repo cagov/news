@@ -17,8 +17,8 @@
     <id>http://news.alpha.ca.gov/covid19-redesign-Sept-29/</id>
     <content type="html">
 &lt;figure class=&quot;“figure”&quot;&gt;
-  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-image.png&quot; alt=&quot;Blueprint&quot;&gt;
-  &lt;figcaption class=&quot;“figure-caption”&quot;&gt;Blueprint to Safer Economy&lt;/figcaption&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-image.jpg&quot; alt=&quot;Blueprint&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Blueprint to Safer Economy&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Government information and services can be difficult for the average user to make sense of, even in the best of times. As we face COVID-19 and wildfires, the need to make sure Californians have the information and access to services that they need is more critical than ever - and more challenging. &lt;/p&gt;
 
@@ -48,7 +48,7 @@ Recently, the governor introduced the “Blueprint for a Safer Economy,” a new
     &lt;li&gt;Serve as the single source of truth on open/closed status and restrictions around any particular activity in every county&lt;/li&gt;
     &lt;li&gt;Reduce confusion on what is safe and why/why not, when this will change and why&lt;/li&gt;
     &lt;li&gt;Give individuals and businesses the information they need to be able to plan ahead and flex as needed&lt;/li&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;
 In addition to the open/closed tool, we redesigned our homepage and basic elements of the site, like the footer, the font, colors, header, and navigation. 
@@ -65,11 +65,13 @@ It also means almost constant iteration of design, development, user research, p
 &lt;p&gt;
 What you see is a work in progress. And, as always, we need and value your feedback.
 &lt;/p&gt;
+&lt;br&gt;
 
 
 
 
-&lt;h4&gt;Applying analytics and research to simplify the complicated&lt;/h4&gt;
+&lt;h3&gt;Applying analytics and research to simplify the complicated&lt;/h3&gt;
+&lt;br&gt;
 &lt;p&gt;
 We started work on the new, status-lookup tool by listening to what our users were saying and doing. 
 &lt;/p&gt;
@@ -81,8 +83,12 @@ In a nutshell: people want to know what they can and can’t do so they can plan
 &lt;p&gt;
 Our site analytics clearly showed that most users were navigating to just two pages when they landed on the site: “County variance info,” where county-specific information  is available and the Stay Home Q &amp; A, which is designed to answer questions about essential and non-essential needs and activities.
 &lt;/p&gt;
-&lt;img src=&quot;http://news.alpha.ca.gov/img/full/County-variance.png&quot; class=&quot;img-fluid&quot; alt=&quot;variance&quot;&gt;
-&lt;br&gt;&lt;br&gt;
+&lt;figure class=&quot;“figure”&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/County-variance.png&quot; class=&quot;img-fluid&quot; alt=&quot;variance&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;County variance info webpage&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br&gt;
 &lt;p class=&quot;mt-4&quot;&gt;
 This was further evidenced in our user testing and survey feedback. 
 &lt;/p&gt;
@@ -95,8 +101,8 @@ We conducted 20 user testing sessions. Throughout, the question of what’s open
 The feedback was unambiguous: users wanted an easier, more straightforward way to find out what’s open, what’s closed, in their county. And businesses want simple, clear guidance about whether they can open and how. 
 &lt;/p&gt;
 
-
-&lt;h4&gt;A simple tool for a complex time&lt;/h4&gt;
+&lt;br&gt;
+&lt;h3&gt;A simple tool for a complex time&lt;/h3&gt;
 &lt;p&gt;
 One of the key innovations in the blueprint is simplifying the previous frameworks by collapsing them into an intuitive four-tiered system. This is at the heart of this newest covid19.ca.gov product iteration. 
 &lt;/p&gt;
@@ -109,8 +115,13 @@ Beginning as early as May, we started to think about simple ways to address one 
 Our team built an initial prototype, that we dubbed “project alameda haircut,” named to reflect user feedback, and in particular a user in Alameda who asked us about whether and when they can get a haircut. 
 &lt;/p&gt;
 
-&lt;img src=&quot;http://news.alpha.ca.gov/img/full/Project-Alameda-Haircut.png&quot; class=&quot;“img-fluid&quot; alt=&quot;Haircut&quot;&gt;
-&lt;br&gt;&lt;br&gt;
+
+
+&lt;figure class=&quot;“figure”&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/Project-Alameda-Haircut.png&quot; class=&quot;“img-fluid&quot; alt=&quot;Haircut&quot;&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;project alameda haircut webpage&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
 &lt;p class=&quot;mt-4&quot;&gt;
  As we iterated the product, policy makers were also iterating. Together, we were putting into practice the &lt;a href=&quot;https://www.codeforamerica.org/deliverydriven&quot; target=&quot;_blank&quot;&gt;principles of delivery driven government&lt;/a&gt; articulated by Code for America, namely: 1) understand and meet user needs; 2) real-time user data, not years-old estimates; and 3) iteration, from intention through implementation.
 &lt;/p&gt;
@@ -118,15 +129,16 @@ Our team built an initial prototype, that we dubbed “project alameda haircut,�
 &lt;p&gt;
 The new tool developed to support the Blueprint for a Safer Economy framework was informed by lessons learned and is an iteration of “project alameda haircut.” It’s simple and intuitive to use, and validated by users. The user simply enters their county and desired activity to find out if it’s allowed or if there are any restrictions. What started out as a list of links and PDFs has evolved into a more interactive tool informed by data, user feedback, policy, and design.
 &lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Moving forward, continuing to iterate&lt;/h3&gt;
 
-&lt;h4&gt;Moving forward, continuing to iterate&lt;/h4&gt;
 &lt;p&gt;
 In the near term, our focus is to continue to bring data and data-driven tools into the site by  making the user experience more meaningful and easier to understand. And as always, speed, accessibility, and readability remain at the core of our work. 
 &lt;/p&gt;
 
 &lt;p&gt;
 As we continue to iterate on this redesign and new tool, we will keep these principles central to our work of making the complex and complicated more easily understood and quickly accessed for every Californian.
-&lt;/p&gt;&lt;/ul&gt;&lt;/ol&gt;</content>
+&lt;/p&gt;</content>
   </entry>
   
   <entry>

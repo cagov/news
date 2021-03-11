@@ -1,0 +1,79 @@
+
+/* Public Sans */
+@font-face {
+  font-family: "Public Sans Extra Bold";
+  font-style: normal;
+  font-display: swap;
+  src: 
+    url("/css/fonts/publicsans-extrabold-webfont.woff2") format("woff2"), 
+    url("/css/fonts/publicsans-extrabold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans Bold";
+  font-style: normal;
+  font-display: swap;
+  src: 
+    url("/css/fonts/publicsans-bold-webfont.woff2") format("woff2"), 
+    url("/css/fonts/publicsans-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans Light";
+  font-style: normal;
+  font-display: swap;
+  src: 
+    url("/css/fonts/publicsans-light-webfont.woff2") format("woff2"), 
+    url("/css/fonts/publicsans-light-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-display: swap;
+  src: 
+    url("/css/fonts/publicsans-regular-webfont.woff2") format("woff2"), 
+    url("/css/fonts/publicsans-regular-webfont.woff") format("woff");
+}
+
+  .news-post h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+  }
+  .news-post main p, .news-post main li {
+    font-size: 20px;
+  }
+  .news-post main .byline {
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  figure {
+    margin-bottom: 10px;
+  }
+  figure img {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  figcaption {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+  .card {
+  margin-bottom: 20px;
+  }
+  .card-set .card {
+    min-width: 200px;
+    float: left;
+  }
+  .card-set {
+    grid-gap: 20px;
+  }
+  .clipper {
+    max-height: 288px;
+    overflow: hidden;
+  }
+  

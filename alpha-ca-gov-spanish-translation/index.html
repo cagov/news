@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Providing multi-lingual access to information is essential.">
+    <meta name="author" content="California Web Design System">
+    <meta name="generator" content="Hugo 0.61.0">
+    <title>Lessons learned translating Alpha.CA.gov release 1</title>
+    <!-- Styles -->
+    <link href="https://california.azureedge.net/cdt/statetemplate/6.0.0/css/cagov.font-only.min.css" rel="stylesheet" />
+    <link href="/css/alpha.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="https://cwds.dev/docs/4.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/safari-pinned-tab.svg" color="#1d1a16">
+    <link rel="icon" href="https://cwds.dev/docs/4.3/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/docs/4.3/assets/img/favicons/browserconfig.xml">
+    <!-- combined social media meta -->
+    <meta property="og:title" content="Lessons learned translating Alpha.CA.gov release 1">
+    <meta property="og:description" content="Providing multi-lingual access to information is essential.">
+    <meta property="og:image" content="https://news.alpha.ca.gov/img/thumb/En-espanol.jpg">
+    <meta property="og:url" content="https://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="news-post">
+    <header>
+        <div class="official">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>State of California</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand nav-cali-bg navbar-left" href="https://alpha.ca.gov/">CA.gov <sup>(ALPHA)</sup></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Lessons learned translating Alpha.CA.gov release 1</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="lead">
+                        
+                    </p>
+                    
+<figure class="figure">
+  <img src="../img/thumb/En-espanol.jpg" class="" alt='Photo of a sticky note that says "En espanol."''>
+</figure>
+
+<p>We hope you noticed that the first release of <a href="https://www.Alpha.CA.gov.com">Alpha.CA.gov</a> prototypes included Spanish language versions.</p>
+
+<p>This is something we’re particularly proud of. Given our timeline and resources, these translations were initially out of scope for the first release. But they were always front of mind for <a href="https://twitter.com/abquirarte">Angie</a>, our product owner.</p>
+
+<p>Angie is a Mexican immigrant and Spanish is her first language. Growing up, Angie and her family spoke Spanish at home. Speaking a language other than English at home is something that over 40% of Californians also do. And, it's worth noting, <a href="https://blog.languageline.com/report-california-limited-english-proficient">“18.6% of California residents are considered limited English proficient (LEP), meaning they speak English less than ‘very well.’”</a></p>
+
+<p>We saw this in practice when we user tested the <a href="https://alpha.ca.gov/services/request-birth-certificate/">Find a birth certificate</a> prototype in the field: 3 out of 5 people were at the county office with translators because Spanish is their primary language.</p>
+
+<p>This IRL reminder of California’s incredible cultural diversity inspired us to expand our scope and push to make Spanish translation part of release 1.</p>
+
+<h2>During the translations process, we tested for:</h2>
+
+<ul>
+    <li>Quality/Accuracy of translation API tools</li>
+    <li>Level of effort to validate translations (by asking at least 3 native-Spanish speakers)</li>
+    <li>Level of effort from the team, overall</li>
+    <li>Content design from English to Spanish considerations</li>
+    <li>Domain considerations</li>
+    <li>Level of interest from real users</li>
+</ul>
+
+<h2>We learned a lot:</h2> 
+
+<h3>Doing the translations forced us to revisit the English version to make it clearer, more accurate.</h3>
+<ul>
+    <li>The English titles and section descriptions are spare, concise. In Spanish, those same titles and section headers are far more conversational.</li>
+    <li>As we translated the <a href="https://alpha.ca.gov/services/hire-licensed-contractor-home-improvements/">Hire a Licensed Contractor</a> page, we realized that the English version was not as clear as we thought it was. Doing the Spanish translation actually helped us iterate and improve the English version.</li>
+</ul>
+
+<h3>Verbatim translations don’t work.</h3>
+<ul>
+    <li>When thinking about service design, translation is not as simple as verbatim translation. You have to do the work to provide context and create translations that convey accurate, literal and cultural meaning in both English and Spanish.</li>
+    <li>The <a href="https://alpha.ca.gov/about/">About</a> page, in English, reads: “We're a small but mighty team of public servants and outside experts in user research and design.” In Spanish, it says: “Somos un pequeño equipo de servidores públicos y expertos en el diseño centrado en el usuario y tecnología.” “Small but mighty” has a different connotation in Spanish because the word “mighty” translates to “powerful,” connoting a stronger tone that does not feel as welcoming.</li>
+</ul>
+
+<h3>Finding materials in Spanish proved challenging - and so did translations of more technical content.</h3>
+<ul>
+    <li>There was no baseline Spanish translation available for the “More details about holidays” section on the <a href="https://alpha.ca.gov/services/state-california-employee-holidays/">State holidays</a> page. Without the help of a subject matter expert in that language, it was hard to know if we were using the correct terminology.</li>
+    <li>Even when available, the baseline content in Spanish was not always reliable because it had been translated using auto translate apps, which offer essentially verbatim translation. This meant additional vetting and reworking on our end to provide the appropriate context, tone, and wording we want to convey
+    </li>
+</ul>
+
+<p>It’s worth noting that the work we did to translate the first several prototypes was a heavy lift for our small but mighty team, and likely not scalable for the Alpha given our timeline and capacity.</p>
+
+<p>That said, it’s important to emphasize that looking to the future, CA.gov will be multi-lingual in ways that reflect our learnings. That is, with an emphasis on and prioritization of cultural competency over verbatim translation. It's up to us (on the government side) to always keep in mind that context matters and some technologies are not 100% reliable when it comes to designing for our users.</p>
+
+
+
+
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-muted byline">By JP Petrucione<br>01/28/2020</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <hr>
+                    <p>Follow us on <a href="https://twitter.com/cadotgov">Twitter</a> and collaborate with us at <a href="https://github.com/cagov">GitHub</a>.</p>
+                    <p><a href="/">Back to news home</a></p>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container feedback">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="alert alert-secondary">
+                        <p class="h2 strong">Feedback</p>
+                        <p>Please <a href="https://www.surveymonkey.com/r/Alpha-CA-Gov?Source=https://www.alpha.ca.gov/">share your feedback</a> to help us improve this page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alpha-footer footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="list-group flex-fill list list-group-flush list-group-horizontal-lg">
+                            <li class="list-group-item alpha-footer"><a href="https://www.alpha.ca.gov/about/">About</a></li>
+                            <li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/">News</a></li>
+                            <li class="list-group-item alpha-footer"><a href="https://www.surveymonkey.com/r/Alpha-CA-Gov?Source=https://www.alpha.ca.gov/">Survey</a></li>
+                            <li class="list-group-item alpha-footer"><a href="https://news.alpha.ca.gov/roles/">Roles</a></li>
+                        </ul>
+                        <p>Official California State Government Website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alphabar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>This website is a <a href="https://news.alpha.ca.gov/">work in progress</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.googletagmanager.com/gtag/js?id=UA-154336791-1" defer="defer" async=""></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-154336791-1');
+
+        function ga_send_event(category, action, label) {
+            ga('gtag_UA_154336791_1.send', 'event', category, action, label);
+        }
+        </script>
+    </footer>
+</body>
+
+</html>

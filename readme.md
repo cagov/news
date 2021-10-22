@@ -1,3 +1,11 @@
+## This site is no longer used
+
+All blog posts have been moved to https://digital.ca.gov/blog
+
+All pages on this news.alpha.ca.gov site have been made into redirects pointing to the digital.ca.gov posts or list page.
+
+This site will remain up on github pages to serve the redirect urls
+
 # Alpha.CA.gov communications
 
 static site built on <a href="https://11ty.dev">11ty</a>, served on gh pages, using <A href="https://github.com/marketplace/actions/eleventy-action">the Eleventy Action</a> GitHub Action to rebuild on update

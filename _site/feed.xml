@@ -4,16 +4,67 @@
   <subtitle>Official news from Alpha.CA.gov.</subtitle>
   <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
   <link href="http://news.alpha.ca.gov"/>
-  <updated>2020-09-29T11:12:58.825-07:00</updated>
+  <updated>2021-10-21T11:58:21.989-07:00</updated>
   <id>https://news.alpha.ca.gov</id>
   <author>
     <name>State of California</name>
   </author>
   
   <entry>
+    <title>Saying it with style</title>
+    <link href="http://news.alpha.ca.gov/saying-it-with-style/"/>
+    <updated>2021-10-21T11:58:21.990-07:00</updated>
+    <id>http://news.alpha.ca.gov/saying-it-with-style/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/say-it-with-style.png&quot; class=&quot;&quot; alt=&quot;Done/doing&quot;&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Today we&#39;re excited to share our updated content style guide&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When we started working on &lt;a href=&quot;https://www.alpha.ca.gov/&quot;&gt;alpha.ca.gov&lt;/a&gt; we defined our &lt;a href=&quot;https://news.alpha.ca.gov/alpha-ca-gov-design-principles/&quot;&gt;design principles&lt;/a&gt;. They included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with user needs.&lt;/li&gt;
+&lt;li&gt;Do less.&lt;/li&gt;
+&lt;li&gt;Do the hard work to make it simple and elegant.&lt;/li&gt;
+&lt;li&gt;Iterate—then iterate again.&lt;/li&gt;
+&lt;li&gt;Make it accessible and inclusive.&lt;/li&gt;
+&lt;li&gt;Understand context.&lt;/li&gt;
+&lt;li&gt;Be consistent, but not uniform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We used these principles to create an early alpha.ca.gov style guide. As we got to work on &lt;a href=&quot;https://covid19.ca.gov/&quot;&gt;covid19.ca.gov&lt;/a&gt;, we realized we needed to update this guide both to meet the pandemic and power future projects.&lt;/p&gt;
+
+&lt;p&gt;Today, we’re excited to share our updated &lt;a href=&quot;https://handbook.digital.ca.gov/content/&quot;&gt;content style guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new style guide iterates on our &lt;a href=&quot;https://handbook.alpha.ca.gov/en/latest/content/&quot;&gt;Alpha content style guide&lt;/a&gt;. It also pulls from the &lt;a href=&quot;https://github.com/cagov/covid19/wiki/Crisis-Standard&quot;&gt;covid19.ca.gov crisis communication standard&lt;/a&gt; and our &lt;a href=&quot;https://github.com/cagov/covid19/wiki/Inclusivity-considerations-checklist&quot;&gt;accessibility and inclusivity guidelines&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new style guide provides several benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content creators only have to look in one place when they have a question about how we do something.&lt;/li&gt;
+&lt;li&gt;We’re more consistent in our content.&lt;/li&gt;
+&lt;li&gt;The style guide itself models how we want to write.&lt;/li&gt;
+&lt;li&gt;Listing our content types sparks ideas for how to present content.&lt;/li&gt;
+&lt;li&gt;We build accessibility into our writing from the start.&lt;/li&gt;
+&lt;li&gt;The presence of a style guide makes us think about what more we can add.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last point is important. The content style guide is not done. It’s a document that we continue to think about and improve on. At least once a week someone asks, “Should we add that to the style guide?” We have a dedicated Slack channel where we collaborate on additions and modifications.&lt;/p&gt;
+
+&lt;p&gt;In keeping with our principle of Do less, we’re hosting the style guide through &lt;a href=&quot;https://spacebook.app/&quot;&gt;Spacebook&lt;/a&gt;, a github-based solution. We chose this solution because:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Our developers could set it up easily (especially compared to standing up a content management system like WordPress)&lt;/li&gt;
+&lt;li&gt;Writing in markdown required minimal coding knowledge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Much like Alpha, the content style guide is part of transforming how we communicate with Californians. We’ve only begun our journey, but we know where we want to go and are moving there little by little.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Keeping it simple when it’s actually quite complex</title>
     <link href="http://news.alpha.ca.gov/covid19-redesign-Sept-29/"/>
-    <updated>2020-09-29T11:21:27.302-07:00</updated>
+    <updated>2021-10-21T11:58:21.984-07:00</updated>
     <id>http://news.alpha.ca.gov/covid19-redesign-Sept-29/</id>
     <content type="html">
 &lt;figure class=&quot;“figure”&quot;&gt;
@@ -143,7 +194,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of May 25-May 31)</title>
     <link href="http://news.alpha.ca.gov/done-doing-june-6/"/>
-    <updated>2020-09-29T11:12:58.824-07:00</updated>
+    <updated>2021-10-21T11:58:21.988-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-june-6/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -188,7 +239,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of May 18-May 24)</title>
     <link href="http://news.alpha.ca.gov/done-doing-may-27/"/>
-    <updated>2020-09-29T11:12:58.824-07:00</updated>
+    <updated>2021-10-21T11:58:21.988-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-may-27/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -233,7 +284,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of May 11-May 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-may-15/"/>
-    <updated>2020-09-29T11:12:58.824-07:00</updated>
+    <updated>2021-10-21T11:58:21.988-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-may-15/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -283,7 +334,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of May 4-May 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-May-10/"/>
-    <updated>2020-09-29T11:12:58.822-07:00</updated>
+    <updated>2021-10-21T11:58:21.985-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-May-10/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -324,7 +375,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Prioritizing users in a crisis: Building the California COVID-19 response site</title>
     <link href="http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/"/>
-    <updated>2020-09-29T11:12:58.825-07:00</updated>
+    <updated>2021-10-21T11:58:21.989-07:00</updated>
     <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
     <content type="html">  
 		
@@ -550,7 +601,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Alpha.CA.gov product release 3</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/"/>
-    <updated>2020-09-29T11:12:58.820-07:00</updated>
+    <updated>2021-10-21T11:58:21.984-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -770,7 +821,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of February 23)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
-    <updated>2020-09-29T11:12:58.821-07:00</updated>
+    <updated>2021-10-21T11:58:21.985-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Feb-23-March%201/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -811,7 +862,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Feb. 17)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
-    <updated>2020-09-29T11:12:58.823-07:00</updated>
+    <updated>2021-10-21T11:58:21.987-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -827,7 +878,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Why Alpha.CA.gov is prioritizing APIs</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
-    <updated>2020-09-29T11:12:58.819-07:00</updated>
+    <updated>2021-10-21T11:58:21.982-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-APIs/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -868,7 +919,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Feb. 10)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
-    <updated>2020-09-29T11:12:58.823-07:00</updated>
+    <updated>2021-10-21T11:58:21.986-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-10-feb-17/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -910,7 +961,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Alpha.CA.gov product release 2</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/"/>
-    <updated>2020-09-29T11:12:58.820-07:00</updated>
+    <updated>2021-10-21T11:58:21.983-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1101,7 +1152,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Feb. 3)</title>
     <link href="http://news.alpha.ca.gov/done-doing-feb-3-feb-9/"/>
-    <updated>2020-09-29T11:12:58.823-07:00</updated>
+    <updated>2021-10-21T11:58:21.987-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-feb-3-feb-9/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1118,7 +1169,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Jan. 27)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/"/>
-    <updated>2020-09-29T11:12:58.819-07:00</updated>
+    <updated>2021-10-21T11:58:21.982-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1158,7 +1209,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Lessons learned translating Alpha.CA.gov release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/"/>
-    <updated>2020-09-29T11:12:58.821-07:00</updated>
+    <updated>2021-10-21T11:58:21.984-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1219,7 +1270,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Jan. 20)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/"/>
-    <updated>2020-09-29T11:12:58.821-07:00</updated>
+    <updated>2021-10-21T11:58:21.985-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1263,7 +1314,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Jan. 13)</title>
     <link href="http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/"/>
-    <updated>2020-09-29T11:12:58.821-07:00</updated>
+    <updated>2021-10-21T11:58:21.985-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1303,7 +1354,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Alpha.CA.gov product release 1</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/"/>
-    <updated>2020-09-29T11:12:58.820-07:00</updated>
+    <updated>2021-10-21T11:58:21.983-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1537,7 +1588,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Jan. 6)</title>
     <link href="http://news.alpha.ca.gov/done-doing-jan-6-jan-12/"/>
-    <updated>2020-09-29T11:12:58.823-07:00</updated>
+    <updated>2021-10-21T11:58:21.987-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-jan-6-jan-12/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1553,7 +1604,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Alpha.CA.gov product framing (Updated 02/10/20)</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-framing/"/>
-    <updated>2020-09-29T11:12:58.820-07:00</updated>
+    <updated>2021-10-21T11:58:21.983-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-product-framing/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1653,7 +1704,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Dec. 30)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-30-jan-5/"/>
-    <updated>2020-09-29T11:12:58.822-07:00</updated>
+    <updated>2021-10-21T11:58:21.986-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-30-jan-5/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1691,7 +1742,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Dec. 16)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-16-dec-22/"/>
-    <updated>2020-09-29T11:12:58.822-07:00</updated>
+    <updated>2021-10-21T11:58:21.986-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-16-dec-22/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1726,7 +1777,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Our design principles</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-design-principles/"/>
-    <updated>2020-09-29T11:12:58.819-07:00</updated>
+    <updated>2021-10-21T11:58:21.982-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-design-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1771,7 +1822,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>This is how we work</title>
     <link href="http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/"/>
-    <updated>2020-09-29T11:12:58.819-07:00</updated>
+    <updated>2021-10-21T11:58:21.982-07:00</updated>
     <id>http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1819,7 +1870,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Done/doing (Week of Dec. 9)</title>
     <link href="http://news.alpha.ca.gov/done-doing-dec-9-dec-13/"/>
-    <updated>2020-09-29T11:12:58.823-07:00</updated>
+    <updated>2021-10-21T11:58:21.986-07:00</updated>
     <id>http://news.alpha.ca.gov/done-doing-dec-9-dec-13/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1856,7 +1907,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>And ... we’re in progress</title>
     <link href="http://news.alpha.ca.gov/and-were-in-progress/"/>
-    <updated>2020-09-29T11:12:58.821-07:00</updated>
+    <updated>2021-10-21T11:58:21.984-07:00</updated>
     <id>http://news.alpha.ca.gov/and-were-in-progress/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1888,7 +1939,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Introducing the CA.gov Alpha Team</title>
     <link href="http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/"/>
-    <updated>2020-09-29T11:12:58.825-07:00</updated>
+    <updated>2021-10-21T11:58:21.989-07:00</updated>
     <id>http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;
@@ -1991,7 +2042,7 @@ As we continue to iterate on this redesign and new tool, we will keep these prin
   <entry>
     <title>Re-imagining CA.gov How Can California Government Better Serve its People?</title>
     <link href="http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/"/>
-    <updated>2020-09-29T11:12:58.825-07:00</updated>
+    <updated>2021-10-21T11:58:21.989-07:00</updated>
     <id>http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/</id>
     <content type="html">
 &lt;figure class=&quot;figure&quot;&gt;

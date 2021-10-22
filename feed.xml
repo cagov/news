@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alpha.CA.gov</title>
+  <subtitle>Official news from Alpha.CA.gov.</subtitle>
+  <link href="https://news.alpha.ca.gov/feed.xml" rel="self"/>
+  <link href="http://news.alpha.ca.gov"/>
+  <updated>2021-10-22T01:57:07Z</updated>
+  <id>https://news.alpha.ca.gov</id>
+  <author>
+    <name>State of California</name>
+  </author>
+  
+  <entry>
+    <title>Saying it with style</title>
+    <link href="http://news.alpha.ca.gov/saying-it-with-style/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/saying-it-with-style/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/say-it-with-style.png&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Today we&#39;re excited to share our updated content style guide&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When we started working on &lt;a href=&quot;https://www.alpha.ca.gov/&quot;&gt;alpha.ca.gov&lt;/a&gt; we defined our &lt;a href=&quot;https://news.alpha.ca.gov/alpha-ca-gov-design-principles/&quot;&gt;design principles&lt;/a&gt;. They included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with user needs.&lt;/li&gt;
+&lt;li&gt;Do less.&lt;/li&gt;
+&lt;li&gt;Do the hard work to make it simple and elegant.&lt;/li&gt;
+&lt;li&gt;Iterate—then iterate again.&lt;/li&gt;
+&lt;li&gt;Make it accessible and inclusive.&lt;/li&gt;
+&lt;li&gt;Understand context.&lt;/li&gt;
+&lt;li&gt;Be consistent, but not uniform.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We used these principles to create an early alpha.ca.gov style guide. As we got to work on &lt;a href=&quot;https://covid19.ca.gov/&quot;&gt;covid19.ca.gov&lt;/a&gt;, we realized we needed to update this guide both to meet the pandemic and power future projects.&lt;/p&gt;
+
+&lt;p&gt;Today, we’re excited to share our updated &lt;a href=&quot;https://handbook.digital.ca.gov/content/&quot;&gt;content style guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new style guide iterates on our &lt;a href=&quot;https://handbook.alpha.ca.gov/en/latest/content/&quot;&gt;Alpha content style guide&lt;/a&gt;. It also pulls from the &lt;a href=&quot;https://github.com/cagov/covid19/wiki/Crisis-Standard&quot;&gt;covid19.ca.gov crisis communication standard&lt;/a&gt; and our &lt;a href=&quot;https://github.com/cagov/covid19/wiki/Inclusivity-considerations-checklist&quot;&gt;accessibility and inclusivity guidelines&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new style guide provides several benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content creators only have to look in one place when they have a question about how we do something.&lt;/li&gt;
+&lt;li&gt;We’re more consistent in our content.&lt;/li&gt;
+&lt;li&gt;The style guide itself models how we want to write.&lt;/li&gt;
+&lt;li&gt;Listing our content types sparks ideas for how to present content.&lt;/li&gt;
+&lt;li&gt;We build accessibility into our writing from the start.&lt;/li&gt;
+&lt;li&gt;The presence of a style guide makes us think about what more we can add.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last point is important. The content style guide is not done. It’s a document that we continue to think about and improve on. At least once a week someone asks, “Should we add that to the style guide?” We have a dedicated Slack channel where we collaborate on additions and modifications.&lt;/p&gt;
+
+&lt;p&gt;In keeping with our principle of Do less, we’re hosting the style guide through &lt;a href=&quot;https://spacebook.app/&quot;&gt;Spacebook&lt;/a&gt;, a github-based solution. We chose this solution because:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Our developers could set it up easily (especially compared to standing up a content management system like WordPress)&lt;/li&gt;
+&lt;li&gt;Writing in markdown required minimal coding knowledge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Much like Alpha, the content style guide is part of transforming how we communicate with Californians. We’ve only begun our journey, but we know where we want to go and are moving there little by little.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Keeping it simple when it’s actually quite complex</title>
+    <link href="http://news.alpha.ca.gov/covid19-redesign-Sept-29/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/covid19-redesign-Sept-29/</id>
+    <content type="html">
+&lt;figure class=&quot;“figure”&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-image.jpg&quot; alt=&quot;Blueprint&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the new county-specific open/closed tool.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Government information and services can be difficult for the average user to make sense of, even in the best of times. As we face COVID-19 and wildfires, the need to make sure Californians have the information and access to services that they need is more critical than ever - and more challenging. &lt;/p&gt;
+
+&lt;p&gt;
+COVID-19 has brought new policies and corresponding guidance for everything from manufacturing and eating out, to getting rent and food assistance, and even just going to the grocery store. The sheer volume of essential information people need can be overwhelming.
+&lt;/p&gt;
+
+&lt;p&gt;
+To provide a single, one-stop shop to answer COVID questions, our team was directed to build &lt;a href=&quot;https://covid19.ca.gov/&quot; target=&quot;_blank&quot;&gt;covid19.ca.gov&lt;/a&gt;. We &lt;a href=&quot;https://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/&quot;&gt;built it in just four days&lt;/a&gt;, guided by our &lt;a href=&quot;https://handbook.alpha.ca.gov/en/latest/design-principles/&quot; target=&quot;_blank&quot;&gt;core principles&lt;/a&gt;. Foremost among them: put the user first, make it accessible, make it fast, and make it simple.  
+&lt;/p&gt;
+
+&lt;p&gt;
+Since we launched in March, we’ve been testing, iterating, and improving, doing the hard work of making information that’s complex, complicated, and often confusing into something simple, accessible, and helpful.
+&lt;/p&gt;
+
+&lt;p&gt;
+We’ve added new team members who bring deep expertise in UX design, content design, user research, and product delivery. We’ve established effective two-way communication with subject matter experts and policy makers to ensure the non-stop stream of data and information is accessible. And we continue to ask users what they think, incorporating their feedback into the product in real time.
+&lt;/p&gt;
+
+&lt;p&gt;
+Recently, the governor introduced the “Blueprint for a Safer Economy,” a new framework for reducing the spread of COVID-19. Central to the framework are criteria for loosening and tightening restrictions on everyday activities, like getting a haircut or going to the mall. To help make this framework accessible and usable by Californians, we designed and developed a new tool that shows simply and clearly what&#39;s open and what’s closed, county-by-county.
+&lt;/p&gt;
+
+
+&lt;p&gt;Our goals with this iteration were threefold: &lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Serve as the single source of truth on open/closed status and restrictions around any particular activity in every county&lt;/li&gt;
+    &lt;li&gt;Reduce confusion on what is safe and why/why not, when this will change and why&lt;/li&gt;
+    &lt;li&gt;Give individuals and businesses the information they need to be able to plan ahead and flex as needed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+In addition to the open/closed tool, we redesigned our homepage and basic elements of the site, like the footer, the font, colors, header, and navigation. 
+&lt;/p&gt;
+
+&lt;p&gt;
+We&#39;ve learned over the last few months that something as simple as a word change on the website can represent the state’s governing response to the pandemic. And that delivering simple, fast, accessible information in the midst of multiple, simultaneous crises means coordinating in real time with everyone involved in the process: legal, subject matter experts, stakeholders, etc. Which in the midst of a crisis is not always easy. 
+&lt;/p&gt;
+
+&lt;p&gt;
+It also means almost constant iteration of design, development, user research, product management and content. Importantly, it requires balancing the reality of regular fire drills and high-level and often complex policy and legal guidance with the need to prioritize and maintain the user experience. 
+&lt;/p&gt;
+
+&lt;p&gt;
+What you see is a work in progress. And, as always, we need and value your feedback.
+&lt;/p&gt;
+&lt;br /&gt;
+
+
+
+
+&lt;h3&gt;Applying analytics and research to simplify the complicated&lt;/h3&gt;
+&lt;p&gt;
+We started work on the new, status-lookup tool by listening to what our users were saying and doing. 
+&lt;/p&gt;
+
+&lt;p&gt;
+In a nutshell: people want to know what they can and can’t do so they can plan, and live their lives, safely. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Our site analytics clearly showed that most users were navigating to just two pages when they landed on the site: “County variance info,” where county-specific information  is available and the Stay Home Q &amp; A, which is designed to answer questions about essential and non-essential needs and activities.
+&lt;/p&gt;
+&lt;figure class=&quot;“figure”&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/County-variance.png&quot; class=&quot;img-fluid&quot; alt=&quot;variance&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the prior county variance page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br /&gt;
+&lt;p class=&quot;mt-4&quot;&gt;
+This was further evidenced in our user testing and survey feedback. 
+&lt;/p&gt;
+
+&lt;p&gt;
+We conducted 20 user testing sessions. Throughout, the question of what’s open or closed in their county came up repeatedly. Users loved the idea of being able to use their zip code to get answers and repeatedly expressed confusion about the multiple previous frameworks like the monitoring list (“I am not sure what that is&quot;).
+&lt;/p&gt;
+
+&lt;p&gt;
+The feedback was unambiguous: users wanted an easier, more straightforward way to find out what’s open, what’s closed, in their county. And businesses want simple, clear guidance about whether they can open and how. 
+&lt;/p&gt;
+
+&lt;br /&gt;
+&lt;h3&gt;A simple tool for a complex time&lt;/h3&gt;
+&lt;p&gt;
+One of the key innovations in the blueprint is simplifying the previous frameworks by collapsing them into an intuitive four-tiered system. This is at the heart of this newest covid19.ca.gov product iteration. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Beginning as early as May, we started to think about simple ways to address one of our users’ top question: What’s open? 
+&lt;/p&gt;
+
+&lt;p&gt;
+Our team built an initial prototype, that we dubbed “project alameda haircut,” named to reflect user feedback, and in particular a user in Alameda who asked us about whether and when they can get a haircut. 
+&lt;/p&gt;
+
+
+
+&lt;figure class=&quot;“figure”&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/Project-Alameda-Haircut.png&quot; class=&quot;“img-fluid&quot; alt=&quot;Haircut&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the “project alameda haircut” prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br /&gt;
+&lt;p class=&quot;mt-4&quot;&gt;
+ As we iterated the product, policy makers were also iterating. Together, we were putting into practice the &lt;a href=&quot;https://www.codeforamerica.org/deliverydriven&quot; target=&quot;_blank&quot;&gt;principles of delivery driven government&lt;/a&gt; articulated by Code for America, namely: 1) understand and meet user needs; 2) real-time user data, not years-old estimates; and 3) iteration, from intention through implementation.
+&lt;/p&gt;
+
+&lt;p&gt;
+The new tool developed to support the Blueprint for a Safer Economy framework was informed by lessons learned and is an iteration of “project alameda haircut.” It’s simple and intuitive to use, and validated by users. The user simply enters their county and desired activity to find out if it’s allowed or if there are any restrictions. What started out as a list of links and PDFs has evolved into a more interactive tool informed by data, user feedback, policy, and design.
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;h3&gt;Moving forward, continuing to iterate&lt;/h3&gt;
+
+&lt;p&gt;
+In the near term, our focus is to continue to bring data and data-driven tools into the site by  making the user experience more meaningful and easier to understand. And as always, speed, accessibility, and readability remain at the core of our work. 
+&lt;/p&gt;
+
+&lt;p&gt;
+As we continue to iterate on this redesign and new tool, we will keep these principles central to our work of making the complex and complicated more easily understood and quickly accessed for every Californian.
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of May 25-May 31)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-june-6/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-june-6/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re super excited about the work we’re doing. In particular, we continue to hear from Californians about their experience with the impact of COVID-19. And our dev team is doing amazing work making site content even more accessible by making it even easier to find.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We’ve heard directly from over 38,880 Californians from across the state. We have used comments and insights to help inform policy makers and agency partners hear direct feedback about how Californians are doing.&lt;/li&gt;
+	&lt;li&gt;Shipped our quick answers product to production: We scrape our site, identify specific Question and Answer pairs we can extract, keep these in an azure cognitive search database, query it via serverless API when users search, and display any relevant Q&amp;A pairs. The hope is that this will help users find a specific piece of information quickly and they won’t have to hunt through all of the content on any related urls returned by the main search engine. We are collecting user activity with these quick answers and using that data to refine and augment our site content which will be re-scraped and improve the quick answers dataset in a positive feedback loop.&lt;/li&gt;
+	&lt;li&gt;Made performance improvements on the mobile version of our site based on deficiencies exposed by Lighthouse v6&lt;/li&gt;
+	&lt;li&gt;Have now refined the human translation pipeline so that content flows smoothly from our authoring process through the translation vendor system and back to our publishing pipeline.&lt;/li&gt;
+	&lt;li&gt;Drafted new data-driven way to let people look up what’s open in their county&lt;/li&gt;
+&lt;li&gt;Published answers about most frequently searched topics (hair salons, travel, churches)&lt;/li&gt;
+&lt;li&gt;Wrote logical button names for new nav structure&lt;/li&gt;
+&lt;li&gt;Edited 6 major webpages for better readability&lt;/li&gt;
+&lt;li&gt;Consolidated the navigation into one global section&lt;/li&gt;
+&lt;li&gt;Organized all the pages under top 4 categories&lt;/li&gt;
+&lt;li&gt;Improved consistency of the search results page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;About to launch a new survey that will help capture how people are handling new guidelines as we continue down the recovery roadmap.&lt;/li&gt;
+	&lt;li&gt;Creating new pages as required&lt;/li&gt;
+	&lt;li&gt;Purging outdated content&lt;/li&gt;
+	&lt;li&gt;Making the rest of the webpages more readable&lt;/li&gt;
+    &lt;li&gt;Synthesizing user feedback into actionable improvements&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of May 18-May 24)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-may-27/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-may-27/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A little late is better than never. Last week’s done and this week’s doing for your perusal.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Ran 14 usertesting.com interviews to provide feedback on a new site information architecture and design. Found some great, actionable insights regarding people’s preferences on the homepage. And identified important needs regarding search functionalities on the site&lt;/li&gt;
+	&lt;li&gt;Rolled out plasma donation search powered by our public web components and APIs&lt;/li&gt;
+	&lt;li&gt;Cut 75% off our 11ty build times by selectively running our jsdom powered post transformations based on hash comparisons and caching processed assets&lt;/li&gt;
+	&lt;li&gt;Automated stats updates with API cronjob writing to github&lt;/li&gt;
+	&lt;li&gt;Integrated automated image optimization into pipeline, upgraded all environments to server webp successfully&lt;/li&gt;
+&lt;li&gt;Designed new pages for contact tracing and plasma donation based on SME input&lt;/li&gt;
+&lt;li&gt;Renamed high-use buttons to have more intuitive names&lt;/li&gt;
+&lt;li&gt;Did readability editing on several web pages&lt;/li&gt;
+&lt;li&gt;Launched the first set of changes related to the redesign into production&lt;/li&gt;
+&lt;li&gt;Made several accessibility improvements&lt;/li&gt;
+&lt;li&gt;Staged second set of changes to enable user testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Reviewing our quick answer dataset generated from site crawl against the call center Q&amp;A docs. If we can publish regular change lists automatically might be helpful&lt;/li&gt;
+	&lt;li&gt;Continue to monitor and revamp the broad survey&lt;/li&gt;
+	&lt;li&gt;Prototyping reorganized content based on user feedback and known audiences&lt;/li&gt;
+	&lt;li&gt;Working on developing a global navigation for the website&lt;/li&gt;
+    &lt;li&gt;Synthesizing and incorporating user research into redesign&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of May 11-May 17)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-may-15/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-may-15/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing_0515.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And herewith, please find this week’s list of things we’ve done and what we’re doing for the week ahead. This post covers the week of May 11-May 17.&lt;/p&gt;
+
+&lt;p&gt;As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Synthesized over 7600 responses via the website survey, responses have been from across all counties in CA, including all age groups (much more distributed than typical survey/website visits)&lt;/li&gt;
+	&lt;li&gt;Collected approximately 300 responses via the Feedback button/Survey directly on the site, surfacing specific insights, on-going themes and edge-cases to various agencies and the core team&lt;/li&gt;
+	&lt;li&gt;Integrated data dashboard and map into website&lt;/li&gt;
+	&lt;li&gt;Our Q&amp;A prototype that displays questions and answers relevant to internal searches graduated to user testing phase&lt;/li&gt;
+	&lt;li&gt;Added more user behavior tracking in google analytics to identify most used sections of pages built with our web components&lt;/li&gt;
+&lt;li&gt;Editing and adding new content related to testing, contact tracing, Stage 2 of our roadmap, and guidance for counties and industries&lt;/li&gt;
+&lt;li&gt;Established initial set of changes for the homepage redesign&lt;/li&gt;
+&lt;li&gt;Created and published design principles and style guide for COVID19&lt;/li&gt;
+&lt;li&gt;Announced hiring for an &lt;a href=&quot;https://news.alpha.ca.gov/roles/&quot;&gt;Agile Delivery Manager and Performance Analyst&lt;/a&gt;  
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Launching usertesting.com to get feedback on quick answers and new IA design&lt;/li&gt;
+	&lt;li&gt;Continue to support and monitor NPI information and edit/change accordingly&lt;/li&gt;
+	&lt;li&gt;Receiving and integrating human translated versions of all new site pages in 7 languages, continuing to refine this process&lt;/li&gt;
+	&lt;li&gt;Improving readability on already-published content&lt;/li&gt;
+    &lt;li&gt;Prioritizing content based on site searches and user feedback&lt;/li&gt;
+    &lt;li&gt;Publishing homepage redesign changes for user testing&lt;/li&gt;
+	&lt;li&gt;Planning second set of changes and information architecture implementation&lt;/li&gt;
+	&lt;li&gt;Continuing to work on building a recruitment pipeline of talented, committed people&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+ 
+ 
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of May 4-May 10)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-May-10/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-May-10/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/COVID19-Done-doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of May 4-May 10.&lt;/p&gt;
+
+&lt;p&gt;Today marks the return of our weekly done/doing posts. Our focus with COVID19.CA.gov has been, relentlessly, on accessibility and performance. This commitment is reflected in every aspect of our team’s daily work. To date, we’ve made 6,200 commits in GitHub, 99% of those work done by our team (the remaining  1% courtesy of bots pitching in to do their part). As always, this site is a work in progress, and we continue to strive to do more, and do better to help Californians.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Launched a round of feedback on &lt;a href=&quot;http://usertesting.com/&quot;&gt;usertesting.com&lt;/a&gt; across different gender, age and income levels to better understand how people&#39;s knowledge and information needs have changed from 1 month ago. Conducted 15 interviews on both mobile and computer to look at &lt;a href=&quot;http://covid19.ca.gov/&quot;&gt;covid19.ca.gov&lt;/a&gt;, to understand where users get their information, and to look through the site for comprehension, usability and general design.&lt;/li&gt;
+	&lt;li&gt;Launched a special ux survey with 70 responses to get feedback on the speed accessibility content and design&lt;/li&gt;
+	&lt;li&gt;Soft launched site with Vietnamese, Tagalog, Korean and Arabic translations. This is in addition to the already live browseable in human translated English, Spanish, Traditional and Simplified Chinese.&lt;/li&gt;
+	&lt;li&gt;Created several options for a redesign of the homepage&lt;/li&gt;
+	&lt;li&gt;Created design for the new resilience roadmap page&lt;/li&gt;
+&lt;li&gt;Edited page content for most pages in English published this week&lt;/li&gt;
+&lt;li&gt;Authored posts in WP, especially for urgent changes&lt;/li&gt;
+&lt;li&gt;Collaborated on homepage redesign, roadmap&lt;/li&gt;
+&lt;li&gt;Updated meta-descriptions for appropriate top pages to include &quot;shelter in place&quot; and &quot;seniors&quot;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Making search improvements: Adding questions and answers relevant to internal searches so that we can quickly surface specifically what a user needs. We have a prototype of this now, will iterate and compare it with vendor solutions next week before choosing and shipping what best serves users&lt;/li&gt;
+	&lt;li&gt;Implementing redesign changes in phases&lt;/li&gt;
+	&lt;li&gt;Documenting COVID design standards&lt;/li&gt;
+	&lt;li&gt;Developing masks content&lt;/li&gt;
+	&lt;li&gt;Finding where content has aged between Stages 1 and 2&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Prioritizing users in a crisis: Building the California COVID-19 response site</title>
+    <link href="http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/prioritizing-users-in-a-crisis-building-covid19-ca-gov/</id>
+    <content type="html">  
+		
+  &lt;p&gt;The CA.gov Alpha team was tasked with developing the California state COVID-19 emergency response website in collaboration with the CHHS Office of Innovation and the California Department of Technology.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our challenge: Create a scalable, accessible, stable website that is easy to update in a fast changing public health crisis. And do it in four days.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;This challenge is one that will be familiar to our digital colleagues working in other states, cities and countries right now. We’ve been super impressed by and appreciative of the work being done in places like &lt;a href=&quot;https://sf.gov/topics/coronavirus-covid-19&quot;&gt;San Francisco&lt;/a&gt;, &lt;a href=&quot;https://covid19.nj.gov/&quot;&gt;New Jersey&lt;/a&gt; and the &lt;a href=&quot;https://www.gov.uk/coronavirus&quot;&gt;United Kingdom&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Just like those teams, we’ve been focused on prioritizing user needs in this time of crisis. And we thought it could be useful to share out how we’ve been using technology/development decisions to do this.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;For our team, we started by returning to one of our core principles: “Always accessible.”&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We recognize, of course, that “Always accessible” is not a novel approach. Here in California accessibility is a guiding principle in the state’s digital strategy. And our work is just one part of the state’s larger commitment to ensuring that information and services are accessible.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;What is novel is how our team is broadening the definition of accessibility for state government to include performance as a core component. Performance as accessibility.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our goal is to make COVID19.CA.gov fast and easy to use on any kind of hardware or with any level of bandwidth.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We’re not yet 100% accessible – but accessibility is 100% our north star and what we are working toward every day.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h2&gt;Accessible, always&lt;/h2&gt;
+  
+  
+  
+  &lt;p&gt;We take multiple steps to make sure our products work for everyone.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We run automated audits which give us performance and accessibility scores on every build. Getting a high score on these automated tools is a good initial indicator, but not the whole story. We also manually test sites, ensuring we remain accessible via alternative navigation modes. We test with screen readers, which gives us a sense of how our site is experienced by sight-impaired users. This helps find and eliminate interactions that might trap or slow people down.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We’re grateful for support from the &lt;a href=&quot;https://www.dor.ca.gov/&quot;&gt;California Department of Rehabilitation&lt;/a&gt;. The DOR team trained us to use those screen readers and has been instrumental helping us understand and avoid many common issues often created accidentally.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;And we’re grateful to the CHHS Office of Innovation whose team members are the frontline in our work to make our content accessible and clear.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h2&gt;Performance as a critical component of accessibility&lt;/h2&gt;
+  
+  
+  
+  &lt;p&gt;&lt;a href=&quot;https://wpostats.com/&quot;&gt;Fast sites are more successful &lt;/a&gt;than slow ones. And some tools make it easier than others to produce fast sites.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Our team uses Bootstrap, which by default, is quite large. So we make sure to run CSS pruning processes to trim out all unused code before deploying to production. We also avoid the Bootstrap javascript widgets because we prefer using small, low dependency Web Components.&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;Web Components&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;Delivering the desired layout and interactivity with a small code footprint allows us to hit our performance goals more easily. We create light frontend interactivity by publishing Web Components. When we have to build our own we use some of the &lt;a href=&quot;https://open-wc.org/&quot;&gt;open-wc&lt;/a&gt; build tools that help by providing models for running components in isolation and integrated testing patterns.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are mostly depending on the custom element part of the web component standard. This lets us easily use components on different properties with an npm install and using the tag on a page, allowing us to provide the maximum amount of flexibility and reuse. Building new frontend properties using Web Components is a user-first choice for many reasons:&lt;/p&gt;
+  
+  
+  
+  &lt;ul&gt;&lt;li&gt;Web Components work well with any tech stack&amp;nbsp;&lt;/li&gt;&lt;li&gt;Component code can travel with its own integrated unit tests&lt;/li&gt;&lt;li&gt;Integration can be done via npm&lt;/li&gt;&lt;li&gt;Web Components can be modified in isolation and versioned so consumers can choose which versions to install&lt;/li&gt;&lt;/ul&gt;
+  
+  
+  
+  &lt;p&gt;These advantages give new code a better chance for longevity and higher probability that our current efforts are providing future benefit instead of technical debt.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are aware that building our own &lt;a href=&quot;https://www.npmjs.com/org/cagov&quot;&gt;components&lt;/a&gt; when necessary is a big decision. We only undertake this when we can’t find existing options that use dependencies sparingly and provide the required UI. When creating new components we run tests&amp;nbsp; in browsers, down to IE11, as well as ensuring they adhere to all of our other standards for accessibility and performance.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;A site with bad performance is exponentially worse on a low end device&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;We’re proud to have achieved a high score on our &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Lighthouse&lt;/a&gt; performance audit but that isn’t enough for government tools, especially in this time of crisis.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We need to go above and beyond to ensure that all users are able to get a performant experience, no matter their device. This is especially true since users aren’t able to shop around for a different, better government experience.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;So we picked up the cheapest phone they had at Cricket Wireless. A $20 device running Android 9, with no contract commitment has been one of the most useful and effective tools in our effort to be accessible.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;The experience on this device is pretty different from what we see on the newest iPhones or Google Pixel devices. Pages delivering a lot of javascript are slow to render and respond to interaction, any scroll triggered effects look terrible and not actually cool (like they look on a new iPhone). Even swiping quickly through long, complex pages can be frustrating and slow as the device struggles to render lots of content.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Leaner, faster sites benefit &lt;em&gt;everybody&lt;/em&gt;, but making sure your applications run smoothly on low-end hardware makes a massive difference for those users.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;Preserving performance&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;As we add new features, it can be difficult to keep tabs on how our performance is changing. As well as using Lighthouse, we’ve introduced Calibre to our reporting, as this enabled us to keep our builds fast. We’re able to trigger performance and accessibility reports on each build with a process running outside of the build itself.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;This is how Calibre reports our changes to Slack:&lt;/p&gt;
+  
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/perf-monitor.jpg&quot; class=&quot;&quot; alt=&quot;Monitoring performance in slack&quot; /&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Calibre reporting performance metrics to slack&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  
+  &lt;p&gt;We can use this same data to report to our dashboards. This helps us with visibility to the whole team, not just the engineers.&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/dashboard.jpg&quot; class=&quot;&quot; alt=&quot;Monitoring performance in slack&quot; /&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Performance and Accessibility widgets in data studio dashboards&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;h3&gt;Getting expert advice&lt;/h3&gt;
+  
+  &lt;p&gt;Alex Russell, Senior Staff Software Engineer for Chrome at Google, kindly &lt;a href=&quot;https://docs.google.com/document/d/1S4jG8YKZrL_RpaDf5uk_vuEO7osdNNloDnXTAfjuDdo/edit&quot;&gt;analyzed&lt;/a&gt; the covid19.ca.gov site. He identified some areas for improvement with our fonts and integration with Google Analytics.&lt;/p&gt;
+  
+  &lt;p&gt;We were stoked to have&amp;nbsp; Alex’s deep expertise benefit COVID19.CA.gov. And we’re deeply appreciative of his advocacy to pay attention to performance.&amp;nbsp;&lt;/p&gt;
+  
+  &lt;p&gt;Overall, Alex found that the covid19.ca.gov site was fast, rendered quickly and finished all operations faster than similar sites, which helps users get the information they need quickly and easily.&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;a href=&quot;https://s3.amazonaws.com/www.whatupwebdev.com/assets/ca_covid_19_comparison_video.mp4&quot;&gt;&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/webpagetest.jpg&quot; class=&quot;&quot; alt=&quot;WebPageTest Comparison timeline&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;Web Page Test timeline comparison&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  
+  &lt;h2&gt;Interactivity with APIs&lt;/h2&gt;
+  
+  &lt;h3&gt;Functions as a Service (FAAS)&lt;/h3&gt;
+  
+  &lt;p&gt;API endpoints running on FAAS allow us to keep our backend code in isolated, cheap, scalable components. The &lt;a href=&quot;https://twitter.com/cadotgov&quot;&gt;@CAdotGov&lt;/a&gt; team is running infrastructure mostly on Azure. &lt;a href=&quot;https://twitter.com/CarterMedlin&quot;&gt;Carter Medlin&lt;/a&gt; set up the first APIs on Azure’s FAAS services.&amp;nbsp;&lt;/p&gt;
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/api-alpha.jpg&quot; class=&quot;&quot; alt=&quot;api.alpha.ca.gov screenshot&quot; /&gt;
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;&lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;https://api.alpha.ca.gov&lt;/a&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  
+  &lt;h2&gt;Stability via pregeneration&lt;/h2&gt;
+  
+  
+  
+  &lt;p&gt;Covid19.ca.gov received millions of visitors in the hours after Governor Newsom announced the statewide Stay at Home Order.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;The site was able to handle this level of traffic easily because we removed every unnecessary piece from the production service pipeline. This provided us with peace of mind ahead of launch, lowers costs and improves stability. While our content is constantly updated and deployed automatically, we create a pregenerated version of the final build each time so that production systems serve the body of pages as static content.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We chose &lt;a href=&quot;https://11ty.io/&quot;&gt;11ty&lt;/a&gt; as our static content generator because we like their philosophy and emphasis on performance and accessibility. Making the production build a set of static files removes a lot of common bottlenecks. Scaling concerns are radically simplified because the initial content is delivered without database connections or even any server side code execution.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;Removing complexity and risk from the production pipeline doesn’t require us to forego any interactivity or force us to abandon mature open source tools.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We are making the choice to run all computation possible before deployment. We are still using APIs for data driven interactions, such as the &lt;a href=&quot;https://covid19.ca.gov/telehealth&quot;&gt;Telehealth provider lookups&lt;/a&gt; page. Content is authored in our private WordPress repository and the output is integrated with 11ty, so we don’t run PHP on public servers.&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;h3&gt;Authoring with WP, FAAS, github actions&lt;/h3&gt;
+  
+  
+  
+  &lt;p&gt;We chose WordPress for their premier authoring environment but decided not to use it as a content delivery tool. This allowed us to take advantage of the mature writing tools WordPress provides without needing to support any of its dependencies in our production environment.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We were able to decouple WordPress authoring from reading by using its built in API. We set its publish trigger to notify our Function as a Service (FAAS) service when content was updated. Our &lt;a href=&quot;https://github.com/cagov/wordpress-integration-api&quot;&gt;FAAS tool&lt;/a&gt; moved the post content from WordPress to Github.&lt;/p&gt;
+  
+  
+  
+  &lt;p&gt;We then used &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action-plus-rss&quot;&gt;a Github Action&lt;/a&gt; to trigger 11ty builds and deploy to a browseable github pages branch which then triggers the deploy to our Azure production environment&amp;nbsp;&lt;/p&gt;
+  
+  
+  
+  &lt;figure class=&quot;figure&quot;&gt;
+    &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/webAppReferenceArchitecture.jpg&quot; class=&quot;&quot; alt=&quot;Web App Reference Architecture&quot; /&gt;
+  &lt;/figure&gt;
+
+  
+  &lt;h2&gt;It’s not over&lt;/h2&gt;
+  
+  
+  
+  &lt;p&gt;We know that the COVID-19 pandemic is a marathon, not a sprint. We’re mindful there’s more work to do in the coming weeks and months. And our team is looking forward to continuing to meet the challenge of this moment by ensuring that the people of California get the information they need quickly and easily.&lt;/p&gt;
+  
+</content>
+  </entry>
+  
+  <entry>
+    <title>Alpha.CA.gov product release 3</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-3/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Cover-Release-3.jpg&quot; class=&quot;&quot; alt=&quot;A complete list of all Alpha.CA.gov user stories.&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;A complete list of all Alpha.CA.gov user stories.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first phase of the Alpha.CA.gov initiative wrapped up this past Friday with the release of eight new prototypes:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Apply for a discounted phone service&lt;/li&gt; 
+	&lt;li&gt;Check your tap water quality&lt;/li&gt;
+	&lt;li&gt;Find shelters near you&lt;/li&gt;
+	&lt;li&gt;Contact a state agency&lt;/li&gt;
+    &lt;li&gt;Prepare for a wildfire&lt;/li&gt;
+    &lt;li&gt;Considerations after a wildfire&lt;/li&gt;
+    &lt;li&gt;Sign up for local emergency alerts&lt;/li&gt;
+    &lt;li&gt;Apply for unemployment insurance&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;As with our prior releases, this third and final release is the product of research, experimentation and iteration. In this release, we shipped the most stories in the shortest period of time. We wanted to show the value of at least creating initial prototypes, emphasizing the fact that we should always be iterating.&lt;/p&gt;
+
+&lt;p&gt;On the research and experimentation front, we tried a few new methods for getting user feedback, including a new online tool and expanded in-person testing.&lt;/p&gt;
+
+&lt;p&gt;The online tool allowed us to connect with Californians across the state from a mix of socio-economic backgrounds, varying levels of tech savvy (and non-savvy) as well as other criteria like “previously evacuated due to a wildfire or other natural disaster” to get feedback on our disaster prototypes.&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;We also prioritized in-person research and feedback including soliciting friends and family feedback on water quality. One of the most surprising outcomes from this testing was that every person we talked to had, at one time, checked their water quality. Whether it was because they were using it to mix baby formula or because they grew up in a place where tap water was unsafe, it was a surprising number of people.&lt;/p&gt;
+
+&lt;p&gt;We recognize that the n (the number of people talked to) in research like this is small but the chance to have the opportunity to ask “why” or “can you tell us more” in 30-minute, in-person interviews is invaluable.&lt;/p&gt; 
+
+&lt;p&gt;These interviews allowed us to get at a deeper understanding of the questions people have around water, the work-arounds they use to try and figure out their water quality, and why this is such an important user need to focus on.&lt;/p&gt; 
+
+&lt;p&gt;Our in-person research also taught us that when working with disaster preparedness, response, or recovery, each person’s experience is SO unique to their situation that it’s hard to get feedback that can be universalized and turned into a standard experience for users. But we embraced every piece of feedback and the prototypes that we offer in this release are intended to be iterated on and improved to become more relevant to people’s lives.&lt;/p&gt;
+
+&lt;p&gt;Going through this process helped clarify for us the role government plays in providing information. It also gave us insights into the challenges and possible approaches to sharing information relevant to each person’s individual situation.&lt;/p&gt;
+
+&lt;p&gt;As the last prong in our expanding user research efforts, we’re circling back with everyone who submitted their email in the initial survey (about 85 people). We will send the alpha.ca.gov site to them to ask for feedback.&lt;/p&gt;
+
+&lt;p&gt;Our dev/tech team also really expanded on some best practices and brought some deep learnings to their work in this sprint. &lt;/p&gt;
+
+&lt;p&gt;The team used a Cricket Wireless’ Icon phone to test everything on low-end hardware. Making this part of our process exposed interesting new bugs and highlighted how important our existing focus on performance is. Being able to see render issues and interaction lag on a real device made it possible for each team member to actually see and feel the sub-par experience users on these devices have when surfing the web.&lt;/p&gt;
+
+&lt;p&gt;This is critical given the fact that our team all use the most recent or prior release Apple or Android phones. And that when we make performance improvements the impact on high-end devices is minimal but is dramatic on low-end phones like the Cricket.&lt;/p&gt;
+
+&lt;p&gt;The other thing our dev team was really excited about this sprint was beginning to publish our own web components to power customized widgets, which really improved quality. We were able to hammer out interaction and accessibility improvements and install updates easily across multiple sites.&lt;/p&gt; 
+
+&lt;p&gt;We’re working on a separate blog that wraps up the Alpha phase and provides several, really interesting takeaways and learnings. Stay tuned for that later this week.&lt;/p&gt;
+
+&lt;p&gt;As with all of our work, these newest prototypes are presented to you as works in progress. We welcome your feedback to make them better.&lt;/p&gt; 
+
+&lt;h2&gt;Homepage&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We asked users for their feedback on how best to group prototypes. The final groupings reflect the feedback from these users.&lt;/li&gt;
+&lt;li&gt;Check out the &lt;a href=&quot;https://alpha.ca.gov/&quot;&gt;iterated homepage&lt;/a&gt;  
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Check if you can get a discounted phone service&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User story: As a low income person, I need LIFELINE SERVICES, so that I can stay connected and communicate.&lt;/li&gt;
+&lt;li&gt;Our assumption: It’s imperative that we build services for all people and all devices. Californians that use Lifeline Services are often eligible for other social services. We assume that prioritizing this need will reveal other services to tackle. We want to test if this is the case and if this content and format makes sense to folks that depend on these services.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/64&quot;&gt;GitHub issue #64&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.cpuc.ca.gov/lifeline/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-baseline-transaction-landing-S-page.jpg&quot; alt=&quot;Screenshot of current Lifeline Services baseline.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of current Lifeline Services baseline.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated multiple prototypes, including:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-1.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-question-2-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-eligibility-before-testing-question-3-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/lifeline-apply-online-before-testing-S.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Check=&quot;&quot; if=&quot;&quot; you=&quot;&quot; can=&quot;&quot; get=&quot;&quot; a=&quot;&quot; discounted=&quot;&quot; phone=&quot;&quot; service”&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check if you can get a discounted phone service”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Oh next, what’s next. Oh it didn’t do anything because I was supposed to click on something. That’s good.”&lt;/li&gt; 
+    &lt;li&gt;“Until you explained it a little bit more it wasn’t clear that I should go through it step by step. I would recommend hiding the other steps. Start with ‘if you can go to a discount.’” (This comment helped reinforce that “check elgibility” was its own need.)&lt;/li&gt;
+    &lt;li&gt;“I like that it explains what a household is.”&lt;/li&gt;
+	&lt;li&gt;“It is all easy to read but not intuitive to go to step #2.”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/check-if-you-can-get-discounted-phone-service/&quot;&gt;Check if you can get a discounted phone service&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Check your tap water quality&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a Californian, I need to know my WATER QUALITY, so I can know if it&#39;s safe to drink.&lt;/li&gt;
+    &lt;lil&gt;Our assumption: Water safety and accessibility is one of California&#39;s most significant issues. We assume that informing Californians of the quality of the water they drink is a need and one that is not currently being met. We sought to answer two questions: where does my water come from and what is my water quality? We then wanted to point people to a place where they could learn more. We hope to test if addressing these questions gets us closer to meeting the need.&lt;/lil&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/90&quot;&gt;GitHub issue #90&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.waterboards.ca.gov/water_issues/programs/hr2w/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Check your tap water quality” page.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Check your tap water quality”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated three prototypes:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Safe-to-drink-v2-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Check your tap water quality” page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Safe-to-drink-v3-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Water-Prototype-Unsafe-to-drink-v2-S.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Check your tap water quality.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Call out is confusing”&lt;/li&gt; 
+	&lt;li&gt;“What is that unit?”&lt;/li&gt;
+    &lt;li&gt;“Who is the authority on water?”&lt;/li&gt;
+    &lt;li&gt;“Would have preferred zip look-up because I&#39;m lazy, glad it auto populated”&lt;/li&gt;
+    &lt;li&gt;“Who is responsible if my water tastes funny?”&lt;/li&gt;
+    &lt;li&gt;“How is it determined how it&#39;s tested?”&lt;/li&gt;
+    &lt;li&gt;“How do I know to trust California?”&lt;/li&gt;
+	&lt;li&gt;“Going to state of CA, feels like asking Monsanto if corn is safe”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/check-your-tap-water-quality/&quot;&gt;Check your tap water quality&lt;/a&gt;” page&lt;/li&gt;
+&lt;/ul&gt;
+	
+&lt;h2&gt;Find shelters near you&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a person looking for temporary housing, I need to know where I can find my nearest SHELTER, so that I have a roof over my head.&lt;/li&gt;
+    &lt;li&gt;Our assumption: With access to housing at a crisis point here in California, making it easier to find shelters would be helpful, a value add and worth testing. There are many situations that could force a person to have to find a shelter - and as far as we could tell there is not a robust state data source for this information.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/102&quot;&gt;GitHub issue #102&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Baseline: there isn&#39;t anything comparable (that we could find)&lt;/li&gt;
+	&lt;li&gt;We ran out of time to test before shipping, but our product owner chose to launch recognizing that this prototype is not done, and we know there’s a need to test and iterate.&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/find-shelters-near-you/&quot;&gt;Find shelters near you&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Contact a state agency&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As someone who wants to know information about government organizations, I want to be able to find details and CONTACT INFORMATION for the organization I want to connect with.&lt;/li&gt;
+    &lt;li&gt;Our assumption: We assume that people are looking for state entity contacts. This will test the best way to share the state directory with Californians. And it will test any other content types we should consider when bucketing state entity information.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/65&quot;&gt;GitHub issue #65&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://cold.govops.ca.gov/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+	
+	&lt;figure class=&quot;figure&quot;&gt;
+		&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Contact%20Agency_Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Contact a state agency” page.&quot; /&gt;
+		&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Prepare for a wildfire&quot; page.&quot;&lt;/figcaption&gt;
+	&lt;/figure&gt;
+
+    &lt;li&gt;Limited bandwidth meant that we ended up testing this prototype internally with Alpha team staff members.&lt;/li&gt;
+    &lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/contact-us/&quot;&gt;Contact a state agency&lt;/a&gt;”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prepare for a wildfire and Sign up for local emergency alerts&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;User story: As a person who knows an emergency could happen, I need to know what TOP TEN emergency prep things I need, so that I can feel more prepared.&lt;/li&gt;
+    &lt;li&gt;Our assumption: We want to test if the public will trust the guidance/considerations in this content type. This is particularly focused on preparing for a wildfire. We want to learn what resonates with people.&lt;/li&gt;
+    &lt;li&gt;Additionally: One of the first things that became clear as we worked on the user story is that signing up for local emergency alerts should be a stand alone step prototype.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/98&quot;&gt;GitHub issue #98&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.caloes.ca.gov/individuals-families&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Wildfire-Preparedness-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Prepare for a wildfire” page.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Prepare for a wildfire&quot; page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated one prototype:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Prepare%20Wildfire-Prototype-1.jpg&quot; alt=&quot;Prepare for a wildfire&quot; prototype.&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;&quot;Prepare for a wildfire&quot; prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;“Wishes for graphics to be more clear”&lt;/li&gt; 
+	&lt;li&gt;“Know alert is by county”&lt;/li&gt;
+    &lt;li&gt;“Some you have to do in order, like you need a plan before you practice it”&lt;/li&gt;
+    &lt;li&gt;“All are important steps; leave in this order but make sure it makes sense in the order”&lt;/li&gt;
+    &lt;li&gt;“Doesn’t really understand how the content/steps are ordered”&lt;/li&gt;
+    &lt;li&gt;“How do I know this has accurate info”&lt;/li&gt;
+    &lt;li&gt;“Design is off-putting almost looks like an ad, feels too sophomorish”&lt;/li&gt;
+	&lt;li&gt;“Choose a family communication - really liked this step”&lt;/li&gt;
+	&lt;li&gt;Check out the iterated “&lt;a href=&quot;https://www.alpha.ca.gov/prepare-for-wildfire/&quot;&gt;Prepare for a wildfire&lt;/a&gt;” and “&lt;a href=&quot;https://www.alpha.ca.gov/sign-up-for-local-emergency-alerts/&quot;&gt;”Sign up for local emergency alerts&lt;/a&gt;” pages&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of February 23)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Feb-23-March%201/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Feb-23-March%201/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Window-Sign-What-Were-Doing.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Sign in the window of Alpha.CA.gov HQ that explains the team’s work.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As with last week, we’re focused on Release 3. You can get up to date on what’s been done and is still doing in &lt;a href=&quot;https://github.com/cagov/Alpha/issues/387&quot;&gt;Github Issue #387&lt;/a&gt;. A few toplines below.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Shipped latest prototypes (water quality, find shelters, agency contact search, emergency alerts, discount phone service info)&lt;/li&gt;
+	&lt;li&gt;Created and refined a new content type (guide) used for the unemployment insurance user need&lt;/li&gt;
+	&lt;li&gt;Resolved additional accessibility issues with accordion and step list content modules&lt;/li&gt;
+	&lt;li&gt;Completed user acceptance testing testing the latest pages&lt;/li&gt;
+    &lt;li&gt;Finished automated end-to-end testing for Water Safety, Local Emergency Alerts prototypes&lt;/li&gt;
+&lt;li&gt;Noticed and fixed inconsistencies in headings, subheadings, and other labels across the website&lt;/li&gt;
+&lt;li&gt;Refined translations, including several fixes to translate dynamic content&lt;/li&gt;
+&lt;li&gt;Deployed a lane closure API that remixes Caltrans data to make it geo-queryable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Tightening up final deliverable by fixing cross browser bugs, adding 3 more user stories, design fixes&lt;/li&gt;
+	&lt;li&gt;Synthesizing and summarizing the surveys&lt;/li&gt;
+	&lt;li&gt;Taking a deeper dive into testing for accessibility using operating system features as well as third party tools&lt;/li&gt;
+	&lt;li&gt;Adding three more user stories to our staging environment in preparation for the final release of Alpha&lt;/li&gt;
+	&lt;li&gt;Fixing IE11 and Edge accessibility and functionality bugs&lt;/li&gt;
+	&lt;li&gt;Using Azure REST API to Purge CDN content paths automatically. We previously had to purge pages manually, one by one using the Azure Portal&lt;/li&gt;
+  &lt;li&gt;Updating our content style guide to reflect what we’ve learned&lt;/li&gt;
+  &lt;li&gt;Putting final touches on our prototypes&lt;/li&gt;
+  &lt;li&gt;Reflecting on lessons learned throughout the Alpha&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Feb. 17)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-17-feb-23/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-17-feb-23/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Done-Doing-0221.jpg&quot; class=&quot;&quot; alt=&quot;Summary of Github issue #387 on the Alpha whiteboard&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Photo of a whiteboard with a summary of Github issue #387 for Alpha’s Release 3.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 17-February 23.&lt;/p&gt;
+
+&lt;p&gt;We are in the middle of the final sprint of the Alpha. We’ve got seven new user story prototypes on deck that we’re user testing, iterating and improving on, and auditing ahead of release. Track our progress on Github issue #387.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Why Alpha.CA.gov is prioritizing APIs</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-APIs/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-APIs/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/APIs-Blog-Postman-Screenshot-1.jpg&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov API Postman repository&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;A screenshot of the Alpha.CA.gov API Postman repository&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When we kicked off Alpha, we did not expect to develop a suite of APIs. But as we started tackling user stories, we realized that many of them required the same data. So we iterated - and adopted an API first approach.&lt;/p&gt;
+
+&lt;p&gt;An &lt;a href=&quot;https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces&quot;&gt;API&lt;/a&gt;, or application programming interface, is a tool that allows different products and services to talk to each other without having to know how they’re built or implemented.&lt;/p&gt;
+
+&lt;p&gt;Without APIs, government data can be challenging to work with for users outside of academia or government. APIs help make sense of what are often massive amounts of data.&lt;/p&gt;
+
+&lt;p&gt;APIs are a critical component of the open data value proposition.&lt;/p&gt;
+
+&lt;p&gt;In practice, APIs are the “yes, and...” of open data. Yes - open data is incredibly valuable... and APIs are what make it possible for any developer to access and build on that data.&lt;/p&gt;
+
+&lt;p&gt;APIs provide a level of accessibility that makes government more accountable and, ultimately, more effective and efficient.&lt;/p&gt;
+
+&lt;p&gt;Creating open APIs is a normal part of the development process in both the private and public sectors. And our team’s “API first” approach incorporates a couple of iterations on the public sector version of this norm.&lt;/p&gt;
+
+&lt;p&gt;Our APIs are built for public use - and our code and development process is open to the public from start to finish.&lt;/p&gt;
+
+&lt;p&gt;We’re the first user of our APIs. We’ve tested, iterated and improved every API we’re building. We’re making sure they’re user friendly and ready for even more rigorous testing and improvement by the community.&lt;/p&gt;
+
+&lt;p&gt;Finally, underlying all of this is the belief championed by our dev team, &lt;a href=&quot;https://www.linkedin.com/in/carter-medlin-b1839b15//&quot;&gt;Carter Medlin&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/aaronhans/&quot;&gt;Aaron Hans&lt;/a&gt;, and &lt;a href=&quot;https://www.linkedin.com/in/chadbratton/&quot;&gt;Chad Bratton&lt;/a&gt;, and our Product Designer, &lt;a href=&quot;https://www.linkedin.com/in/lukefretwell/&quot;&gt;Luke Fretwell&lt;/a&gt; that: California’s data belongs to the people of California.&lt;/p&gt;
+
+&lt;p&gt;We believe deeply that APIs are essential to make data both available and accessible to the people of California. Building APIs is a logical step in our team’s work to make information and services simpler and more easily accessed.&lt;/p&gt;
+
+&lt;p&gt;Check out our &lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;APIs&lt;/a&gt;, take them for a test drive and help us iterate and improve on them.&lt;/p&gt;
+
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Feb. 10)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-10-feb-17/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-10-feb-17/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Black and white graphic that says &quot;done/doing&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of February 10-February 17.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Shipped Release 2 with several new stories, translated into 3 languages&lt;/li&gt;
+	&lt;li&gt;User tested water and lifeline prototypes&lt;/li&gt;
+	&lt;li&gt;Drafted initial set of human centered behavior archetypes to inform our design&lt;/li&gt;
+	&lt;li&gt;Prototyped a guide to apply for unemployment insurance&lt;/li&gt;
+	&lt;li&gt;Iterated with the team on a tool to check your tap water quality&lt;/li&gt;
+&lt;li&gt;Iterated on a comprehensive guide to apply for California LifeLine, a discounted phone service&lt;/li&gt;
+&lt;li&gt;Thanks to Chad, we now have a great end-to-end testing suite that covers every page on our site&lt;/li&gt;
+&lt;li&gt;Built a working prototype of “Check if my water is safe” tool and took it out for an initial round of user testing. This identifies the water system associated with an address and returns the violation history. We also built a couple of APIs to support this. (More coming on this in Release 3.)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;User testing lifeline prototype at a local market with our friends from CHHS Office of Innovation&lt;/li&gt;
+	&lt;li&gt;Taking in and iterating on user feedback on the California LifeLine prototype&lt;/li&gt;
+	&lt;li&gt;Researching wildfire preparedness, recovery, and cleanup; and prototyping related user stories&lt;/li&gt;
+    &lt;li&gt;Retrieving homeless shelter data for a new API&lt;/li&gt;
+    &lt;li&gt;Prototyping a new content type for unemployment insurance&lt;/li&gt;
+	&lt;li&gt;Building out the ‘Contact us’ directory&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://cwds.dev/&quot;&gt;CWDS&lt;/a&gt; clean-up&lt;/li&gt;
+    &lt;li&gt;Release 3 planning&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Alpha.CA.gov product release 2</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-2/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Cover-Image.jpg&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov homepage banner.&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;A list of Release 2 deliverables written on the whiteboard.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Always learning, always iterating&lt;/h2&gt;
+
+&lt;p&gt;It’s 10 weeks into the Alpha and we’re excited to be releasing three new prototypes: “Apply for a Cal Grant,” “Apply for disability insurance benefits,” and “Check lane closures for your trip.”&lt;/p&gt;
+
+&lt;p&gt;With each of the new prototypes, we assessed the data, applied intuition, tested assumptions, listened to users, iterated, and improved. Learned, iterated and improved. And repeated.&lt;/p&gt;
+
+&lt;p&gt;The team did several rounds of user testing on each prototype. This included testing the Cal Grant prototype at a Davis, CA charter school where the students provided great, actionable feedback.&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;We were so impressed with these students. They all had applied to four-year universities. And we learned that it’s really up to them to navigate the process for applying to grants, scholarships and loans. We also learned that many high school students don’t often interact with state government.&lt;/p&gt;
+
+&lt;p&gt;We saw this as an opportunity to demonstrate the power of agile government - responsive and user focused. The prototype responds directly to the feedback the Davis students provided, like the need for extra clarity on certain key points like deadlines. It makes the Cal Grant process clearer and easier to understand for students already navigating a complex environment.&lt;/p&gt; 
+
+&lt;p&gt;Testing with highschoolers - and really with every user interview we’ve done - we’ve learned that by sharing our prototypes with even just a few people, we’re able to uncover some basic assumptions that we can quickly iterate on in our initial designs.&lt;/p&gt; 
+
+&lt;p&gt;Continuing on the theme of always iterating, we’ve made both significant, and small, updates to the Release 1 prototypes. These include:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We changed our food bank prototype to call our new API, which is now pulling from an augmented food bank collection. We built on the work of existing CfA food finder applications (thank you for the data!) and augmented that dataset with additional sources. The shortcomings of our initial data coverage were kindly pointed out by CfA employee and friendly hacker &lt;a href=&quot;https://twitter.com/tomdooner&quot;&gt;Tom Dooner&lt;/a&gt;.&lt;/li&gt; 
+	&lt;li&gt;We created an automatic update for the State holidays prototype.&lt;/li&gt;
+	&lt;li&gt;We simplified the accordion content module HTML structure to align with best practices and improve accessibility.&lt;/li&gt;
+	&lt;li&gt;We improved the step-by-step content module’s HTML structure for better structure and accessibility. One of the accessibility fixes included preventing the user from tabbing inside an unopened step item that was causing the loss of the user’s position on the page.&lt;/li&gt;
+    &lt;li&gt;We added a sentence to step 2 of the “Hire a licensed contractor for home improvements” prototype. A small and significant iteration that made it clearer what projects need to get a building permit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the dev/tech side, we’ve also been doing and learning a lot:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We automated performance and accessibility checks baked into the release pipeline (something our dev team is stoked about). &lt;a href=&quot;https://github.com/cagov/Alpha/issues/37&quot;&gt;#37&lt;/a&gt;&lt;/li&gt; 
+	&lt;li&gt;We open source packaged, installable, reusable, and accessible versions of a couple of our &lt;a href=&quot;https://www.npmjs.com/package/@cagov/step-list&quot;&gt;UI widgets&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;We made some really solid improvements to our translation processing. &lt;a href=&quot;https://github.com/cagov/Alpha/issues/228&quot;&gt;#228&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;We built several new &lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;APIs&lt;/a&gt; (more to come on this soon). &lt;a href=&quot;https://github.com/cagov/API/issues/12&quot;&gt;#12&lt;/a&gt;, &lt;a href=&quot;https://github.com/cagov/API/issues/9&quot;&gt;#9&lt;/a&gt;, &lt;a href=&quot;https://github.com/cagov/API/issues/17&quot;&gt;#17&lt;/a&gt;&lt;/li&gt;
+    &lt;ul&gt;
+		&lt;li&gt;For example /WaterSystem identifies which water system service area contains a geographic point. This is one of the prerequisites for compiling the water quality testing data that’s tied to water system IDs.&lt;/li&gt;
+	&lt;/ul&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to the three new prototypes, this second release includes one new language - Chinese and our first multi-page story. These prototypes also represent the first time we’ve iterated with color.&lt;/p&gt;
+
+&lt;p&gt;A moment on the subject of color: It’s a constant source of conversation among the team. Everyone has ideas - much like we imagine you do. We certainly have heard from users about our black and white prototypes. “Dull” and even “depressing” has been among the feedback. Many users emphasized that California is about color.&lt;/p&gt;
+
+&lt;p&gt;It came up enough that we felt it was necessary to address it. It’s worth noting, though, that we did so with reservations. Simply put: Color can be a distraction, a rabbithole sapping time and effort from the goal of providing accessible, easy to use information and services. But the feedback has been clear - and we’re committed to iterating. We hope to capture feedback from a wider pool of users with this release.&lt;/p&gt;
+
+&lt;p&gt;As with the first release, these prototypes are very much a collaborative effort that benefit from the work already being done at the department level to generate better and more easily accessed information for users. A huge shout out to the Caltrans team for being so willing to work with us to reimagine one of Caltrans’ most popular services. Every prototype is a great reminder to us of how incredibly important it is to work with subject matter experts early and often.&lt;/p&gt;
+
+&lt;p&gt;With just three weeks left to go in the Alpha sprint, we’re pushing harder than ever to realize the vision we laid out in our product framing.&lt;/p&gt; 
+
+&lt;p&gt;Alpha is not the replacement for CA.gov. Our goal is to use the power of digital to deliver the services that any given Californian knows they need, as well as those services they might qualify for, and need, but not be aware of. See our updated &lt;a href=&quot;https://news.alpha.ca.gov/alpha-ca-gov-product-framing/&quot;&gt;Product Framing&lt;/a&gt; for more on this. &lt;/p&gt;
+
+&lt;p&gt;As with all of our work, these new prototypes are works in progress. We welcome your feedback to make them better.&lt;/p&gt; 
+
+&lt;h2&gt;Homepage&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Baseline&lt;/li&gt;
+    &lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Homepage-Baseline.jpg&quot; alt=&quot;CA.gov homepage&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Baseline for the prior release of Alpha.CA.gov homepage&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;li&gt;Check out the &lt;a href=&quot;https://alpha.ca.gov/&quot;&gt;iterated homepage&lt;/a&gt;  
+&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Apply for a Cal Grant&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User story: As a new student applying to college, I need to apply for a CAL GRANT, so that I can get financial aid to go to college.&lt;/li&gt;
+&lt;li&gt;March 2 is the deadline for students to apply for a Cal Grant. We wanted to test what language resonates with students and assumed they would want less detail.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/35&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.csac.ca.gov/cal-grants&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Cal-Grants-Baseline.jpg&quot; alt=&quot;Screenshot of current Cal Grant baseline.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of current Cal Grant baseline.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated one prototype. This was our first multi-page user story.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Cal-Grant-Prototype-before-testing.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for &quot; Apply=&quot;&quot; for=&quot;&quot; a=&quot;&quot; Cal=&quot;&quot; Grant.”&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Apply for a Cal Grant.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;If a student has already completed the FAFSA, save them from even clicking into Step 1, move them to Step 2. One senior thought she may have to apply to FAFSA again. We could clarify this.&lt;/li&gt; 
+	&lt;li&gt;Help distinguish between grant, scholarship and loan, and clarify that it&#39;s from the State (yes, Cal Grant implies this) but it was clear there is A LOT of information these kids handle and they are doing this part on their own. Most parents are involved with the FAFSA but then the rest, it seems, the kids manage.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/apply-for-cal-grant/&quot;&gt;Apply for a Cal Grant&lt;/a&gt;”page&lt;/p&gt;
+
+
+&lt;h2&gt;Apply for disability insurance benefits&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;User story: As a worker, I need to know how to file for DISABILITY INSURANCE BENEFITS so that I can maintain an income while I&#39;m out of work.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/72&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.edd.ca.gov/disability/DI_Claim_Process.htm&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-apply-for-disability-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov “Apply for disability benefits” page.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Apply for disability insurance benefits” page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated two prototypes at a local EDD field office with help from our friends at the CHHS Office of Innovation:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Disability-Insurance-Testing.jpeg&quot; alt=&quot;The CHHS Office of Innovation team field testing the &quot; Apply=&quot;&quot; for=&quot;&quot; disability=&quot;&quot; insurance=&quot;&quot; benefits&quot;=&quot;&quot; prototype=&quot;&quot; at=&quot;&quot; an=&quot;&quot; EDD=&quot;&quot; field=&quot;&quot; office.&quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;The CHHS Office of Innovation team field testing the &quot;Apply for disability insurance benefits&quot; prototype at an EDD field office.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-apply-for-disability-insurance-Prototype-1.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Apply for disability insurance.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for ““Apply for disability insurance benefits.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-apply-for-disability-insurance-Prototype-2.jpg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Apply for disability insurance benefits.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for ““Apply for disability insurance benefits.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback and takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Wording is not clear. She prefers it to say, “Do you qualify?” because it is more focused on the goal of the tab.&lt;/li&gt; 
+	&lt;li&gt;“My experience getting insurance is fine, but when trying to reach a person you have to come in-person and wait. When I had a password problem I came here to fix it. They said they fixed it and to wait 8 min. It still was not fixed. When I came back he said he couldn’t help me, but helped someone else who came later instead.”&lt;/li&gt;
+	&lt;li&gt;First bullet - “This is not in the right flow because it says it will stop then it talks about receiving it.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/apply-for-disability-insurance-benefits/&quot;&gt;Apply for disability insurance benefits&lt;/a&gt;” page&lt;/p&gt;
+	
+&lt;h2&gt;Check lane closures for your trip&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;User story: As a driver, I need to know the CONDITION OF THE ROADS so that I can stay safe.&lt;/li&gt;
+	&lt;li&gt;This was an interesting one. The assumption was that people get the road information they need from Google Maps or other navigation apps. But in our initial research, we found that there’s a data gap between what Google displays and real-time Caltrans road closures. We even saw some cases where people were being routed onto closed roads.&lt;/li&gt;
+	
+	&lt;figure class=&quot;figure&quot;&gt;
+		&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Road-Conditions-Road-Closure.jpg&quot; alt=&quot;AA road sign on Highway 88 referencing the fact that road closures on 88 aren&#39;t included in the information navigation apps provide currently.&quot; &quot;=&quot;&quot; /&gt;
+		&lt;figcaption class=&quot;figure-caption&quot;&gt;A road sign on Highway 88 referencing the fact that road closures on 88 aren&#39;t included in the information navigation apps provide currently.&lt;/figcaption&gt;
+	&lt;/figure&gt;
+
+	&lt;li&gt;We wanted to test how building an API could help the user experience by providing more accurate data that is not always reflected in their mapping app of choice. This story tests road closures and road conditions. It is not scoped to access data outside California’s border. It also tests a way to display map data in an accessible format. &lt;/li&gt;
+
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/37&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://roads.dot.ca.gov/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release-2-Road-Conditions-Baseline.jpg&quot; alt=&quot;Screenshot of the current CA.gov road conditions page.&quot; &quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov road conditions page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated two prototypes:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release%202_Road-conditions-Prototype-before-testing-3.jpg&quot; alt=&quot;Screenshot of the Alpha.CA.gov design prototype for “Check lane closures for your trip.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the Alpha.CA.gov design prototype for “Check lane closures for your trip.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/Release%202_Road-conditions-Prototype-before-testing-4.jpg&quot; alt=&quot;Screenshot of the Alpha.CA.gov design prototype for “Check lane closures for your trip&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the Alpha.CA.gov design prototype for “Check lane closures for your trip.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Assume when you start typing, the address will appear&lt;/li&gt; 
+	&lt;li&gt;Assume the &quot;Get Alerts&quot; interface is to &quot;get alerts for surprises.&quot;&lt;/li&gt;
+	&lt;li&gt;Would rather see a single route.&lt;/li&gt;
+	&lt;li&gt;Want to “Open in Maps”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/check-lane-closures/&quot;&gt;Check lane closures for your trip&lt;/a&gt;” page&lt;/p&gt;
+	</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Feb. 3)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-feb-3-feb-9/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-feb-3-feb-9/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/GH-Issue-303.jpg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead.&lt;/p&gt;
+
+&lt;p&gt;This week’s episode is all about our second product release. We’re all hands on deck, heads down, and laser focused on getting the next round of prototypes out for your feedback. Follow our work on &lt;a href=&quot;https://github.com/cagov/Alpha/issues/303/&quot;&gt;GitHub Issue #303&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 27)</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-jan-27-feb-2/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/done-doing-jan-31.jpg&quot; class=&quot;&quot; alt=&quot;A phiti of a sticky note with details on the Alpha Team&#39;s current sprint.&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 27-February 2.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Took a field research trip to a fire-impacted town where we brainstormed with a group of highschoolers to inspire future designs around disaster preparedness and recovery. We also met with a local elected and business owner.&lt;/li&gt;
+&lt;li&gt;Researched drinking water safety and the application process for unemployment insurance.&lt;/li&gt;
+&lt;li&gt;Met with the good folks at the Franchise Tax Board to learn about quarterly taxes and their UX practice.&lt;/li&gt;
+&lt;li&gt;Documented and shipped new API endpoints to retrieve food banks, CHP Incidents, Full Road closures by location. These are viewable &lt;a href=&quot;https://api.alpha.ca.gov/&quot;&gt;here.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Prototyped a transaction landing page to apply online for a discounted phone service. Check out the &lt;a href=&quot;https://github.com/cagov/UX/issues/64&quot;&gt;GitHub issue.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Published the web components we use in our design system to npm. Check out our accordion component &lt;a href=&quot;https://www.npmjs.com/package/@cagov/accordion&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Improved our road conditions prototype that lets you enter a destination and returns all known issues on your route. Check out the &lt;a href=&quot;https://github.com/cagov/UX/issues/37&quot;&gt;GitHub issue.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fixed some build issues with our &lt;a href=&quot;https://github.com/marketplace/actions/eleventy-action-plus-rss&quot;&gt;GitHub action&lt;/a&gt; that allows us to automatically build and publish this blog to our github pages powered site when content is updated.&lt;/li&gt;
+&lt;li&gt;Added google sheets translation formula to provide initial machine translations of our content (thanks &lt;a href=&quot;https://twitter.com/nsylianteng/status/1221124367163318275/&quot;&gt;Twitter user @nsylianteng!&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Streamlined the core ceremonies (stand-ups, retrospectives, and sprint planning) to improve overall communications within the Team, particularly for our remote colleagues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Synthesizing stories and insights from our field research&lt;/li&gt;	&lt;li&gt;Scraping additional data sources to augment our food bank data&lt;/li&gt;
+&lt;li&gt;Continue user testing the road conditions prototype and the application process for disability insurance&lt;/li&gt;	
+&lt;li&gt;Researching emergency preparedness, debris removal, emergency alerts, burned car removal, and the emergency recovery process&lt;/li&gt;
+&lt;li&gt;User stories on disability insurance and Cal Grants are being promoted from user testing prototypes to the live site&lt;/li&gt;
+&lt;li&gt;Working with water system boundary areas and water testing data to create APIs and prototype user stories&lt;/li&gt;
+&lt;li&gt;Continuing research to find contact information for new user story to help people connect with state agencies and departments. Check out our &lt;a href=&quot;https://github.com/cagov/UX/issues/65&quot;&gt;GitHub issue&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Lessons learned translating Alpha.CA.gov release 1</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-spanish-translation/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/thumb/En-espanol.jpg&quot; class=&quot;&quot; alt=&quot;Photo of a sticky note that says &amp;quot;En espanol.&amp;quot;&quot; &#39;=&quot;&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We hope you noticed that the first release of &lt;a href=&quot;https://www.alpha.ca.gov.com/&quot;&gt;Alpha.CA.gov&lt;/a&gt; prototypes included Spanish language versions.&lt;/p&gt;
+
+&lt;p&gt;This is something we’re particularly proud of. Given our timeline and resources, these translations were initially out of scope for the first release. But they were always front of mind for &lt;a href=&quot;https://twitter.com/abquirarte&quot;&gt;Angie&lt;/a&gt;, our product owner.&lt;/p&gt;
+
+&lt;p&gt;Angie is a Mexican immigrant and Spanish is her first language. Growing up, Angie and her family spoke Spanish at home. Speaking a language other than English at home is something that over 40% of Californians also do. And, it&#39;s worth noting, &lt;a href=&quot;https://blog.languageline.com/report-california-limited-english-proficient&quot;&gt;“18.6% of California residents are considered limited English proficient (LEP), meaning they speak English less than ‘very well.’”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We saw this in practice when we user tested the &lt;a href=&quot;https://alpha.ca.gov/services/request-birth-certificate/&quot;&gt;Find a birth certificate&lt;/a&gt; prototype in the field: 3 out of 5 people were at the county office with translators because Spanish is their primary language.&lt;/p&gt;
+
+&lt;p&gt;This IRL reminder of California’s incredible cultural diversity inspired us to expand our scope and push to make Spanish translation part of release 1.&lt;/p&gt;
+
+&lt;h2&gt;During the translations process, we tested for:&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Quality/Accuracy of translation API tools&lt;/li&gt;
+    &lt;li&gt;Level of effort to validate translations (by asking at least 3 native-Spanish speakers)&lt;/li&gt;
+    &lt;li&gt;Level of effort from the team, overall&lt;/li&gt;
+    &lt;li&gt;Content design from English to Spanish considerations&lt;/li&gt;
+    &lt;li&gt;Domain considerations&lt;/li&gt;
+    &lt;li&gt;Level of interest from real users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;We learned a lot:&lt;/h2&gt; 
+
+&lt;h3&gt;Doing the translations forced us to revisit the English version to make it clearer, more accurate.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;The English titles and section descriptions are spare, concise. In Spanish, those same titles and section headers are far more conversational.&lt;/li&gt;
+    &lt;li&gt;As we translated the &lt;a href=&quot;https://alpha.ca.gov/services/hire-licensed-contractor-home-improvements/&quot;&gt;Hire a Licensed Contractor&lt;/a&gt; page, we realized that the English version was not as clear as we thought it was. Doing the Spanish translation actually helped us iterate and improve the English version.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Verbatim translations don’t work.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;When thinking about service design, translation is not as simple as verbatim translation. You have to do the work to provide context and create translations that convey accurate, literal and cultural meaning in both English and Spanish.&lt;/li&gt;
+    &lt;li&gt;The &lt;a href=&quot;https://alpha.ca.gov/about/&quot;&gt;About&lt;/a&gt; page, in English, reads: “We&#39;re a small but mighty team of public servants and outside experts in user research and design.” In Spanish, it says: “Somos un pequeño equipo de servidores públicos y expertos en el diseño centrado en el usuario y tecnología.” “Small but mighty” has a different connotation in Spanish because the word “mighty” translates to “powerful,” connoting a stronger tone that does not feel as welcoming.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Finding materials in Spanish proved challenging - and so did translations of more technical content.&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;There was no baseline Spanish translation available for the “More details about holidays” section on the &lt;a href=&quot;https://alpha.ca.gov/services/state-california-employee-holidays/&quot;&gt;State holidays&lt;/a&gt; page. Without the help of a subject matter expert in that language, it was hard to know if we were using the correct terminology.&lt;/li&gt;
+    &lt;li&gt;Even when available, the baseline content in Spanish was not always reliable because it had been translated using auto translate apps, which offer essentially verbatim translation. This meant additional vetting and reworking on our end to provide the appropriate context, tone, and wording we want to convey
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s worth noting that the work we did to translate the first several prototypes was a heavy lift for our small but mighty team, and likely not scalable for the Alpha given our timeline and capacity.&lt;/p&gt;
+
+&lt;p&gt;That said, it’s important to emphasize that looking to the future, CA.gov will be multi-lingual in ways that reflect our learnings. That is, with an emphasis on and prioritization of cultural competency over verbatim translation. It&#39;s up to us (on the government side) to always keep in mind that context matters and some technologies are not 100% reliable when it comes to designing for our users.&lt;/p&gt;
+
+
+
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 20)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Jan-20-Jan-26/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 20-January 26.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Continuing to do follow up calls with Californians around how they interact with State gov&lt;/li&gt;
+	&lt;li&gt;Tested our CalGrants prototype with high school students and a guidance counselor&lt;/li&gt;
+	&lt;li&gt;Talked to several Californians about their recovery process after a natural disaster&lt;/li&gt;
+	&lt;li&gt;Researched our independent worker user story, including making a rough flow chart to try and figure out who needs to pay quarterly taxes&lt;/li&gt;
+	&lt;li&gt;User tested and iterated on CalGrants prototype&lt;/li&gt;
+&lt;li&gt;Iterated on disability insurance benefits prototype&lt;/li&gt;
+&lt;li&gt;Conducted initial user research on a new “smart answer” content type&lt;/li&gt;
+&lt;li&gt;Upgraded the way we handle translation strings so we can support more languages&lt;/li&gt;
+&lt;li&gt;Deployed a lane closure API that remixes Caltrans data to make it geo-queryable&lt;/li&gt;
+&lt;li&gt;Got some good advice from &lt;a href=&quot;http://apievangelist.com/2020/01/22/the-state-of-california-doing-apis-the-right-way-by-starting-simple/&quot;&gt;Kin Lane&lt;/a&gt; to start each new API with public readme&lt;/li&gt;
+&lt;li&gt;Held Kick-off 2.0, reflected on the first ½ of Alpha, outlined goals for the next 6 weeks and got re-inspired for the second ½ of Alpha&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Designing and planning for a field research trip to a wildfire-impacted area&lt;/li&gt;
+	&lt;li&gt;Doing follow-up calls with Californians around how they interact with State government and synthesizing the findings to turn into user needs&lt;/li&gt;
+	&lt;li&gt;Prototyping quarterly taxes and phone service discounts&lt;/li&gt;
+	&lt;li&gt;Augmenting lane closure data with seasonal road closures and chain controls for in-progress user story on road conditions&lt;/li&gt;
+	&lt;li&gt;Augmenting food bank prototype with new data sources thanks to &lt;a href=&quot;https://twitter.com/tomdooner&quot;&gt;@tomdooner&lt;/a&gt;, to spin up food bank API&lt;/li&gt;
+	&lt;li&gt;Working with the great water quality advice we got from the Waterboard team, we’re going to spin up water quality APIs using available data&lt;/li&gt;
+  &lt;li&gt;Whiteboarding with the team around content design for water quality and road conditions user stories&lt;/li&gt;
+  &lt;li&gt;Documenting product feature ideas that we want to test and iterate on in the Alpha&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 13)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-Jan-13-Jan-19/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of January 13-January 19.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Delivered our first release! Including 5 user stories in English and Spanish&lt;/li&gt;
+	&lt;li&gt;Interviewed 6 Californians from across the state to find out more about their needs and existing relationship with their government. Inspiring to talk to folks who care so deeply about the work they do, and how they love California&lt;/li&gt;
+	&lt;li&gt;Began work on content prototypes for the next round of user needs&lt;/li&gt;
+	&lt;li&gt;Created content prototypes for checking road conditions, applying for discounted phone benefits as well as disability insurance benefits&lt;/li&gt;
+	&lt;li&gt;Developed news.alpha.ca.gov, migrating all our Medium posts to our own static site generator, which has way better performance and accessibility scores than the Medium hosted versions of the same content&lt;/li&gt;
+&lt;li&gt;Created initial automated end-to-end test suite&lt;/li&gt;
+&lt;li&gt;HTML Linter implemented to detect things like valid header tag hierarchy&lt;/li&gt;
+&lt;li&gt;Refined web design system and content type templates&lt;/li&gt;
+&lt;li&gt;Met with Aspen Institute Fellows about our Alpha work, sharing with them the new ways of work we’re testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Planning a design research team field trip to get inspired by real people and their stories&lt;/li&gt;
+	&lt;li&gt;Talking to 12 more Californians about want they want more and/or less of from their State Government&lt;/li&gt;
+	&lt;li&gt;User testing our road conditions prototype&lt;/li&gt;
+	&lt;li&gt;Collaborating with the team on a prototype for estimating quarterly taxes as a freelancer&lt;/li&gt;
+	&lt;li&gt;Integrating lighthouse performance and accessibility audits into CI pipeline&lt;/li&gt;
+	&lt;li&gt;Revisiting our work flow and ways of working with team kick-off 2.0 to continue iterating and improving&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Alpha.CA.gov product release 1</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-product-release-1/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/homepage-alpha.png&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov homepage banner.&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Alpha.CA.gov homepage banner.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Please test this work in progress!&lt;/h2&gt;
+
+&lt;p&gt;It’s been a very busy, very productive six weeks for our team. (Even despite the holiday season!)&lt;/p&gt;
+
+&lt;p&gt;As we’ve documented in our weekly “Done/doing” blogs, we’ve begun to build the proverbial plane, even as we’re approaching cruising altitude.&lt;/p&gt;
+
+&lt;p&gt;To date, we have: configured our instances of GitHub, GSuite and Slack - tools not widely used in California state government. Gotten our cloud environment up and running ( thanks to a huge lift from &lt;a href=&quot;https://twitter.com/CADeptTech&quot;&gt;CDT&lt;/a&gt;). Established initial &lt;a href=&quot;https://handbook-cadotgov.readthedocs.io/en/latest/&quot;&gt;workplace norms, ceremonies and workflows, design and operational principles&lt;/a&gt;. Bootstrapped a web design architecture, developed and tested prototypes (including this new blog, which is open source and 100% accessible). Said “&lt;a href=&quot;https://twitter.com/CAdotGov/status/1204814757624086528%22&quot;&gt;Hello California!&lt;/a&gt;” Begun the ongoing process of gathering, researching and prioritizing &lt;a href=&quot;https://twitter.com/CAdotGov/status/1202723639423950849&quot;&gt;user needs&lt;/a&gt;. Pushed out our &lt;a href=&quot;https://twitter.com/CAdotGov/status/1207797255643766785&quot;&gt;first user survey&lt;/a&gt;. Gotten a sample SMS text up and running. Collaborated with, learned from, and greatly appreciated working with our state partners in our research, testing and fact checking.&lt;/p&gt;&lt;p&gt;
+
+&lt;/p&gt;&lt;p&gt;The ramp up was chaotic at times, like any start up. We’ve hit plenty of speed bumps along the way — and have plenty of learnings to share:&lt;/p&gt;
+
+&lt;p&gt;Establishing a culture of collaboration and actually getting to know each other as people, from the outset, are among the most important things we’ve done. And while we’re still learning how to work together and trying to figure out the simple things like finding the right temperature for the office (a work in progress), we have a solid foundation for navigating and resolving conflict.&lt;/p&gt; 
+
+&lt;p&gt;We can’t emphasize enough how critical Sprint 0 (our planning and logistics sprint) was for building a foundation before kickoff. Finding and setting up the office, hiring staff, figuring out the right number of chairs we &lt;em&gt;actually&lt;/em&gt; need, working with legal to vet tools, and other basic operational needs are a huge undertaking and, often, underestimated.&lt;/p&gt; 
+
+&lt;p&gt;Launching an alpha just before the winter holidays is not an optimal timeline. Doing the kick-off during the holidays meant that roles and responsibilities have had to shift in order to keep up momentum while team members were away. This heightened what was already proving to be a challenge around operationalizing our workflows to figure who’s doing what, when, and what the hand off of tasks between teams members looks like.&lt;/p&gt;
+
+&lt;p&gt;Working in the agile way has also proven to be a challenge. It’s fundamentally different from how state government typically operates — and it’s a new way of working for most of us (see building the plane metaphor above). At the same time, many of us are learning new tools, most notably &lt;a href=&quot;https://github.com/cagov&quot;&gt;GitHub&lt;/a&gt;, which we’re using as our primary workflow management tool.&lt;/p&gt;
+
+&lt;p&gt;Another significant challenge has been scaling up our user testing. User research is a newer discipline for the State. The status quo currently depends on operationalizing untested assumptions of what we think people need. We are trying to set a new way of work in this alpha, but as a result, none of the basics were in place when we got started. For example, there was no legal template for participant consent for qualitative user interviews. And we still don’t have the ability to compensate people for the time they spend talking to us and sharing their stories (we’re working on it).&lt;/p&gt;
+
+&lt;p&gt;Other minor but impactful challenges have slowed our roll at points. Things like not having electricity for the first week, working around partners’ availability for fact-checking user stories, and procuring new tools and subscriptions (always takes longer than anticipated).&lt;/p&gt;
+
+&lt;p&gt;We’ll be posting more about our challenges and learnings in the weeks ahead. But the most important learning we can offer at this point is: when it comes to creating user-focused digital services, there is no such thing as “done,” or “final.” There are always iterations and improvements that can be made.&lt;/p&gt;
+
+&lt;p&gt;It’s in that spirit that we share our &lt;a href=&quot;http://alpha.ca.gov/&quot;&gt;first product release&lt;/a&gt; with you.&lt;/p&gt; 
+
+&lt;p&gt;These seven new prototypes — a homepage, find your minimum wage, request a birth certificate, find official California state holidays, hire a licensed contractor for home improvements, and find food banks near you — are a work in progress. They’re iterations on where we started. They’ve been user tested (to the extent possible) and improved based on that feedback and will continue to be tested and iterated on. They’re not meant to be perfect, and we need your feedback to help make them better.&lt;/p&gt;
+
+&lt;p&gt;The prototypes are as accessible as possible (each scores 100 on &lt;a href=&quot;https://twitter.com/____lighthouse?lang=en&quot;&gt;Lighthouse&lt;/a&gt;). AAnd none exceed a 6th grade reading level. In these critical ways, they provide simpler, clearer, faster access to state government information and services.&lt;/p&gt; 
+
+&lt;p&gt;We hope you’ll give us feedback so that we can continue to learn, test, iterate and improve these pages.&lt;/p&gt;
+
+&lt;p&gt;Below, we’ve tried to capture a before/after for each user story, as well as some of the user feedback we captured testing the prototypes. A complete account of each user story can be found on &lt;a href=&quot;https://github.com/orgs/cagov/projects/2&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Homepage&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://ca.gov/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/cadotgov-homepage.png&quot; alt=&quot;CA.gov homepage&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Baseline for the current CA.gov homepage &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Check out the iterated &lt;a href=&quot;http://www.alpha.ca.gov/&quot;&gt;homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Find your minimum wage&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.https//GitHub.com/cagov/UX/issues/43&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.dir.ca.gov/dlse/faq_minimumwage.htm&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/baseline-minimum-wage.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated three prototypes&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-minimum-wage-1.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-minimum-wage-2.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-minimum-wage-3.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find your minimum wage.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We learned that while the statewide minimum wage is a certain amount, some cities and counties set their own rate which is not always easy to find.&lt;/li&gt; 
+	&lt;li&gt;“More info on the page would be helpful.”&lt;/li&gt;
+	&lt;li&gt;“Why provide the city look up when it says “statewide?”&lt;/li&gt;
+	&lt;li&gt;Less isn’t always enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/services/find-minimum-wage-your-city/&quot;&gt;Find your minimum wage&lt;/a&gt;” page&lt;/p&gt;
+
+
+&lt;h2&gt;Request a birth certificate&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/53&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.cdph.ca.gov/Programs/CHSI/Pages/Obtaining-Certified-Copies-Online.aspx#&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/request-a-birth-certificate.png&quot; alt=&quot;Screenshot of the current CA.gov “Request a birth certificate” page.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Request a birth certificate” page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated two prototypes:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-birth-certificate-1.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Request a birth certificate.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Request a birth certificate.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-birth-certificate-2.png&quot; alt=&quot;Screenshot of the current CA.gov “Request a birth certificate”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Request a birth certificate” page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We went to the county office and observed people trying to get their birth certificate. We learned that people didn’t know they had to bring their ID or make the request at the county of birth.&lt;/li&gt; 
+	&lt;li&gt;“I like the first one better. You can see all the info first and then see the link. Showing the cost is a good idea, seeing the wait time is good.”&lt;/li&gt;
+	&lt;li&gt;“Having the word ‘cost’ is needed and ‘wait time’ is helpful.”&lt;/li&gt;
+	&lt;li&gt;“I like the button to be more at the bottom.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/services/request-birth-certificate/&quot;&gt;Request a birth certificate&lt;/a&gt;” page&lt;/p&gt;
+	
+&lt;h2&gt;Find official California state holidays&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/52&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.calhr.ca.gov/employees/pages/state-holidays.aspx&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/baseline-state-holidays.png&quot; alt=&quot;Screenshot of the current CA.gov “Find official California state holidays” page.&quot; &quot;=&quot;&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Find official California state holidays” page.&quot;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated two prototypes:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-state-holidays-1.png&quot; alt=&quot;Screenshot of the current CA.gov “Screenshot of Alpha.CA.gov design prototype for “Find official California state holidays.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find official California state holidays.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-state-holidays-2.png&quot; alt=&quot;Screenshot of the current CA.gov “Screenshot of Alpha.CA.gov design prototype for “Find official California state holidays.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Find official California state holidays.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We learned that listing the holidays is not as simple as listing the dates, particularly if the some of the holidays and holiday time off fall on weekends.&lt;/li&gt; 
+	&lt;li&gt;“I definitely like the upcoming holiday feature.”&lt;/li&gt;
+	&lt;li&gt;“Link to add calendar looks out of place, breaks up the text in an odd way.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/services/state-california-employee-holidays/&quot;&gt;Find official California state holidays&lt;/a&gt;” page&lt;/p&gt;
+	
+&lt;h2&gt;Hire a licensed contractor for home improvements&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/38&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/home-improvements.png&quot; alt=&quot;Screenshot of the current CA.gov “Hire a contractor for home improvements” page.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Hire a contractor for home improvements” page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated two prototypes (including one paper prototype):&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-home-improvements-1.png&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Hire a licensed contractor for home improvements.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Hire a licensed contractor for home improvements.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-home-improvements-2.jpeg&quot; alt=&quot;Screenshot of Alpha.CA.gov design prototype for “Hire a licensed contractor for home improvements.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of Alpha.CA.gov design prototype for “Hire a licensed contractor for home improvements.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We learned that the process to hire a licensed contractor is complicated.&lt;/li&gt; 
+	&lt;li&gt;“I assume it would take me somewhere more in-depth.”&lt;/li&gt;
+	&lt;li&gt;“The link icon under #2 looks more official, seems to show authority. The “press button” icon appears more simple.”&lt;/li&gt;
+	&lt;li&gt;“Maybe should say more details.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/services/hire-licensed-contractor-home-improvements/&quot;&gt;Hire a licensed contractor for home improvements&lt;/a&gt;” page&lt;/p&gt;
+
+&lt;h2&gt;Find food banks near you&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://github.com/cagov/UX/issues/33&quot;&gt;GitHub issue&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.cdss.ca.gov/food-banks&quot;&gt;Baseline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/baseline-food-banks.png&quot; alt=&quot;Screenshot of the current CA.gov “Find food banks near you” page.&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the current CA.gov “Find food banks near you” page.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We tested and iterated one prototype:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img src=&quot;http://news.alpha.ca.gov/img/full/proto-food-banks.png&quot; alt=&quot;Screenshot of the Alpha.CA.gov design prototype for “Find food banks near you.”&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Screenshot of the Alpha.CA.gov design prototype for “Find food banks near you.”&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;User feedback &amp; takeaways included:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;We listed 211 as another resource assuming that if people were looking for food banks, they would also look for 211 services. When tested, people didn’t know what 211 was. We found this to be an opportunity to inform people of other services that they may obtain.&lt;/li&gt; 
+	&lt;li&gt;“Looks nice and simple, I’d make text bigger. I mean, I know people know how to enlarge on screen to make bigger…”&lt;/li&gt;
+	&lt;li&gt;“Needs housing info.”&lt;/li&gt;
+	&lt;li&gt;“Looks good. Could use some visuals, like what the places look like. Could use a picture to go with it. Would look up using zip code.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the iterated “&lt;a href=&quot;https://alpha.ca.gov/services/find-food-banks-near-you/&quot;&gt;Find food banks near you&lt;/a&gt;” page&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Jan. 6)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-jan-6-jan-12/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-jan-6-jan-12/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our work this week has been focused on releasing our first round of prototypes. As we speak, we’re elbows deep in the final push to finish Spanish translations, domain name clean up, purging the CDN, troubleshooting cache issues, QAing, and a million other critical details.&lt;/p&gt;
+
+&lt;p&gt;Check out our &lt;a href=&quot;https://github.com/cagov/Alpha/issues/93&quot;&gt;GitHub Issue Alpha #93&lt;/a&gt; to see how we’re organizing our work and sprinting to the release.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Alpha.CA.gov product framing (Updated 02/10/20)</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-product-framing/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-product-framing/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/product-framing.jpeg&quot; class=&quot;&quot; alt=&quot;Product framing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Product framing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Product framing helps our team think about and focus on the problem we’re here to solve.&lt;/p&gt;
+
+&lt;p&gt;While product framing documents are not typical in an Alpha, we created it to encourage our team to think in new terms, ask questions and learn as we go. It provides a rubric against which we can measure our progress and our learnings. And it informs and guides us at every level of our work as we research, prioritize, test, design, code, iterate, iterate, and iterate again.&lt;/p&gt;
+
+&lt;h2&gt;Problem statement&lt;/h2&gt;
+
+&lt;p&gt;The people of California need information and services offered by the State of California. Currently, California state government digital information and services are disparate, spread across multiple domains and websites. Each state organization manages its content and experience differently, causing a lack of cohesiveness, findability, accessibility, security, and performance across all California government websites. This lack of organization leads to a lack of trust and low satisfaction from the people we intend to serve.&lt;/p&gt;
+
+&lt;p&gt;Users often rely on unofficial, third-party resources to find official state services and information because they can’t find what they are looking for on current official government websites. This can lead to further distrust among users when it comes to the authenticity of the information or service they’re seeking.&lt;/p&gt;
+    
+&lt;p&gt;It’s essential that there be a unified, verifiable source of official state information optimized for delivery, focused on delivering services and information for the people of California.&lt;/p&gt;
+    
+&lt;h2&gt;Product vision&lt;/h2&gt;
+
+&lt;p&gt;Our goal is to create a better digital experience for users. Our vision for doing that is to create a unified, trusted, online presence for State government. This vision is built on incremental iterations starting with improving search of online government services and information, to making user research and product design core functions of service design, and, most importantly, soliciting and taking action on feedback from Californians.&lt;/p&gt;
+
+&lt;p&gt;Alpha is the first iteration of a better digital experience. CA.gov will ultimately show the people of California that their government is committed to meeting the needs of the people of California. The experience will be simpler, clearer, faster, and more accessible for all Californians searching for state government information and services. They will recognize CA.gov as the official California state government website. It will give them the comprehensive state government information and services that they seek. The public will be able to find their services without knowing the names or acronyms of the related State organization or program.&lt;/p&gt;
+
+&lt;p&gt;Our goal is to use the power of digital to deliver the services that any given Californian knows they need, as well as those services they might qualify for, and need, but not be aware of.&lt;/p&gt;
+
+&lt;h2&gt;What we want to learn&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;How can user research and content design help meet user needs&lt;/li&gt;
+    &lt;li&gt;What it takes for government to work in the open&lt;/li&gt;
+    &lt;li&gt;How to best set up a highly effective digital services team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;What we’re not trying to do&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Redesign all of the State of California’s digital government services&lt;/li&gt;
+    &lt;li&gt;Set the State of California’s technology strategy&lt;/li&gt;
+    &lt;li&gt;Maintain traditional practices in digital or technology strategy and execution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Product assumptions and dependencies&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;That people go first to their government official website to find what they’re looking for.
+    &lt;/li&gt;&lt;li&gt;That we understand what matters most to people&lt;/li&gt;
+    &lt;li&gt;That the way users currently find government services online is their preferred method&lt;/li&gt;
+    &lt;li&gt;That users don’t care about an agency-focused approach&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prioritization criteria for user needs&lt;/h2&gt;
+
+&lt;p&gt;The Alpha will be based on initial user needs that are selected with data, intuition, and experimentation. The following criteria will be used to assess the overall impact of the user story.&lt;/p&gt;
+
+&lt;h3&gt;External Criteria&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Total reach (population)&lt;/li&gt;
+    &lt;li&gt;Biggest area for improvement&lt;/li&gt;
+    &lt;li&gt;Level of complexity&lt;/li&gt;
+    &lt;li&gt;Level of urgency&lt;/li&gt;
+    &lt;li&gt;Who (individuals or business)&lt;/li&gt;
+    &lt;li&gt;Vulnerable populations&lt;/li&gt;
+    &lt;li&gt;Topical for Californians&lt;/li&gt;
+    &lt;li&gt;Sensitive&lt;/li&gt;
+    &lt;li&gt;Positive, “wow-factor,” innovative&lt;/li&gt;
+    &lt;li&gt;Common or specific need&lt;/li&gt;
+    &lt;li&gt;Ability to capture data analytics&lt;/li&gt;
+    &lt;li&gt;Public facing issue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Internal Criteria&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Existing effort already in place&lt;/li&gt;
+    &lt;li&gt;Stakeholder priority&lt;/li&gt;
+    &lt;li&gt;Measurable impact&lt;/li&gt;
+    &lt;li&gt;Open/helpful departments&lt;/li&gt;
+    &lt;li&gt;Discrete part of information or service&lt;/li&gt;
+    &lt;li&gt;Long term, push to Beta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://help.proudcity.com/government-product-management/&quot;&gt;Government product management&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://medium.com/the-u-s-digital-service/the-importance-of-product-management-in-government-b59933d01874&quot;&gt;The Importance of Product Management in Government&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://scottcolfer.com/2019/09/01/product-leadership.html&quot;&gt;Product Leadership&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/ONRR/doi-extractives-data/wiki/Product-framing&quot;&gt;Product framing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://github.com/ONRR/doi-extractives-data/wiki/Product-management-training&quot;&gt;Product management training&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://employees.cityofsanrafael.org/product&quot;&gt;San Rafael Product Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Dec. 30)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-dec-30-jan-5/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-dec-30-jan-5/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Done/doing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. While many of us were out for the holidays, a lot of work was still getting done. This post covers the week of December 30-January 5.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Developed content prototyping flow&lt;/li&gt;
+	&lt;li&gt;Built food bank user story prototype that geolocates the user, presents nearest locations to get food assistance, allows location switching via search with autocomplete and responds to SMS requests for info on nearest locations&lt;/li&gt;
+	&lt;li&gt;Prototyped content for three user needs including Cal Grants, food banks, and finding a licensed contractor for home improvements&lt;/li&gt;
+	&lt;li&gt;Iterated on content types within the draft design system&lt;/li&gt;
+	&lt;li&gt;Baselining the user needs to test for accessibility, speed, and readability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Packaging the initial user stories that have undergone user testing, making sure they meet our content, design, accessibility, and performance standards before publishing&lt;/li&gt;
+	&lt;li&gt;Crafting an Emergency Preparedness survey&lt;/li&gt;
+	&lt;li&gt;Testing user story prototypes&lt;/li&gt;
+	&lt;li&gt;Drafting a Content Style Guide&lt;/li&gt;
+	&lt;li&gt;Creating the homepage design for our first release&lt;/li&gt;
+	&lt;li&gt;Creating a feedback mechanism to iterate on our prototypes&lt;/li&gt;
+	&lt;li&gt;Recruiting for an additional Content Designer&lt;/li&gt;
+	&lt;li&gt;Publishing Alpha Team roles and responsibilities in the team handbook&lt;/li&gt;
+	&lt;li&gt;Developing end-to-end journey mapping for user needs&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Dec. 16)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-dec-16-dec-22/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-dec-16-dec-22/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/done-doing.jpeg&quot; class=&quot;&quot; alt=&quot;Done/doing&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/doing is a recap of what we’ve done this week and what we have in our sprint plan for the week ahead. This post covers the week of December 16–22.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Developed MVP &lt;a href=&quot;https://github.com/cagov/cwds/issues/17&quot;&gt;design system&lt;/a&gt; and page templates&lt;/li&gt;
+	&lt;li&gt;Collected 50+ responses on the &lt;a href=&quot;https://www.surveymonkey.com/r/AlphaCAgov&quot;&gt;general Alpha survey&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Guest team members (shout to CHHS Office of Innovation!) tested the &lt;a href=&quot;https://github.com/cagov/UX/issues&quot;&gt;State Holiday prototype&lt;/a&gt; to learn how to handle 4th of July and validated that we want to keep Next Holiday feature&lt;/li&gt;
+	&lt;li&gt;Conducted a &lt;a href=&quot;https://twitter.com/CAdotGov/status/1207440359782928384&quot;&gt;field research visit&lt;/a&gt; to Vital Records office in South Sacramento to test “Request a birth certificate” with guest team members from CHHS Innovation team&lt;/li&gt;
+	&lt;li&gt;Built new Function As A Service (&lt;a href=&quot;https://github.com/cagov/FunctionApps&quot;&gt;FAAS&lt;/a&gt;, also called “serverless”) prototype and Github integrated deployment pipeline&lt;/li&gt;
+	&lt;li&gt;Setup &lt;a href=&quot;https://github.com/cagov/cwds/issues/3&quot;&gt;initial docs&lt;/a&gt; for our bootstrap based design system, rewrote first bootstrap interactive UI widget as a web component, allowing us to provide the same functionality with much smaller code footprint&lt;/li&gt;
+	&lt;li&gt;Prototyped additional &lt;a href=&quot;https://github.com/cagov/UX/issues&quot;&gt;user stories&lt;/a&gt;, augmented our minimum wage user prototype so it autocompletes all cities and zip codes in CA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Iterate on new content type templates so we can prototype user stories faster and cleaner&lt;/li&gt;
+	&lt;li&gt;Integrate accessibility testing tools into our code editors as automated linters, and into the CI pipeline as automated tests and into our browsers for manual testing&lt;/li&gt;
+	&lt;li&gt;Design discussion guide for deep, qualitative research on victims of trauma and wildfire&lt;/li&gt;
+	&lt;li&gt;Begin development on the site functionality required for Alpha site to support user story content&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Our design principles</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-design-principles/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-design-principles/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/design-principles.jpg&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov design principles&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Alpha.CA.gov design principles&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Design principles help teams and stakeholders to align on design vision and decision-making.&lt;/p&gt;
+
+&lt;p&gt;They give us a shared understanding to help us prioritize our next steps.&lt;/p&gt;
+
+&lt;p&gt;For our design principles, we are once again, leveraging the proven work and best practices of teams like 18F and the UK Government Digital Services. As our starting point, we’re adopting and iterating on the &lt;a href=&quot;https://www.gov.uk/guidance/government-design-principles#start-with-user-needs&quot;&gt;design principles created by GDS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Alpha.CA.gov design principles include:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Start with user needs&lt;/li&gt;
+	&lt;li&gt;Do less&lt;/li&gt;
+	&lt;li&gt;Design with data, research, intuition, and experimentation (We added “research, intuition and experimentation” for a few reasons. Data doesn’t always tell the whole story. We also need user research, experimentation and, yes, our own intuition as users and Californians to inform design.)&lt;/li&gt;
+	&lt;li&gt;Do the hard work to make it simple and elegant&lt;/li&gt;
+	&lt;li&gt;Iterate — then iterate again&lt;/li&gt;
+	&lt;li&gt;Make it accessible and inclusive (UK.GOV went with “This is for everyone.” We adapted it to make it more explicit and reflect California.)&lt;/li&gt;
+	&lt;li&gt;Understand context&lt;/li&gt;
+	&lt;li&gt;Build digital services, not websites&lt;/li&gt;
+	&lt;li&gt;Be consistent but not uniform&lt;/li&gt;
+	&lt;li&gt;Make things open: It makes things better&lt;/li&gt;
+	&lt;li&gt;Prioritize security, respect privacy (Something new we added to the list. A recognition of how incredibly important both security and privacy are.)&lt;/li&gt;
+	&lt;li&gt;Optimize performance (Another new one. Slow load times cost people money. That’s an accessibility and equity issue.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These principles will inform our product design. And we’ll continue to iterate and refine them as we learn by doing.&lt;/p&gt;
+
+&lt;h2&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://www.gov.uk/guidance/government-design-principles&quot;&gt;Government Design Principles&lt;/a&gt; (GOV.UK)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://methods.18f.gov/decide/design-principles/&quot;&gt;How We Work&lt;/a&gt; (18F)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>This is how we work</title>
+    <link href="http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/alpha-ca-gov-operational-principles/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/operational-principles.jpg&quot; class=&quot;&quot; alt=&quot;Alpha.CA.gov operational principles&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Alpha.CA.gov operational principles&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our operational principles guide how our team works.&lt;/p&gt;
+
+&lt;p&gt;They reflect our collaborative culture. And they inform our priority setting and decision making. These principles will inform our day-to-day work and big-picture planning.&lt;/p&gt;
+
+&lt;p&gt;Continuing our practice of building on what’s been tried and proven before, we’ve adopted and adapted the U.S. Digital Service principles.&lt;/p&gt;
+
+&lt;p&gt;We’ve made one adaptation. We added “Emphasize collaboration across teams” because collaboration is central and essential to our work.&lt;/p&gt;
+
+&lt;p&gt;This is how the Alpha Team works:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Default to open&lt;/li&gt;
+    &lt;li&gt;Understand what people need&lt;/li&gt;
+    &lt;li&gt;Use data to drive decisions&lt;/li&gt;
+    &lt;li&gt;Address the whole experience, from start to finish&lt;/li&gt;
+    &lt;li&gt;Make it simple and intuitive&lt;/li&gt;
+    &lt;li&gt;Build the service using agile and iterative practices&lt;/li&gt;
+    &lt;li&gt;Assign one leader and hold that person accountable&lt;/li&gt;
+    &lt;li&gt;Bring in experienced teams&lt;/li&gt;
+    &lt;li&gt;Emphasize collaboration across teams&lt;/li&gt;
+    &lt;li&gt;Structure budgets and contracts to support delivery&lt;/li&gt;
+    &lt;li&gt;Choose a modern technology stack&lt;/li&gt;
+    &lt;li&gt;Deploy in a flexible hosting environment&lt;/li&gt;
+    &lt;li&gt;Automate testing and deployments&lt;/li&gt;
+    &lt;li&gt;Manage security and privacy through reusable processes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ll continue to iterate and refine these principles as we learn by doing.&lt;/p&gt;
+
+&lt;h2&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;https://playbook.cio.gov/&quot;&gt;U.S. Digital Services&lt;/a&gt; (USDS)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://18f.gsa.gov/partnership-principles/&quot;&gt;How We Work&lt;/a&gt; (18F)&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Done/doing (Week of Dec. 9)</title>
+    <link href="http://news.alpha.ca.gov/done-doing-dec-9-dec-13/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/done-doing-dec-9-dec-13/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/stand-up.jpeg&quot; class=&quot;&quot; alt=&quot;Team stand-up&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Done/Doing is a recap of what Team Alpha has done this week and what we have in our sprint plan for the week ahead. This post is the first in what will be a weekly series delivered every Friday.&lt;/p&gt;
+
+&lt;h2&gt;Done&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Delivered the first iteration of the Alpha at &lt;a href=&quot;https://alpha.ca.gov/&quot;&gt;Alpha.CA.gov&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Pushed site &lt;a href=&quot;https://github.com/cagov/Alpha/issues/10&quot;&gt;live on state’s Azure infrastructure&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Created a &lt;a href=&quot;https://www.surveymonkey.com/r/AlphaCAgov&quot;&gt;user survey&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Identified initial set of user needs including: finding vital records, applying for Unemployment Insurance, Paid Family Leave, and Disability Insurance &lt;em&gt;(more to come on user needs in our blog and on social next week)&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;Delivered first user story on minimum wage, including &lt;a href=&quot;https://github.com/cagov/Alpha/issues/26&quot;&gt;functional prototypes&lt;/a&gt; and &lt;a href=&quot;https://github.com/cagov/UX/issues/4&quot;&gt;content mockups&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Established &lt;a href=&quot;https://handbook-cadotgov.readthedocs.io/en/latest/principles/&quot;&gt;design principles&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Developed starter &lt;a href=&quot;https://cagov.github.io/cwds/&quot;&gt;web design system&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Picked a &lt;a href=&quot;https://public-sans.digital.gov/&quot;&gt;default font&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Doing&lt;/h2&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Finalizing product framework&lt;/li&gt;
+	&lt;li&gt;Continuing discovery and research on initial user needs&lt;/li&gt;
+	&lt;li&gt;Creating additional content types prototypes&lt;/li&gt;
+	&lt;li&gt;Adding new widgets to design pattern library&lt;/li&gt;
+	&lt;li&gt;Starting qualitative research around user needs&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>And ... we’re in progress</title>
+    <link href="http://news.alpha.ca.gov/and-were-in-progress/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/and-were-in-progress/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;http://news.alpha.ca.gov/img/full/hello-california.jpg&quot; class=&quot;&quot; alt=&quot;Hello California&quot; /&gt;
+  &lt;figcaption class=&quot;figure-caption&quot;&gt;Hello California&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Fellow Californians,&lt;/p&gt;
+
+&lt;p&gt;We’re reimagining &lt;a href=&quot;http://ca.gov/&quot;&gt;CA.gov&lt;/a&gt; with and for the people of California.&lt;/p&gt;
+
+&lt;p&gt;Our first step: Make CA.gov easier for Californians to use. We’re working to help you access the services and information you need.&lt;/p&gt;
+
+&lt;p&gt;And we invite you to join us.&lt;/p&gt;
+
+&lt;h2&gt;Follow our progress&lt;/h2&gt;
+
+&lt;p&gt;We’re sharing our work and insights on our blog, &lt;a href=&quot;https://twitter.com/CAdotGov&quot;&gt;Twitter&lt;/a&gt; and &lt;a href=&quot;https://github.com/cagov&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Share your feedback&lt;/h2&gt;
+
+&lt;p&gt;Please take our &lt;a href=&quot;https://www.surveymonkey.com/r/AlphaCAgov&quot;&gt;five-minute survey&lt;/a&gt; to help improve CA.gov. Thanks in advance for sharing your thoughts.&lt;/p&gt;
+
+&lt;p&gt;We’re excited to work with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Team Alpha.CA.gov&lt;/em&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Introducing the CA.gov Alpha Team</title>
+    <link href="http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/introducing-the-ca-gov-alpha-team/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img alt=&quot;Alpha.CA.gov team&quot; class=&quot;&quot; width=&quot;&quot; height=&quot;&quot; src=&quot;http://news.alpha.ca.gov/img/full/alpha-team.jpeg&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;Alpha.CA.gov team&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our new team has a big job. We’re working to make it easier for Californians to access, understand and use digital information and services.&lt;/p&gt;
+
+&lt;p&gt;It’s a job that each of us is incredibly excited to take on.&lt;/p&gt;
+
+&lt;p&gt;We are 11 Californians, passionate about this state and committed to making it better. We come from Mexico, the Ukraine, Riverside, San Francisco, Placerville and points in between. We are experts in our fields. And we believe that state government has to get better at using digital technology to serve residents.&lt;/p&gt;
+
+&lt;p&gt;To a person, we are a little awed to have this opportunity.&lt;/p&gt;
+
+&lt;p&gt;We asked everyone on the team why they wanted to be part of this alpha project, and here’s what they said:&lt;/p&gt;
+
+&lt;h2&gt;Angie Quirarte, Product Owner&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Angie built the team, is setting the vision for the Alpha and will make sure we deliver.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“We have an incredible opportunity to create a new way for government to inform, engage, and interact with the public by putting user research and design at the center of our work. It’s fulfilling to be part of a team that is genuinely invested in making a difference. Everyone is open to continuous learning, willing to experiment, and committed to re-imagining the digital experience of Californians with their government!”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Luke Fretwell, Product Designer&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Luke is imagining what the Alpha might look and feel like to the user.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“California is my home. The chance to combine the work I’ve done professionally with the honor and privilege to serve my fellow Californians is an opportunity of a lifetime.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Hilary Hoeber, User Researcher&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Hilary researches what Californians need from CA.gov.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“I joined this team because I am passionate about infusing research and human-centered design into government to reimagine how it shows up in the world, both online and offline. This feels like the right moment to circle back to my previous work in the public sector (as part of IDEO) after spending the past few years in the private sector. This unique opportunity gets me back to what I care about most deeply: understanding what matters most to people and amplifying their needs through design.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Rebecca Huval, Content Designer&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Rebecca will choose words that actually make sense to the people who use CA.gov.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“This project means so much to me. I’m honored to be here. I want to help Californians access the services and information they need. And I’m eager to grow and experiment alongside this talented team. I value writing that puts readers first, and that’s especially important in government. The right content can help people navigate their lives and feel heard, seen and respected.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Aaron Hans, Tech Lead&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Aaron makes web applications fast and accessible for all users.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“It is a privilege to help make government a little more efficient. Our work on this project will stretch tax dollars and help users get served faster. I love civic tech. I lead the Water Quality project at the Open Oakland Code for America brigade. I helped build a startup that improves the purchasing process for local governments. I’ve admired Angelica’s work at GovOps for awhile and wanted to get on board this project. I want to raise the standard of online government services in California.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Chad Bratton, Technical Architect&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Chad is building the scaffolding the site will run on, making sure all the pieces fit together seamlessly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“I am excited to help design and implement a new website and a new way of working that is accessible and focused on the user needs of California’s residents with a very perse team of designers, developers, researchers, and more.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Carter Medlin, Full-Stack Developer&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Carter codes. That’s his favorite thing in the world to do.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“I want to be part of the Alpha team for the opportunity to learn new development technologies and methodologies by working with acclaimed experts from around the state. I look forward to having a lasting positive impact on the delivery of public services.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Art Khomishen, Interaction Designer&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Art is responsible for using design to bring to life Hilary’s research, and Rebecca’s words.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;&quot;I truly believe that in one’s professional life there are opportunities that come around only once in a great while. The CA.gov Alpha team and initiative is such an opportunity. The Alpha is going to be a challenge, full of unknowns and yet full of growth, inspiration, discovery, innovation, disruption and more. It is a privilege to be an agent of innovation and disruption in government — where change is not always embraced. The Alpha will be a catalyst for growth and innovation for everyone involved and more importantly for California’s ultimate stakeholders, the residents of this great state.&quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Kimberly Glenn, Team Success &amp; Delivery Manager&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Kimberly makes sure we have what we need to get stuff done.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+	&lt;p&gt;“I wanted to be part of the Alpha Team to improve services for the residents of California by creating a new way to work transparently that regains their trust in the California Government. The Alpha Team gives me the ability to bring together inpiduals from across the industry to create a solution for all Californians.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;JP Petrucione, Communications&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;JP puts our commitment to transparency and openness into practice.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“It’s rare that you get a chance to do work that will have a positive, measurable impact on so many people, so close to home. Luke got it right, for sure. This really is an opportunity of a lifetime.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Re-imagining CA.gov How Can California Government Better Serve its People?</title>
+    <link href="http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/"/>
+    <updated>2021-10-22T01:57:07Z</updated>
+    <id>http://news.alpha.ca.gov/re-imagining-ca-gov-how-can-california-government-better-serve-its-people/</id>
+    <content type="html">
+&lt;figure class=&quot;figure&quot;&gt;
+	&lt;img alt=&quot;How might we?&quot; class=&quot;&quot; width=&quot;&quot; height=&quot;&quot; src=&quot;http://news.alpha.ca.gov/img/full/how-might-we.jpeg&quot; /&gt;
+	&lt;figcaption class=&quot;figure-caption&quot;&gt;How might we?&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Over the last decade, governments around the world have started asking themselves, “How can we use digital to better serve our people?”&lt;/p&gt;
+
+&lt;p&gt;California government has also begun to test new approaches. We want to accelerate these efforts by re-imagining CA.gov.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ca.gov/&quot;&gt;CA.gov&lt;/a&gt; is the state’s official homepage. But more important, it should be the place where the people of California go to get the information and services they need.&lt;/p&gt;
+
+&lt;p&gt;This vision is championed by the Governor’s Office and the leaders from the Government Operations Agency and the California Department of Technology. This is not business as usual.&lt;/p&gt;
+
+&lt;p&gt;To make that happen, we plan to follow the example set by many of those other teams around the world, and start with a discreet prototype: an &lt;a href=&quot;https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works&quot;&gt;alpha&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As Product Owner for the CA.gov Alpha, my role is to lead a small team of public servants and outside experts in answering the fundamental question. How do we make sure that the digital information and services Californians need are easily accessed, intuitively understood and simply used?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Our priority: ask and learn from what Californians’ need&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s an approach that sounds like common sense. But for government, it is relatively new and often hard to accomplish. In fact, this approach has really only gained traction over the last decade, driven by the success of the UK Government Digital Service, which radically reimagined how government understands, builds and provides digital services.&lt;/p&gt;
+
+&lt;p&gt;The work that was started in Europe has turned into a movement, and spread to the US with the creation of government agencies like &lt;a href=&quot;https://18f.gsa.gov/&quot;&gt;18F&lt;/a&gt; and the &lt;a href=&quot;https://usds.gov/&quot;&gt;US Digital Service&lt;/a&gt; and NGOs like &lt;a href=&quot;https://www.codeforamerica.org/&quot;&gt;Code for America&lt;/a&gt;. And countries around the world have taken a leap to redesign the front door of their government, their homepages. In Peru, they created &lt;a href=&quot;https://www.gob.pe/&quot;&gt;gob.pe&lt;/a&gt;. In Mexico it’s &lt;a href=&quot;https://www.gob.mx/&quot;&gt;gob.mx&lt;/a&gt;. In Israel there’s &lt;a href=&quot;https://www.gov.il/&quot;&gt;gov.il&lt;/a&gt;. And the Canadian province of Ontario created &lt;a href=&quot;https://www.ontario.ca/page/government-ontario&quot;&gt;ontario.ca&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These are just a few examples of what is truly a radical approach to digital information and services in the context of delivering government services.&lt;/p&gt;
+
+&lt;p&gt;It’s radical because it starts by asking a basic question: what do users need? And it’s made even more radical when you consider that this approach answers that question, not by delivering a monolithic, final product that costs hundreds of millions of dollars and maybe works, maybe doesn’t — but rather by developing a discrete prototype that is improved and iterated on based on user feedback. There is value in the process of learning through open iteration because it ultimately makes government better.&lt;/p&gt;
+
+&lt;p&gt;This is exactly what we’re proposing to do here in California with CA.gov.&lt;/p&gt;
+
+&lt;h2&gt;Building on best practices&lt;/h2&gt;
+
+&lt;p&gt;We’re going to follow the example and best practices established by the people who have done this before and that means starting with the alpha.&lt;/p&gt;
+
+&lt;p&gt;We’re thrilled to be working in partnership with &lt;a href=&quot;https://www.codeforamerica.org/&quot;&gt;Code for America&lt;/a&gt;, which has helped define and build civic tech in the US; and with &lt;a href=&quot;https://public.digital/&quot;&gt;Public Digital&lt;/a&gt;, whose partners led the GOV.UK effort and founded the UK Government Digital Services.&lt;/p&gt;
+
+&lt;p&gt;We are also looking forward to tapping into the collective experience and expertise of the civic tech community. This will be extremely helpful for our team in the alpha phase and beyond, because it will allow us to leverage the incredible experience there to find and hire staff, apply user research, deploy human-centric design, develop a roadmap that puts into practice the iterative, agile, approach that’s at the heart of this work, and, ultimately, deliver a product built to be improved and iterated on in order to better serve the people of California.&lt;/p&gt;
+
+&lt;h2&gt;Speaking of improving and iterating ...&lt;/h2&gt;
+
+&lt;p&gt;It’s really important to note that we will be sharing lessons learned and how we work throughout the process. We will work in the open, be agile, work quickly, iterate, test, and learn as we build and improve the CA.gov Alpha.&lt;/p&gt;
+
+&lt;p&gt;Working this way sounds unorthodox — and it is, at least within government. But it’s a process that underpins the experiences we all have whenever we navigate the web. The platforms that we turn to every day to buy stuff, get rides from strangers, and find just about anything, were all built and continue to evolve based on this very same approach.&lt;/p&gt;
+
+&lt;p&gt;For us here on the Alpha team, working in an agile and open way is essential to creating the opportunity to experiment and innovate in ways that embody the spirit of California and move us forward.&lt;/p&gt;
+
+&lt;h2&gt;This is only possible with a team&lt;/h2&gt;
+
+&lt;p&gt;Of course, in order to do any of this, we have to first build a team.&lt;/p&gt;
+
+&lt;p&gt;We’ve already identified a product owner, interaction designer, developer, technical architect, and team success manager. Over the coming months, these passionate, committed public servants, technologists and others will be working on an alpha that prioritizes user needs and shows how government can better use digital to better serve Californians.&lt;/p&gt;
+
+&lt;p&gt;Our multi-disciplinary team will be composed of staff from state agencies and outside subject matter experts in user research and design. It will be empowered to try new things to re-imagine how things are done in government. It will work in the open, documenting our progress (and yes, failures) as we design our product.&lt;/p&gt;
+
+&lt;p&gt;This blog post is the first step on this path.&lt;/p&gt;
+
+&lt;p&gt;We’re still assembling our team.&lt;/p&gt;
+
+&lt;h2&gt;Think you might be interested?&lt;/h2&gt;
+
+&lt;p&gt;We’re still looking for people who are as psyched as we are about our mission. Maybe you’re one of them. We are looking to contract or hire:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Technical Lead&lt;/li&gt;
+    &lt;li&gt;Delivery Manager&lt;/li&gt;
+    &lt;li&gt;User Researcher&lt;/li&gt;
+    &lt;li&gt;Content Designer&lt;/li&gt;
+    &lt;li&gt;Product Designer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://govops.forms.fm/interest-form-ca-gov-alpha-team/&quot;&gt;Learn more about these opportunities through this interest form.&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;And in closing ...&lt;/h2&gt;
+
+&lt;p&gt;This is the start. This is the first time we’re communicating about this effort, and we wanted to make sure that this post really drives home the incredible opportunity we have here.&lt;/p&gt;
+
+&lt;p&gt;Governor Newsom’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Citizenville%29&quot;&gt;“Citizenville”&lt;/a&gt; envisioned a government that better serves its people by better understanding their needs. And right now, there is no question that California is a state dealing with many needs and many challenges. We believe that a big part of meeting these needs and addressing these challenges starts by re-imagining CA.gov.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://govops.forms.fm/interest-form-ca-gov-alpha-team/forms/7391&quot;&gt;Join this mission.&lt;/a&gt; Together we can fulfill the vision of a California for All.&lt;/p&gt;
+
+&lt;p&gt;Follow our journey on &lt;a href=&quot;https://twitter.com/CAdotGov&quot;&gt;Twitter&lt;/a&gt; and Medium.&lt;/p&gt;</content>
+  </entry>
+</feed>
